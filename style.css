@@ -1,0 +1,127 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  /* color: 	#2A5CAA;
+  color: 	#426AB3; */
+}
+html {
+  font-size: 10px;
+}
+header {
+  border-top: solid 4px #2a5caa;
+  box-shadow: 0 1rem 1rem 0 #28282833;
+}
+header > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  font-size: 1.5rem;
+  max-width: 140rem;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+.hd_ct_gr {
+  width: fit-content;
+  width: -moz-fit-content;
+  justify-self: right;
+}
+.hd_ct_gr > div {
+  display: grid;
+  grid-template-columns: 10rem max-content;
+  gap: 1rem;
+  align-items: center;
+}
+.hd_ct_gr > div > p:first-child {
+  color: #2a5caa;
+}
+.hd_ct_gr * {
+  font-weight: bold;
+}
+.hd_ct_gr a {
+  color: #2a5caa;
+  font-size: 4rem;
+}
+header ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  list-style: none;
+  max-width: 140rem;
+  margin: auto;
+  text-align: center;
+  line-height: 1;
+}
+header img {
+  height: 8rem;
+  margin: 1rem 0;
+  vertical-align: bottom;
+}
+header ul a {
+  color: #282828;
+  font-weight: bold;
+}
+header ul span {
+  font-size: 1rem;
+  color: #b9b9b9;
+  line-height: 3;
+}
+header a {
+  font-size: 2.1rem;
+  text-decoration: none;
+}
+.sec_ct_01 {
+  background-color: #2a5caa;
+}
+.sec_ct_01 > div {
+  max-width: 140rem;
+  margin: auto;
+}
+.sec_ct_01 h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 3;
+  color: #f7f7f7;
+}
+.sec_ct_02 {
+}
+.sec_ct_02 > div {
+  margin: auto;
+  max-width: 140rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-size: 2.1rem;
+}
+.sec_ct_l_02 {
+}
+.sec_ct_l_02 > a {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #2a5caa;
+  color: #f7f7f7;
+  margin: 2rem 0;
+  line-height: 3;
+}
+footer {
+  background-color: #ebebeb;
+}
+footer > div:first-child {
+  font-size: 1.5rem;
+  max-width: 140rem;
+  margin: auto;
+}
+footer nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+footer a {
+  text-decoration: none;
+  color: #909090;
+}
+footer > div:last-child {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #d8d8d8;
+  color: #3f3f43;
+  line-height: 2;
+}
