@@ -3,8 +3,10 @@
   margin: 0;
   padding: 0;
   font-size: 100%;
+  box-sizing: border-box;
   /* color: 	#2A5CAA;
   color: 	#426AB3; */
+  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 }
 html {
   font-size: 10px;
@@ -13,6 +15,9 @@ header {
   border-top: solid 4px #2a5caa;
   box-shadow: 0 1rem 1rem 0 #28282833;
 }
+header h1 {
+  font-size: 4rem;
+}
 header > div {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -20,33 +25,36 @@ header > div {
   font-size: 1.5rem;
   max-width: 140rem;
   margin: auto;
-  margin-bottom: 4rem;
 }
 .hd_ct_gr {
+  display: grid;
+  grid-template-columns: auto auto;
   width: fit-content;
   width: -moz-fit-content;
   justify-self: right;
+  gap: 3rem;
 }
-.hd_ct_gr > div {
+.hd_ct_gr > a {
   display: grid;
-  grid-template-columns: 10rem max-content;
-  gap: 1rem;
+  grid-template-columns: auto auto;
+  gap: 2rem;
   align-items: center;
 }
-.hd_ct_gr > div > p:first-child {
-  color: #2a5caa;
+.hd_ct_gr > a > img {
+  height: 3rem;
 }
 .hd_ct_gr * {
   font-weight: bold;
 }
 .hd_ct_gr a {
   color: #2a5caa;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 header ul {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   list-style: none;
+  gap: 2rem;
   max-width: 140rem;
   margin: auto;
   text-align: center;
@@ -57,6 +65,10 @@ header img {
   margin: 1rem 0;
   vertical-align: bottom;
 }
+header li {
+  border-top: solid 2px #2a5caa;
+  padding: 1rem 0;
+}
 header ul a {
   color: #282828;
   font-weight: bold;
@@ -64,43 +76,127 @@ header ul a {
 header ul span {
   font-size: 1rem;
   color: #b9b9b9;
-  line-height: 3;
 }
 header a {
   font-size: 2.1rem;
   text-decoration: none;
 }
-.sec_ct_01 {
-  background-color: #2a5caa;
+.hd_logo_out > a {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  line-height: 10rem;
+  color: #282828;
 }
-.sec_ct_01 > div {
+.sec01 {
+  border-top: solid 4rem #2a5caa;
+  background: url(/assets/img/top_hd_bg.jpg) no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  width: 100%;
+  height: 45rem;
+}
+.sec01 > div {
   max-width: 140rem;
   margin: auto;
 }
-.sec_ct_01 h2 {
-  font-size: 2rem;
+.sec01 h2 {
+  font-size: 5rem;
   font-weight: normal;
-  line-height: 3;
+  line-height: 45rem;
   color: #f7f7f7;
-}
-.sec_ct_02 {
-}
-.sec_ct_02 > div {
+  width: fit-content;
+  width: -moz-fit-content;
   margin: auto;
-  max-width: 140rem;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  font-size: 2.1rem;
+  position: relative;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
-.sec_ct_l_02 {
+.sec01 img {
+  width: 30rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(-100%, 50%);
 }
-.sec_ct_l_02 > a {
+.sec02 > p:first-child {
+  text-align: center;
+  font-size: 2rem;
+  margin: 9rem auto;
+}
+.sec02_cont01 {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: auto 1fr 1fr;
+  width: fit-content;
+  width: -moz-fit-content;
+  margin: auto;
+  justify-content: center;
+  gap: 2rem;
+}
+.sec02_cont01 > p {
+  font-size: 2rem;
   background-color: #2a5caa;
   color: #f7f7f7;
-  margin: 2rem 0;
-  line-height: 3;
+  height: fit-content;
+  height: -moz-fit-content;
+  padding: 0.5rem 4rem;
+}
+.sec02_cont01 h3 {
+  font-size: 2rem;
+  border-bottom: solid 1px #707070;
+  line-height: 2;
+}
+.sec02_cont01 > div {
+  border: 1px solid #707070;
+  padding: 0 4rem;
+  position: relative;
+}
+.sec02_cont01 > div p {
+  font-size: 2rem;
+  margin: 5rem 0;
+  text-align: center;
+}
+.sec02_cont01 > div a {
+  font-size: 2rem;
+  padding: 0.5rem 3rem;
+  background-color: #2a5caa;
+  text-decoration: none;
+  color: #f7f7f7;
+  border-radius: 1rem;
+  width: fit-content;
+  width: -moz-fit-content;
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+}
+.sec03 {
+  background-color: #426ab3;
+  margin: 10rem auto;
+  color: #f7f7f7;
+}
+.sec03_cont01 {
+  padding: 10rem 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: auto;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+.sec03_cont01 h3 {
+  padding: 0 10rem;
+  font-size: 3rem;
+  writing-mode: vertical-rl;
+  border-right: 1px solid #f7f7f7;
+}
+.sec03_cont01 p {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+.sec03_cont01 > div {
+  display: grid;
+  padding: 0 5rem;
+}
+.sec03_cont01 img {
+  height: 4rem;
 }
 footer {
   background-color: #ebebeb;
