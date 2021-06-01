@@ -9,7 +9,22 @@
   font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 }
 html {
-  font-size: 10px;
+  font-size: 0.520833333vw;
+}
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 6.666666667px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  html {
+    font-size: 20px;
+  }
 }
 header {
   border-top: solid 4px #2a5caa;
@@ -94,6 +109,7 @@ header a {
   background-position: center;
   width: 100%;
   height: 45rem;
+  position: relative;
 }
 .sec01 > div {
   max-width: 140rem;
@@ -102,31 +118,36 @@ header a {
 .sec01 h2 {
   font-size: 5rem;
   font-weight: normal;
-  line-height: 45rem;
   color: #f7f7f7;
   width: fit-content;
   width: -moz-fit-content;
   margin: auto;
-  position: relative;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
 .sec01 img {
   width: 30rem;
   position: absolute;
-  left: 0;
+  left: 50%;
   bottom: 0;
-  transform: translate(-100%, 50%);
+  transform: translate(-55rem, 50%);
+}
+.sec02 {
+  margin-top: 9rem;
 }
 .sec02 > p:first-child {
   text-align: center;
   font-size: 2rem;
-  margin: 9rem auto;
+  margin: auto;
+  margin-bottom: 9rem;
 }
 .sec02_cont01 {
   display: grid;
   grid-template-columns: auto 1fr 1fr;
-  width: fit-content;
-  width: -moz-fit-content;
+  width: 115rem;
   margin: auto;
   justify-content: center;
   gap: 2rem;
@@ -144,6 +165,9 @@ header a {
   border-bottom: solid 1px #707070;
   line-height: 2;
 }
+.sec02_cont01 img {
+  width: 100%;
+}
 .sec02_cont01 > div {
   border: 1px solid #707070;
   padding: 0 4rem;
@@ -151,7 +175,7 @@ header a {
 }
 .sec02_cont01 > div p {
   font-size: 2rem;
-  margin: 5rem 0;
+  margin: 5rem 0 8rem;
   text-align: center;
 }
 .sec02_cont01 > div a {
@@ -198,13 +222,17 @@ header a {
 .sec03_cont01 img {
   height: 4rem;
 }
+.sec04 {
+  margin-top: 15rem;
+}
 .sec04 > h3 {
   font-weight: normal;
   font-size: 5rem;
   border-bottom: 1px solid #707070;
   text-align: center;
   width: 12em;
-  margin: 15rem auto 9rem;
+  margin: auto;
+  margin-bottom: 9rem;
 }
 .sec04 > p {
   text-align: center;
@@ -227,14 +255,23 @@ header a {
   display: block;
   margin: auto;
 }
+.sec04_cont01 {
+  width: fit-content;
+  margin: auto;
+}
+.sec04_cont01 img {
+  width: auto;
+  height: 22rem;
+  margin: 0 2rem;
+}
 .sec05 {
-  border-top: solid 4rem #2a5caa;
-  background: url(/assets/img/top_hd_bg.jpg) no-repeat;
+  background: url(/assets/img/top_btm_bg.jpg) no-repeat;
   background-size: 100% auto;
   background-position: center;
   position: relative;
   width: 100%;
   height: 40rem;
+  margin: 15rem auto 18rem;
 }
 .sec05 > div {
   max-width: 140rem;
@@ -249,15 +286,15 @@ header a {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
 .sec05 img {
-  width: 30rem;
+  width: 23rem;
   position: absolute;
-  left: 0;
+  left: 50%;
   bottom: 0;
-  transform: translate(-100%, 50%);
+  transform: translate(-55rem, 50%);
 }
 footer {
   background-color: #ebebeb;
@@ -267,18 +304,35 @@ footer > div:first-child {
   max-width: 140rem;
   margin: auto;
 }
+footer nav {
+  width: fit-content;
+  width: -moz-fit-content;
+  margin: auto;
+  padding: 3.5rem 0;
+}
 footer nav ul {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, max-content);
+  list-style: none;
+  gap: 5rem;
 }
 footer a {
   text-decoration: none;
-  color: #909090;
+  color: #2a2a2a;
+}
+footer a span {
+  text-align: center;
+  display: block;
 }
 footer > div:last-child {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   background-color: #d8d8d8;
   color: #3f3f43;
-  line-height: 2;
+  line-height: 3;
+
+  border-bottom: solid 8px #2a5caa;
+}
+
+@media screen and (max-width: 767px) {
 }
