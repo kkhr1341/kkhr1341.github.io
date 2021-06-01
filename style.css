@@ -101,7 +101,7 @@ header a {
   line-height: 10rem;
   color: #282828;
 }
-.sec01 {
+.top_sec01 {
   border-top: solid 4rem #2a5caa;
   background: url(/assets/img/top_hd_bg.jpg) no-repeat;
   background-size: 100% auto;
@@ -110,11 +110,11 @@ header a {
   height: 45rem;
   position: relative;
 }
-.sec01 > div {
+.top_sec01 > div {
   max-width: 140rem;
   margin: auto;
 }
-.sec01 h2 {
+.top_sec01 h2 {
   font-size: 5rem;
   font-weight: normal;
   color: #f7f7f7;
@@ -126,23 +126,23 @@ header a {
   transform: translate(-50%, -50%);
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
-.sec01 img {
+.top_sec01 img {
   width: 30rem;
   position: absolute;
   left: 50%;
   bottom: 0;
   transform: translate(-55rem, 50%);
 }
-.sec02 {
+.top_sec02 {
   margin-top: 9rem;
 }
-.sec02 > p:first-child {
+.top_sec02 > p:first-child {
   text-align: center;
   font-size: 2rem;
   margin: auto;
   margin-bottom: 9rem;
 }
-.sec02_cont01 {
+.top_sec02_cont01 {
   display: grid;
   grid-template-columns: auto 1fr 1fr;
   width: 115rem;
@@ -150,32 +150,32 @@ header a {
   justify-content: center;
   gap: 2rem;
 }
-.sec02_cont01 > p {
+.top_sec02_cont01 > p {
   font-size: 2rem;
   background-color: #2a5caa;
   color: #f7f7f7;
   height: 4rem;
   padding: 0.5rem 4rem;
 }
-.sec02_cont01 h3 {
+.top_sec02_cont01 h3 {
   font-size: 2rem;
   border-bottom: solid 1px #707070;
   line-height: 2;
 }
-.sec02_cont01 img {
+.top_sec02_cont01 img {
   width: 100%;
 }
-.sec02_cont01 > div {
+.top_sec02_cont01 > div {
   border: 1px solid #707070;
   padding: 0 4rem;
   position: relative;
 }
-.sec02_cont01 > div p {
+.top_sec02_cont01 > div p {
   font-size: 2rem;
   margin: 5rem 0 8rem;
   text-align: center;
 }
-.sec02_cont01 > div a {
+.top_sec02_cont01 > div a {
   font-size: 2rem;
   padding: 0.5rem 3rem;
   background-color: #2a5caa;
@@ -187,40 +187,40 @@ header a {
   right: 1rem;
   bottom: 1rem;
 }
-.sec03 {
+.top_sec03 {
   background-color: #426ab3;
   margin: 10rem auto;
   color: #f7f7f7;
 }
-.sec03_cont01 {
+.top_sec03_cont01 {
   padding: 10rem 0;
   display: grid;
   grid-template-columns: auto auto;
   margin: auto;
   width: 87.35rem;
 }
-.sec03_cont01 h3 {
+.top_sec03_cont01 h3 {
   padding: 0 10rem;
   font-size: 3rem;
   writing-mode: vertical-rl;
   border-right: 1px solid #f7f7f7;
 }
-.sec03_cont01 p {
+.top_sec03_cont01 p {
   font-size: 2rem;
   display: flex;
   align-items: center;
 }
-.sec03_cont01 > div {
+.top_sec03_cont01 > div {
   display: grid;
   padding: 0 4rem;
 }
-.sec03_cont01 img {
+.top_sec03_cont01 img {
   height: 4rem;
 }
-.sec04 {
+.top_sec04 {
   margin-top: 15rem;
 }
-.sec04 > h3 {
+.top_sec04 > h3 {
   font-weight: normal;
   font-size: 5rem;
   border-bottom: 1px solid #707070;
@@ -229,16 +229,16 @@ header a {
   margin: auto;
   margin-bottom: 9rem;
 }
-.sec04 > p {
+.top_sec04 > p {
   text-align: center;
   font-size: 2rem;
   margin: 6rem auto;
 }
-.sec04 img {
+.top_sec04 img {
   width: 32rem;
   border: 1px solid #000a;
 }
-.sec04 a {
+.top_sec04 a {
   font-size: 2rem;
   padding: 0.5rem 3rem;
   background-color: #2a5caa;
@@ -249,14 +249,14 @@ header a {
   display: block;
   margin: auto;
 }
-.sec04_cont01 {
+.top_sec04_cont01 {
   width: 111.3rem;
   margin: auto;
 }
-.sec04_cont01 img {
+.top_sec04_cont01 img {
   margin: 0 2rem;
 }
-.sec05 {
+.top_sec05 {
   background: url(/assets/img/top_btm_bg.jpg) no-repeat;
   background-size: 100% auto;
   background-position: center;
@@ -265,11 +265,11 @@ header a {
   height: 40rem;
   margin: 15rem auto 18rem;
 }
-.sec05 > div {
+.top_sec05 > div {
   max-width: 140rem;
   margin: auto;
 }
-.sec05 h2 {
+.top_sec05 h2 {
   font-size: 4.5rem;
   font-weight: normal;
   color: #f7f7f7;
@@ -280,7 +280,7 @@ header a {
   transform: translate(-50%, -50%);
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
-.sec05 a {
+.top_sec05 a {
   position: absolute;
   font-size: 2rem;
   padding: 0.5rem 3rem;
@@ -293,7 +293,7 @@ header a {
   top: 75%;
   transform: translate(-50%, -50%);
 }
-.sec05 img {
+.top_sec05 img {
   width: 23rem;
   position: absolute;
   left: 50%;
@@ -362,15 +362,15 @@ footer > div:last-child {
   .hd_ct_gr a {
     font-size: 1.5rem;
   }
-  .sec01 {
+  .top_sec01 {
     height: 35rem;
   }
-  .sec01 h2 {
+  .top_sec01 h2 {
     font-size: 3.5rem;
     width: 100%;
     text-align: center;
   }
-  .sec01 img {
+  .top_sec01 img {
     width: 30rem;
     position: absolute;
     left: unset;
@@ -378,28 +378,28 @@ footer > div:last-child {
     bottom: 0;
     transform: translate(0, 25%) rotate(20deg);
   }
-  .sec02_cont01 {
+  .top_sec02_cont01 {
     grid-template-columns: auto;
     width: 100%;
     margin: auto;
     justify-content: center;
     gap: 2rem;
   }
-  .sec03_cont01 {
+  .top_sec03_cont01 {
     padding: 5rem 0;
     display: grid;
     grid-template-columns: auto auto;
     margin: auto;
     width: 100%;
   }
-  .sec03_cont01 h3 {
+  .top_sec03_cont01 h3 {
     padding: 0.5rem;
     font-size: 3rem;
   }
-  .sec03_cont01 > div {
+  .top_sec03_cont01 > div {
     padding: 0.5rem;
   }
-  .sec04 > h3 {
+  .top_sec04 > h3 {
     font-size: 3rem;
     border-bottom: 1px solid #707070;
     text-align: center;
@@ -407,26 +407,27 @@ footer > div:last-child {
     margin: auto;
     margin-bottom: 9rem;
   }
-  .sec04 img {
+  .top_sec04 img {
     width: 19rem;
+    margin: 1rem;
   }
-  .sec03_cont01 p {
+  .top_sec03_cont01 p {
     font-size: 1.5rem;
   }
-  .sec04_cont01 {
+  .top_sec04_cont01 {
     width: 100%;
     margin: auto;
     text-align: center;
   }
-  .sec05 {
+  .top_sec05 {
     margin-bottom: 0;
   }
-  .sec05 h2 {
+  .top_sec05 h2 {
     font-size: 3rem;
     width: 100%;
     text-align: center;
   }
-  .sec05 img {
+  .top_sec05 img {
     width: 23rem;
     position: absolute;
     left: unset;

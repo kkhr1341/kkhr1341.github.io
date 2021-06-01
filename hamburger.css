@@ -125,9 +125,7 @@ label.hamburger {
     pointer-events: none;
     padding-top: 12.5rem;
     padding-bottom: 27.5rem;
-    transition: width 975ms ease-out, transform 950ms ease, border-radius 0.8s 0.1s ease;
-    border-bottom-left-radius: 100vw;
-    border-top-left-radius: 50px;
+    transition: width 975ms ease-out, transform 950ms ease;
     background-color: #f3f3fff0;
     grid-template-columns: auto;
     gap: 5rem;
@@ -138,7 +136,7 @@ label.hamburger {
     pointer-events: auto;
     white-space: nowrap;
     box-sizing: border-box;
-    width: 50%;
+    width: 75%;
     justify-self: center;
     transform: translatex(100vw);
     /* ie workaround */
@@ -192,7 +190,5 @@ label.hamburger {
 
   header input.hamburger:checked ~ ul {
     transform: translatex(0);
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
   }
 }
