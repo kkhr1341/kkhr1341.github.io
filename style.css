@@ -256,7 +256,7 @@ header a {
 .top_sec04_cont01 img {
   margin: 0 2rem;
 }
-.top_sec05 {
+.sec_ft {
   background: url(/assets/img/top_btm_bg.jpg) no-repeat;
   background-size: 100% auto;
   background-position: center;
@@ -265,11 +265,11 @@ header a {
   height: 40rem;
   margin: 15rem auto 18rem;
 }
-.top_sec05 > div {
+.sec_ft > div {
   max-width: 140rem;
   margin: auto;
 }
-.top_sec05 h2 {
+.sec_ft h2 {
   font-size: 4.5rem;
   font-weight: normal;
   color: #f7f7f7;
@@ -280,7 +280,7 @@ header a {
   transform: translate(-50%, -50%);
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
-.top_sec05 a {
+.sec_ft a {
   position: absolute;
   font-size: 2rem;
   padding: 0.5rem 3rem;
@@ -293,7 +293,7 @@ header a {
   top: 75%;
   transform: translate(-50%, -50%);
 }
-.top_sec05 img {
+.sec_ft img {
   width: 23rem;
   position: absolute;
   left: 50%;
@@ -419,15 +419,15 @@ footer > div:last-child {
     margin: auto;
     text-align: center;
   }
-  .top_sec05 {
+  .sec_ft {
     margin-bottom: 0;
   }
-  .top_sec05 h2 {
+  .sec_ft h2 {
     font-size: 3rem;
     width: 100%;
     text-align: center;
   }
-  .top_sec05 img {
+  .sec_ft img {
     width: 23rem;
     position: absolute;
     left: unset;
