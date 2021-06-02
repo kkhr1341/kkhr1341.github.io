@@ -137,6 +137,7 @@ label.hamburger {
     white-space: nowrap;
     box-sizing: border-box;
     width: 75%;
+    height: 6rem;
     justify-self: center;
     transform: translatex(100vw);
     /* ie workaround */
