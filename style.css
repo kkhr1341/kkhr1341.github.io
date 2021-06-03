@@ -336,6 +336,16 @@ footer > div:last-child {
 
   border-bottom: solid 8px #2a5caa;
 }
+
+.ab_bg {
+  background: url(/assets/img/ab_hd_bg.jpg) no-repeat 100% / auto;
+  background-size: 100% auto;
+  background-position: center;
+  height: 20rem;
+}
+.ab_bg h2 {
+  width: 20rem;
+}
 .ab_sec01 {
   max-width: 140rem;
   margin: auto;
@@ -344,6 +354,16 @@ footer > div:last-child {
   border-left: solid 1.2rem #3451a4;
   padding: 0.6rem 3rem;
   font-size: 4rem;
+  margin: 5rem 0;
+}
+.ab_sec01 > p {
+  margin: 5rem 0;
+  font-size: 6rem;
+  text-align: right;
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+.ab_sec01 > p span {
+  font-size: 2rem;
 }
 
 .ab_sec01 h3 {
@@ -359,8 +379,200 @@ footer > div:last-child {
   border-image: url(/assets/img/ab_boder.png) 170 / 120px round;
   padding: 10rem 1rem;
 }
+.ab_sec02 {
+  margin-top: 10rem;
+}
+.ab_sec02 th,
+.ab_sec02 td {
+  padding: 2rem 0;
+  font-size: 2rem;
+  border-bottom: solid 1px #cdd6dd;
+}
+.ab_sec02 tr:first-child > th,
+.ab_sec02 tr:first-child > td {
+  border-top: solid 2px #cdd6dd;
+}
+.ab_sec02 th {
+  text-align: left;
+  color: #707f89;
+}
+.ab_sec02 table {
+  padding: 10rem 20rem;
+  margin: auto;
+  border: solid 1px #707070;
+}
+.ab_sec03 {
+  height: 50rem;
+  margin: 10rem 0;
+}
+.serv_bg {
+  background-image: url(/assets/img/serv_hd_bg.jpg);
+  height: 20rem;
+}
+.serv_bg h2 {
+  width: 20rem;
+}
+.serv_sec01 {
+  max-width: 140rem;
+  margin: auto;
+}
+.serv_sec01 img {
+  width: 32rem;
+  border: 1px solid #000a;
+}
+.serv_sec01 > h2 {
+  border-left: solid 1.2rem #3451a4;
+  padding: 0.6rem 3rem;
+  font-size: 4rem;
+  margin: 5rem 0;
+}
+.serv_sec01_cont01 {
+  width: 111.3rem;
+  margin: auto;
+}
+.serv_sec01_cont01 > div {
+  display: inline-table;
+  width: 32rem;
+  margin: 2rem;
+  height: 38.5rem;
+}
+.serv_sec01_cont01 p {
+  font-size: 1.8rem;
+  margin-top: 4rem;
+  text-align: left;
+}
+.wk_bg {
+  background-image: url(/assets/img/wk_hd_bg.jpg);
+  height: 20rem;
+}
+.wk_bg h2 {
+  width: 20rem;
+}
+.wk_sec01 {
+  max-width: 110rem;
+  margin: auto;
+}
+.wk_sec01_cont01 > div {
+  place-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.wk_sec01_cont01 > div > div,
+.wk_sec01_cont01 img {
+  height: 29rem;
+  width: 45rem;
+  border: 1px solid #000a;
+  position: relative;
+}
+.wk_sec01_cont01 > div > div:nth-child(1)::before,
+.wk_sec01_cont01 > div > div:nth-child(2)::before {
+  content: "Before";
+  position: absolute;
+  left: -8rem;
+  writing-mode: vertical-rl;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.wk_sec01_cont01 > div > div:nth-child(2)::before {
+  content: "After";
+}
+.wk_sec01_cont01 img {
+  border: 1px solid #000a;
+}
+.wk_sec01_cont01 p {
+  font-size: 2rem;
+  padding: 5rem;
+}
+.wk_sec01 > h2,
+.wk_sec02 > h2 {
+  border-left: solid 1.2rem #3451a4;
+  padding: 0.6rem 3rem;
+  font-size: 4rem;
+  margin: 5rem 0;
+}
+.wk_sec02 {
+  max-width: 110rem;
+  margin: 10rem auto;
+}
+.wk_sec02 p {
+  text-align: center;
+  font-size: 2rem;
+}
 .sns {
   text-align: center;
+}
+.top_sec01.rec_bg {
+  background-image: url(/assets/img/rec_hd_bg.jpg);
+  height: 20rem;
+}
+.top_sec01.rec_bg h2 {
+  width: 20rem;
+}
+.rec_sec01 {
+  max-width: 120rem;
+  margin: auto;
+}
+.rec_sec01_cont01 > div {
+  place-items: end;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1rem;
+}
+.rec_sec01_cont01 > div > div,
+.rec_sec01_cont01 img {
+  width: 28rem;
+  position: relative;
+}
+.rec_sec01_cont01 img {
+  height: 35rem;
+  border: 1px solid #000a;
+}
+.rec_sec01_cont01 > div > div:nth-child(1)::before,
+.rec_sec01_cont01 > div > div:nth-child(2)::before,
+.rec_sec01_cont01 > div > div:nth-child(3)::before {
+  content: "〇〇さん";
+  position: absolute;
+  left: -8rem;
+  writing-mode: vertical-rl;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.rec_sec01_cont01 img {
+  border: 1px solid #000a;
+}
+.rec_sec01_cont01 p {
+  font-size: 2rem;
+  padding: 2rem;
+}
+.rec_sec01 > h2 {
+  border-left: solid 1.2rem #3451a4;
+  padding: 0.6rem 3rem;
+  font-size: 4rem;
+  margin: 5rem 0;
+}
+.top_sec01.cntc_bg h2 {
+  width: 30rem;
+}
+.cntc_sec01 {
+  max-width: 120rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cntc_sec01 h2 {
+  border-left: solid 1.2rem #3451a4;
+  padding: 0.6rem 3rem;
+  font-size: 4rem;
+  margin: 5rem 0;
+}
+.sec_ft.rec_bg {
+  background-image: url(/assets/img/cntc_btm_bg.jpg);
+}
+.sec_ft.rec_bg h2 {
+  width: 45rem;
+}
+.sec_ft.rec_bg a {
+  width: 15.3rem;
 }
 @media screen and (max-width: 767px) {
   header > div {
@@ -446,6 +658,7 @@ footer > div:last-child {
   }
   .sec_ft {
     margin-bottom: 0;
+    background-size: cover;
   }
   .sec_ft h2 {
     font-size: 3rem;
@@ -459,6 +672,39 @@ footer > div:last-child {
     right: 5rem;
     bottom: 0;
     transform: translate(0, 25%) rotate(20deg);
+  }
+  .ab_bg {
+    height: 15rem;
+  }
+  .ab_sec02 table {
+    padding: 5rem;
+    margin: auto;
+    border: solid 1px #707070;
+  }
+  .ab_sec02 th {
+    width: 50%;
+  }
+  .serv_bg {
+    height: 15rem;
+  }
+  .serv_sec01_cont01 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .wk_bg {
+    height: 15rem;
+  }
+  .wk_sec01_cont01 > div {
+    grid-template-columns: 1fr;
+  }
+  .rec_sec01_cont01 > div {
+    place-items: start;
+    grid-template-columns: auto;
+    gap: 1rem;
+  }
+  .rec_sec01_cont01 > div > div {
+    width: 100%;
   }
   footer nav {
     width: 32rem;
