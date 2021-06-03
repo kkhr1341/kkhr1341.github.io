@@ -336,7 +336,31 @@ footer > div:last-child {
 
   border-bottom: solid 8px #2a5caa;
 }
+.ab_sec01 {
+  max-width: 140rem;
+  margin: auto;
+}
+.ab_sec01 > h2 {
+  border-left: solid 1.2rem #3451a4;
+  padding: 0.6rem 3rem;
+  font-size: 4rem;
+}
 
+.ab_sec01 h3 {
+  padding: 0.6rem 3rem;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Times New Roman", "STKaiti", "KaiTi", "STKaiti", "KaiTi", serif;
+}
+.ab_sec01 > div {
+  border: solid 1px #000;
+  border-image: url(/assets/img/ab_boder.png) 170 / 120px round;
+  padding: 10rem 1rem;
+}
+.sns {
+  text-align: center;
+}
 @media screen and (max-width: 767px) {
   header > div {
     display: grid;
