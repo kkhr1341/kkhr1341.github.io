@@ -354,35 +354,32 @@ footer > div:last-child {
 .ab_sec01 {
   max-width: 140rem;
   margin: auto;
+  text-align: end;
 }
 .ab_sec01 > h2 {
   border-left: solid 1.2rem #3451a4;
   padding: 0.6rem 3rem;
   font-size: 4rem;
   margin: 5rem 0;
+  text-align: left;
 }
-.ab_sec01 > p {
-  margin: 5rem 0;
-  font-size: 6rem;
-  text-align: right;
-  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
-}
-.ab_sec01 > p span {
-  font-size: 2rem;
+.ab_sec01 > img {
+  width: 40rem;
+  margin: 3rem 0;
 }
 
 .ab_sec01 h3 {
   padding: 0.6rem 3rem;
-  font-size: 5rem;
-  letter-spacing: 1rem;
   text-align: center;
-  font-weight: normal;
-  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
 .ab_sec01 > div {
   border: solid 1px #000;
   border-image: url(/assets/img/ab_boder.png) 170 / 120px round;
   padding: 10rem 1rem;
+  text-align: center;
+}
+.ab_sec01 > div img {
+  width: 35rem;
 }
 .ab_sec02 {
   margin-top: 10rem;
@@ -604,7 +601,7 @@ footer > div:last-child {
 .cntc_sec01_cont02 img {
   width: 5rem;
 }
-.cntc_sec01_cont02 > div{
+.cntc_sec01_cont02 > div {
   width: 46rem;
   margin: 10rem auto;
 }
