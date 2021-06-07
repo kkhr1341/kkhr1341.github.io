@@ -458,6 +458,7 @@ footer > div:last-child {
   place-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 5rem 0;
 }
 .wk_sec01_cont01 > div > div,
 .wk_sec01_cont01 img {
