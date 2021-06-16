@@ -131,6 +131,12 @@ header a {
   transform: translate(-50%, -50%);
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
+span.title{
+  content: url(/assets/img/logo_a.svg);
+  display: inline-block;
+  width: 6rem;
+  vertical-align: bottom;
+}
 .top_sec01 img {
   width: 30rem;
   position: absolute;
@@ -637,6 +643,9 @@ a.line {
   }
   header h1 span {
     display: none;
+  }
+  span.title{
+    width: 4rem;
   }
   .hd_ct_gr {
     grid-template-columns: auto;
