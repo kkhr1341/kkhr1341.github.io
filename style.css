@@ -522,29 +522,44 @@ footer > div:last-child {
   margin: auto;
 }
 .rec_sec01_cont01 > div {
-  place-items: end;
+  place-items: start center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
   padding: 1rem;
 }
-.rec_sec01_cont01 > div > div,
+.rec_sec01_cont01 > div > div:nth-child(1){
+  grid-column: 1/3; 
+}
+.rec_sec01_cont01 > div > div{
+  width: 90%;
+  position: relative;
+}
 .rec_sec01_cont01 img {
   width: 28rem;
   position: relative;
 }
 .rec_sec01_cont01 img {
-  height: 35rem;
+  height: 40rem;
   border: 1px solid #000a;
 }
 .rec_sec01_cont01 > div > div:nth-child(1)::before,
 .rec_sec01_cont01 > div > div:nth-child(2)::before,
 .rec_sec01_cont01 > div > div:nth-child(3)::before {
-  content: "〇〇さん";
   position: absolute;
   left: -8rem;
   writing-mode: vertical-rl;
   font-size: 4rem;
   font-weight: bold;
+}
+.rec_sec01_cont01 > div > div:nth-child(1)::before {
+  content: "佐野峯 光樹";
+}
+.rec_sec01_cont01 > div > div:nth-child(2)::before {
+  content: "平山 秀澄";
+}
+.rec_sec01_cont01 > div > div:nth-child(3)::before {
+  content: "藤本 健士";
 }
 .rec_sec01_cont01 img {
   border: 1px solid #000a;
@@ -763,10 +778,15 @@ a.line {
   .rec_sec01_cont01 > div {
     place-items: start;
     grid-template-columns: auto;
-    gap: 1rem;
+    gap: 10rem;
   }
   .rec_sec01_cont01 > div > div {
     width: 100%;
+  }
+  .rec_sec01_cont01 > div > div:nth-child(1)::before,
+  .rec_sec01_cont01 > div > div:nth-child(2)::before,
+  .rec_sec01_cont01 > div > div:nth-child(3)::before {
+    left: 30rem;
   }
   .cntc_sec01 {
     padding: 1rem;
