@@ -108,8 +108,9 @@ header a {
 }
 .top_sec01 {
   border-top: solid 4rem #2a5caa;
-  background: url(/assets/img/top_hd_bg.jpg) no-repeat;
-  background-size: 100% auto;
+  background: url(/assets/img/top_hd_bg.jpg), url(/assets/img/logo_a.svg) no-repeat;
+  background-blend-mode: color;
+  background-size: 100% auto, auto 100%;
   background-position: center;
   width: 100%;
   height: 45rem;
@@ -120,10 +121,11 @@ header a {
   margin: auto;
 }
 .top_sec01 h2 {
+  text-align: center;
   font-size: 5rem;
   font-weight: normal;
   color: #f7f7f7;
-  width: 59.8203rem;
+  width: 45rem;
   margin: auto;
   position: absolute;
   left: 50%;
@@ -131,12 +133,7 @@ header a {
   transform: translate(-50%, -50%);
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
-span.title{
-  content: url(/assets/img/logo_a.svg);
-  display: inline-block;
-  width: 6rem;
-  vertical-align: bottom;
-}
+
 .top_sec01 img {
   width: 30rem;
   position: absolute;
@@ -528,10 +525,10 @@ footer > div:last-child {
   gap: 10rem;
   padding: 1rem;
 }
-.rec_sec01_cont01 > div > div:nth-child(1){
-  grid-column: 1/3; 
+.rec_sec01_cont01 > div > div:nth-child(1) {
+  grid-column: 1/3;
 }
-.rec_sec01_cont01 > div > div{
+.rec_sec01_cont01 > div > div {
   width: 90%;
   position: relative;
 }
@@ -666,7 +663,7 @@ a.line {
   header h1 span {
     display: none;
   }
-  span.title{
+  span.title {
     width: 4rem;
   }
   .hd_ct_gr {
@@ -792,7 +789,7 @@ a.line {
   }
   .rec_sec01_cont01 > div > div:nth-child(1) {
     grid-column: 1/2;
-}
+  }
   .cntc_sec01 {
     padding: 1rem;
     grid-template-columns: auto;
