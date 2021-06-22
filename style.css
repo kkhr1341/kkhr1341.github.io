@@ -122,6 +122,7 @@ header a {
 .top_sec01 h2 {
   font-size: 5rem;
   font-weight: normal;
+  text-align: center;
   color: #f7f7f7;
   width: 59.8203rem;
   margin: auto;
@@ -134,9 +135,13 @@ header a {
 span.title{
   content: url(/assets/img/logo_a.svg);
   display: inline-block;
-  width: 6rem;
+  width: 8rem;
   vertical-align: bottom;
-  
+}
+span.title_o{
+  font-size: 7rem;
+  line-height: 1em;
+  font-family: inherit;
 }
 .top_sec01 img {
   width: 30rem;
@@ -668,7 +673,12 @@ a.line {
     display: none;
   }
   span.title{
-    width: 4rem;
+    width: 5.6rem;
+  }
+  span.title_o{
+    font-size: 4.9rem;
+    line-height: 1em;
+    font-family: inherit;
   }
   .hd_ct_gr {
     grid-template-columns: auto;
