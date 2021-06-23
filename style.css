@@ -127,6 +127,7 @@ header a {
   width: 59.8203rem;
   margin: auto;
   position: absolute;
+  line-height: 1em;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -140,7 +141,6 @@ span.title{
 }
 span.title_o{
   font-size: 7rem;
-  line-height: 1em;
   font-family: inherit;
 }
 .top_sec01 img {
@@ -677,8 +677,6 @@ a.line {
   }
   span.title_o{
     font-size: 4.9rem;
-    line-height: 1em;
-    font-family: inherit;
   }
   .hd_ct_gr {
     grid-template-columns: auto;
