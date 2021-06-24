@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -35,6 +39,10 @@ a {
   font-size: 20px;
 }
 
+.head_logo{
+  font-size: 20px;
+}
+
 .head_right{
   display: flex;
   justify-content: space-around;
@@ -42,8 +50,12 @@ a {
   width: 25%;
 }
 
+.head_right p{
+  font-size: 16px;
+}
+
 .head_right span{
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .head_right a{
@@ -51,7 +63,7 @@ a {
   padding: 10px 20px;
   border-radius: 5px;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .head_bottom{
@@ -110,6 +122,7 @@ a {
   padding: 50px;
   background: white;
   border-radius: 20px;
+  font-size: 17px;
 }
 
 .kv_txt .left{
@@ -123,13 +136,13 @@ a {
   padding: 10px 40px;
   border-radius: 20px;
   color: white;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .kv .copylight{
-  font-size: 10px;
+  font-size: 20px;
   text-align: right;
-  margin-right: 5px;
+  margin: 0 5px;
 }
 
 .kv h1{
@@ -138,6 +151,7 @@ a {
   font-size: 44px;
   border-bottom: 1px solid #292955;
   width: 650px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
 }
 
 /* 
@@ -152,11 +166,11 @@ a {
   background: linear-gradient(to right, #F2F8F3, #D4EBFB, #6A99D1);
   line-height: 100%;
   padding: 30px 0 20px;
-  font-size: 30px;
+  font-size: 37px;
 }
 
 .service h2 span{
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 300;
   position: relative;
 }
@@ -164,8 +178,8 @@ a {
 .service h2 span::before{
   content: "";
   position: absolute;
-  left: -130px;
-  top: -25px;
+  left: -140px;
+  top: -35px;
   width: 50px;
   height: 1px;
   background: #707070;
@@ -174,8 +188,8 @@ a {
 .service h2 span::after{
   content: "";
   position: absolute;
-  right: -130px;
-  top: -25px;
+  right: -140px;
+  top: -35px;
   width: 50px;
   height: 1px;
   background: #707070;
@@ -199,6 +213,11 @@ a {
   z-index: 0;
 }
 
+.service_content div h3{
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+  font-size: 28px;
+}
+
 .service_content div::before{
   background-color: white;
   content: "";
@@ -213,12 +232,24 @@ a {
 
 .service_content div p{
   line-height: 200%;
+  font-size: 20px;
 }
 
 .benefit{
   background: linear-gradient(to right, #F2F8F3, #D4EBFB, #6A99D1);
   padding: 20px;
-  font-size: 25px;
+  font-size: 28px;
+  position: relative;
+}
+
+.benefit::before{
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: -100px;
+  width: 365px;
+  height: 222px;
+  background: url("asset/img/bee_hive.svg");
 }
 
 .benefit_content{
@@ -234,6 +265,7 @@ a {
   background: white;
   width: 25%;
   position: relative;
+  font-size: 25px;
 }
 
 .benefit01::after{
@@ -267,7 +299,7 @@ a {
 }
 
 .benefit_content div p{
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .annotation{
@@ -282,7 +314,7 @@ a {
 }
 
 .feature h1{
-  font-size: 44px;
+  font-size: 54px;
   border-bottom: 1px solid #292955;
   width: 650px;
   margin: 0 auto 100px;
@@ -290,13 +322,14 @@ a {
 
 .feature h1 span{
   font-weight: 100;
-  font-size: 35px;
+  font-size: 37px;
   margin-left: 20px;
 }
 
 .feature h2{
   font-weight: 300;
   margin-bottom: 50px;
+  font-size: 28px;
 }
 
 .feature p span{
@@ -311,6 +344,10 @@ a {
   align-items: stretch;
 }
 
+.feature_topic div{
+  display: flex;
+}
+
 .feature_topic p{
   background: #7AA5D7;
   border-radius: 15px;
@@ -318,10 +355,23 @@ a {
   width: 190px;
   margin: 10px;
   color: white;
+  font-size: 20px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
 }
 
 .cost{
   margin-bottom: 100px;
+  position: relative;
+}
+
+.cost::before{
+  position: absolute;
+  content: "";
+  right: 50px;
+  top: -100px;
+  width: 365px;
+  height: 222px;
+  background: url("asset/img/bee_hive.svg");
 }
 
 .cost h3{
@@ -330,6 +380,8 @@ a {
   margin: auto;
   padding: 10px;
   background: white;
+  font-size: 23px;
+  font-weight: 100;
 }
 
 .cost_contant{
@@ -358,7 +410,7 @@ a {
 }
 
 .cost_container p{
-  font-size: 25px;
+  font-size: 23px;
   margin: 50px auto;
 }
 
@@ -378,7 +430,7 @@ a {
   padding: 10px 40px;
   border-radius: 30px;
   color: white;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .cost_link p{
@@ -392,6 +444,8 @@ a {
   margin: auto;
   padding: 10px;
   background: white;
+  font-size: 23px;
+  font-weight: 100;
 }
 
 .detail_contant{
@@ -402,15 +456,28 @@ a {
   padding: 50px;
 }
 
+.detail_contant h4{
+  font-size: 20px;
+}
+
+.detail_contant .left{
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
 .general{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .general .blocks{
-  width: 80%;
+  width: 70%;
+}
+
+.words .general .blocks{
+  width: 85%;
 }
 
 .general .blocks .block_layer{
@@ -432,7 +499,7 @@ a {
 
 .general .blocks .block p span{
   color: red;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .blue{
@@ -450,4 +517,389 @@ a {
 .search{
   border-top: 1px solid #707070;
   border-bottom: 1px solid #707070;
+}
+
+.achievement h1{
+  margin: 200px auto 200px;
+  font-weight: bold;
+  font-size: 54px;
+  border-bottom: 1px solid #292955;
+  width: 650px;;
+}
+
+.achieve_content{
+  background-image:url("asset/img/achieve_bg.svg"), linear-gradient(to right, rgba(106, 153, 209, 1), rgba(212, 235, 251, 1), rgba(242, 248, 243, 1));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 100px;
+  position: relative;
+}
+
+.achieve_content::before{
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: -100px;
+  width: 365px;
+  height: 222px;
+  background: url("asset/img/bee_hive.svg");
+}
+
+.achieve_content::after{
+  position: absolute;
+  content: "";
+  right: 50px;
+  bottom: -100px;
+  width: 365px;
+  height: 222px;
+  background: url("asset/img/bee_hive.svg");
+}
+
+.achieve_box{
+  background: white;
+  padding: 50px;
+  margin: auto 50px;
+}
+
+.achieve_box img{
+  width: 70%;
+}
+
+.achieve_box h3{
+  font-size: 23px;
+  font-weight: 100;
+}
+
+.achieve_box h4{
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.achieve_box p{
+  font-size: 14px;
+  line-height: 200%;
+}
+
+.other_achieve{
+  background-image:url("asset/img/achieve_bg.svg"), linear-gradient(to left, rgba(106, 153, 209, 1), rgba(212, 235, 251, 1), rgba(242, 248, 243, 1));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 100px;
+  position: relative;
+}
+
+.other_achieve::before{
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: -100px;
+  width: 365px;
+  height: 222px;
+  background: url("asset/img/bee_hive.svg");
+}
+
+.other_achieve::after{
+  position: absolute;
+  content: "";
+  right: 50px;
+  bottom: -100px;
+  width: 365px;
+  height: 222px;
+  background: url("asset/img/bee_hive.svg");
+}
+
+.achieve_arrow{
+  border: 1px solid #707070;
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+  background: white;
+  margin-top: 100px;
+  font-size: 23px;
+  font-weight: 100;
+}
+
+.approach{
+  background: #F8F8F8;
+}
+
+.approach .wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.approach .wrap a{
+  font-size: 20px;
+  background: linear-gradient(to bottom, rgb(232,183,140), rgba(228,61,61));
+  padding: 10px 40px;
+  border-radius: 30px;
+  color: white;
+  font-size: 21px;
+}
+
+.about{
+  padding: 100px 0;
+}
+
+.about h2{
+  line-height: 100%;
+  font-size: 37px;
+  margin-bottom: 10px;
+}
+
+.about_bd{
+  height: 10px;
+  margin: auto auto 100px;
+  width: 350px;
+  background: linear-gradient(to right, rgba(73, 132, 203, 1), rgba(212, 235, 251, 1), rgba(106, 132, 203, 1));
+}
+
+.about h2 span{
+  font-size: 19px;
+  font-weight: 300;
+  position: relative;
+}
+
+.about h2 span::before{
+  content: "";
+  position: absolute;
+  left: -130px;
+  top: -30px;
+  width: 50px;
+  height: 1px;
+  background: #707070;
+}
+
+.about h2 span::after{
+  content: "";
+  position: absolute;
+  right: -130px;
+  top: -30px;
+  width: 50px;
+  height: 1px;
+  background: #707070;
+}
+
+.about_content{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.campany, .map{
+  width: 30%;
+  margin: 25px;
+  text-align: left;
+}
+
+.campany{
+  padding: 30px;
+  border: 1px solid #707070;
+  position: relative;
+  z-index: 0;
+}
+
+.campany h3{
+  font-size: 27px;
+  margin-top: 0;
+}
+
+.map h3{
+  font-size: 23px;
+  margin: 0;
+}
+
+.map h4{
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.campany::before{
+  background-color: white;
+  content: "";
+  transform: rotate(32deg);
+  position: absolute;
+  top: 70px;
+  bottom: 70px;
+  right: 70px;
+  left: 70px;
+  z-index: -1;
+}
+
+.gray, .litegray{
+  display: flex;
+  justify-content: left;
+}
+
+.gray{
+  background: #F6F6F6;
+}
+
+.gray p, .litegray p{
+  padding: 10px 30px;
+}
+
+.d-left{
+  width: 20%;
+  text-align: center;
+  border-right: 1px solid #707070;
+}
+
+.d-right{
+  width: 80%;
+}
+
+.contact h2{
+  line-height: 100%;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.about_bd{
+  height: 10px;
+  margin: auto auto 100px;
+  width: 400px;
+  background: linear-gradient(to right, rgba(73, 132, 203, 1), rgba(212, 235, 251, 1), rgba(106, 132, 203, 1));
+}
+
+.contact{
+  padding: 100px 0;
+}
+
+.contact h2{
+  font-size: 37px;
+}
+
+.contact h2 span{
+  font-size: 19px;
+  font-weight: 300;
+  position: relative;
+}
+
+.contact h2 span::before{
+  content: "";
+  position: absolute;
+  left: -140px;
+  top: -30px;
+  width: 50px;
+  height: 1px;
+  background: #707070;
+}
+
+.contact h2 span::after{
+  content: "";
+  position: absolute;
+  right: -140px;
+  top: -30px;
+  width: 50px;
+  height: 1px;
+  background: #707070;
+}
+
+.formrun-embed{
+  border: 1px solid #707070;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.last_arrow{
+  background: #F6F6F6;
+  padding: 20px 0;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.last_arrow p{
+  text-align: left;
+  font-size: 22px;
+}
+
+.last_arrow p span{
+  color: red;
+}
+
+.last_arrow a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, rgb(232,183,140), rgba(228,61,61));
+  height: 70px;
+  padding: 0 25px;
+  border-radius: 5px;
+  color: white;
+}
+
+.last_arrow a p{
+  line-height: 100%;
+  font-size: 18px;
+  text-align: center;
+}
+
+.last_arrow a p span{
+  font-size: 10px;
+  color: white;
+}
+
+.last_right{
+  font-size: 24px;
+}
+
+.contact .wrap{
+  width: 75%;
+  text-align: right;
+  margin-top: 10px;
+}
+
+summary{
+  list-style: none;
+}
+
+.top_button{
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, .9);
+  opacity: 0;
+  transition: all 0.65s;
+}
+
+.top_button.isActive {
+  opacity: 1;
+  transition: all 0.65s;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: url("asset/img/footer_bg.svg") center center/cover no-repeat;
+  color: white;
+}
+
+footer .foot_logo{
+  color: white;
+  font-size: 32px;
+  font-weight: 900;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
 }

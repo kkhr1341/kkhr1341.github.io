@@ -5,22 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_sp.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>株式会社OAS業務サポート</title>
 </head>
 <body>
-    <header>
+    <header id="top">
         <div class="head_border"></div>
         <div class="head_wrap">
             <div class="head_top">
-                <a href="index.html">株式会社OAS業務サポート</a>
+                <a class="head_logo" href="index.html">株式会社OAS業務サポート</a>
                 <div class="head_right">
                     <div>
-                        <p>
+                        <p class="pc_only">
                             <img src="asset/img/phone.svg" alt="">00-0000-0000
                             <br><span>受付時間:10:00~18:00</span>
                         </p>
                     </div>
-                    <a href="">＞お問い合わせ</a>
+                    <a href="#contact">＞お問い合わせ</a>
                 </div>
             </div>
         </div>
@@ -28,10 +30,10 @@
         <div class="head_bottom">
             <div class="head_wrap">
                 <ul class="head_nav">
-                    <li><a href="">サービス紹介</a></li>
-                    <li><a href="">ファイルメーカー</a></li>
-                    <li><a href="">制作実績</a></li>
-                    <li class="last_nav"><a href="">会社概要</a></li>
+                    <li><a href="#service">サービス紹介</a></li>
+                    <li><a href="#feature">ファイルメーカー</a></li>
+                    <li><a href="#achievement">制作実績</a></li>
+                    <li class="last_nav"><a href="#about">会社概要</a></li>
                 </ul>
             </div>
         </div>
@@ -48,15 +50,15 @@
                         <br>「誰が何回実行しても同じ結果、同じ時間で出せる」を作れます。</p>
                     <div>
                         <p>\業務改善で効率化を/</p>
-                        <a href="">お問い合わせ</a>
+                        <a href="#contact">お問い合わせ</a>
                     </div>
                 </div>
             </div>
-            <p class="copylight">OAS Business support Co.,Ltd</p>
+            <p class="copylight pc_only">OAS Business support Co.,Ltd</p>
             <h1>業務改善はシステムから始まる</h1>
         </section>
 
-        <section class="service">
+        <section class="service" id="service">
             <h2>サービス紹介
                 <br><span>service</span>
             </h2>
@@ -106,21 +108,26 @@
                 </div>
             </div>
         </section>
-        <section class="feature">
+
+        <section class="feature" id="feature">
             <h1>ファイルメーカー<span>について</span></h1>
             <h2>ファイルメーカーはデータ管理する仕組みを作るソフトです</h2>
             <p><span>FileMakerの主な機能について</span></p>
             <div class="feature_topic">
-                <p>データベース<br>構築</p>
-                <p>外部システム<br>との連携</p>
-                <p>スピーディーな<br>カスタマイズ</p>
-                <p>iPhone<br>iPad対応</p>
-                <p>WEB<br>アクセス</p>
-                <p>クラウド<br>対応</p>
+                <div>
+                    <p>データベース<br>構築</p>
+                    <p>外部システム<br>との連携</p>
+                    <p>スピーディーな<br>カスタマイズ</p>
+                </div>
+                <div>
+                    <p>iPhone<br>iPad対応</p>
+                    <p>WEB<br>アクセス</p>
+                    <p>クラウド<br>対応</p>
+                </div>
             </div>
 
-            <div class="cost">
-                <h3><img src="asset/img/cost_img.svg" alt="">　導入にかかる費用　　　<img src="asset/img/arrow-dropup.svg" alt=""></h3>
+            <details class="cost">
+                <summary><h3><img src="asset/img/cost_img.svg" alt="">　導入にかかる費用　　　<img src="asset/img/arrow-dropup.svg" alt=""></h3></summary>
                 <div class="cost_contant">
                     <div class="cost_container">
                         <div>
@@ -140,8 +147,8 @@
                         </div>
                     </div>
                     <div class="cost_link">
-                        <div></div>
-                        <a href="">お問い合わせ</a>
+                        <div class="pc_only"></div>
+                        <a href="#contact">お問い合わせ</a>
                         <p>
                             ※料金は目安です。クライアント数に応じて単価が変動します。
                             <br>使用するPCとサーバーは別途用意が必要です。
@@ -149,10 +156,10 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </details>
 
-            <div class="detail">
-                <h3><img src="asset/img/detail_img.svg" alt="">　取り扱い説明等　　　<img src="asset/img/arrow-dropup.svg" alt=""></h3>
+            <details class="detail">
+                <summary><h3><img src="asset/img/detail_img.svg" alt="">　取り扱い説明等　　　<img src="asset/img/arrow-dropup.svg" alt=""></h3></summary>
                 <div class="detail_contant">
                     <div class="shortcut">
                         <h4>ショートカット</h4>
@@ -315,7 +322,7 @@
                     </div>
 
                     <div class="words">
-                        <h4 class="left">単語集</h4>
+                        <h4>単語集</h4>
                         <p class="left">ご依頼時に単語をご理解いただき使っていただく事で疎通が図りやすくなります。
                             <br>下記、解説を一度お読みになりご依頼内容に盛り込んでいただけるとご要望の把握がしやすくなりますのでご協力お願い致します。
                         </p>
@@ -411,11 +418,178 @@
                         </div>
                     </div>
                 </div>
+            </details>
+        </section>
+
+        <section class="achievement" id="achievement">
+            <h1>開発実績</h1>
+            <div class="achieve_content">
+                <div class="achieve_box">
+                    <h3>コールマスタ - FileMaker</h3>
+                    <h4>(主な利用業種：営業会社、顧客保有会社)</h4>
+                    <img src="asset/img/sample.png" alt="">
+                    <p>
+                        架電の記録を残す事が出来ます。
+                        <br>再コールの登録やリスト情報から外部サイトへジャンプし
+                        <br>情報の確認をする事も出来ます。
+                    </p>
+                </div>
+                <div class="achieve_box">
+                    <h3>受付管理 - FileMaker</h3>
+                    <h4>(主な利用業種：小売店、予約が必要な店舗)</h4>
+                    <img src="asset/img/sample.png" alt="">
+                    <p>
+                        顧客を検索後に特定の日付に対して記録を残せます。
+                        <br>ナンバーディスプレイアダプタを利用する事で
+                        <br>電話番号を検索し該当を出す事も可能です。
+                    </p>
+                </div>
+                <div class="achieve_box">
+                    <h3>フォント23px サンプルテキスト</h3>
+                    <h4>(フォント17px サンプルテキスト)</h4>
+                    <img src="asset/img/sample.png" alt="">
+                    <p>
+                        フォント14px、サンプルテキスト３段
+                        <br>フォント14px、サンプルテキスト３段
+                        <br>フォント14px、サンプルテキスト３段
+                    </p>
+                </div>
+            </div>
+
+            <details>
+                <summary><h3 class="achieve_arrow"><img src="asset/img/box_icon.svg" alt="">　その他開発実績　　　<img src="asset/img/arrow-dropup.svg" alt=""></h3></summary>
+                <div class="other_achieve">
+                    <div class="achieve_box">
+                        <h3>フォント23px サンプルテキスト</h3>
+                        <h4>(フォント17px サンプルテキスト)</h4>
+                        <img src="asset/img/sample.png" alt="">
+                        <p>
+                            フォント14px、サンプルテキスト３段
+                            <br>フォント14px、サンプルテキスト３段
+                            <br>フォント14px、サンプルテキスト３段
+                        </p>
+                    </div>
+                    <div class="achieve_box">
+                        <h3>フォント23px サンプルテキスト</h3>
+                        <h4>(フォント17px サンプルテキスト)</h4>
+                        <img src="asset/img/sample.png" alt="">
+                        <p>
+                            フォント14px、サンプルテキスト３段
+                            <br>フォント14px、サンプルテキスト３段
+                            <br>フォント14px、サンプルテキスト３段
+                        </p>
+                    </div>
+                    <div class="achieve_box">
+                        <h3>フォント23px サンプルテキスト</h3>
+                        <h4>(フォント17px サンプルテキスト)</h4>
+                        <img src="asset/img/sample.png" alt="">
+                        <p>
+                            フォント14px、サンプルテキスト３段
+                            <br>フォント14px、サンプルテキスト３段
+                            <br>フォント14px、サンプルテキスト３段
+                        </p>
+                    </div>
+                </div>
+            </details>
+        </section>
+
+        <section class="approach">
+            <div class="wrap">
+                <p>\業務改善で効率化を/</p>
+                <a href="#contact">お問い合わせ</a>
             </div>
         </section>
+
+        <section class="about" id="about">
+            <h2>会社概要
+                <br><span>about</span>
+            </h2>
+            <div class="about_bd"></div>
+            <div class="about_content">
+                <div class="campany">
+                    <h3>Campany Profile</h3>
+                    <div class="company_detail">
+                        <div class="gray">
+                            <p class="d-left">会社名</p>
+                            <p class="d-right">株式会社OASサポート</p>
+                        </div>
+                        <div class="litegray">
+                            <p class="d-left">設立</p>
+                            <p class="d-right">2001年02月01日</p>
+                        </div>
+                        <div class="gray">
+                            <p class="d-left">本社</p>
+                            <p class="d-right">〒171-0022 東京都豊島区南池袋2-41-12 池袋セントラル6F</p>
+                        </div>
+                        <div class="litegray">
+                            <p class="d-left">代表者</p>
+                            <p class="d-right">大内　陽介</p>
+                        </div>
+                        <div class="gray">
+                            <p class="d-left">取引銀行</p>
+                            <p class="d-right">三菱東京UFJ銀行</p>
+                        </div>
+                        <div class="litegray">
+                            <p class="d-left">事業内容</p>
+                            <p class="d-right">
+                                インターネット情報サービス事業
+                                <br>システムコンサルティング事業
+                                <br>ソフトウェア開発事業
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map">
+                    <h3>アクセス</h3>
+                    <h4>東京メトロ有楽町線　東池袋　5番出口　より徒歩5分</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.8114215628107!2d139.72009691526014!3d35.73085608018282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d702fe68791%3A0xbc56d94ad5a23c4!2z44CSMTcwLTAwMTMg5p2x5Lqs6YO96LGK5bO25Yy65p2x5rGg6KKL77yS5LiB55uu77yS77yS4oiS77yR!5e0!3m2!1sja!2sjp!4v1624503596754!5m2!1sja!2sjp" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>お問い合わせ
+                <br><span>contact</span>
+            </h2>
+            <div class="about_bd"></div>
+
+            <script src="https://sdk.form.run/js/v2/embed.js"></script>
+            <div
+            class="formrun-embed"
+            data-formrun-form="@reglos-wevies-1624507106"
+            data-formrun-redirect="true">
+            </div>
+
+            <div class="last_arrow">
+                <p>
+                    お見積もりのご依頼から、システムのお悩み相談まで
+                    <br><span>全国どこでも</span>対応いたします！
+                </p>
+                <a href="tel:00-0000-0000">＞<img src="asset/img/phone-white.svg" alt=""><p>00-0000-0000<br><span>受付時間：10:00〜18:00</span></p></a>
+                <a class="last_right" href="#contact">＞お問い合わせ</a>
+            </div>
+            <div class="wrap">
+                <a href=""><img src="asset/img/pdf-icon.svg" alt="">個人情報の取り扱いについて</a>
+            </div>
+        </section>
+
+        <div class="top_button">
+            <a href="#top"><img src="asset/img/page_top.svg" alt=""></a>
+        </div>
     </main>
 
     <footer>
-
+        <a class="foot_logo" href="">株式会社OAS業務サポート</a>
+        <ul class="head_nav">
+            <li><a href="#service">サービス紹介</a></li>
+            <li><a href="#feature">ファイルメーカー</a></li>
+            <li><a href="#achievement">制作実績</a></li>
+            <li class="last_nav"><a href="about">会社概要</a></li>
+        </ul>
+        <p class="foot_copy">OAS Business support Co.,Ltd</p>
     </footer>
+
+    <script src="asset/js/index.js"></script>
+
+</body>
 </html>
