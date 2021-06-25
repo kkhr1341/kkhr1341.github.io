@@ -76,6 +76,11 @@ a {
   font-size: 16px;
 }
 
+.head_right a:hover{
+  opacity: .7;
+  transition: all .2s ease-in-out;
+}
+
 .head_bottom{
   background: #4984CB;
   box-shadow: 5px 0px 5px rgba(0, 0, 0, .5);
@@ -96,6 +101,11 @@ a {
   justify-content: center;
   align-items: center;
   margin: 5px 0 5px;
+}
+
+.head_nav li:hover{
+  background: #3e6da7;
+  transition: all .3s ease-in-out;
 }
 
 .last_nav{
@@ -151,6 +161,11 @@ a {
   border-radius: 20px;
   color: white;
   font-size: 21px;
+}
+
+.kv_txt a:hover{
+  opacity: .7;
+  transition: all .2s ease-in-out;
 }
 
 .kv .copylight{
@@ -662,6 +677,11 @@ a {
   font-size: 21px;
 }
 
+.approach .wrap a:hover{
+  opacity: .7;
+  transition: all .2s ease-in-out;
+}
+
 .about{
   padding: 100px 0;
 }
@@ -858,6 +878,11 @@ a {
   color: white;
 }
 
+.last_arrow a:hover{
+  opacity: .7;
+  transition: all .2s ease-in-out;
+}
+
 .last_arrow a p{
   line-height: 100%;
   font-size: 18px;
@@ -901,6 +926,11 @@ summary{
 .top_button.isActive {
   opacity: 1;
   transition: all 0.65s;
+}
+
+.top_button.isActive:hover{
+  opacity: .5;
+  transition: all .2s ease-in-out;
 }
 
 footer{
