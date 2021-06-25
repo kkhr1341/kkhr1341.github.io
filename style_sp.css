@@ -1052,6 +1052,10 @@
         font-size: 15px;
     }
 
+    .benefit_content div img{
+      width: 40%;
+    }
+
     .feature{
         padding: 50px 0;
         background: url("asset/img/feature_bg.svg") top center/100% no-repeat;
