@@ -954,11 +954,12 @@ footer{
   align-items: center;
   background: url("asset/img/footer_bg.svg") center center/cover no-repeat;
   color: white;
+  padding: 22px 0;
 }
 
 footer .foot_logo{
   color: white;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 900;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
 }
