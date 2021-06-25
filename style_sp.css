@@ -165,12 +165,12 @@
     .service_content div::before{
       background-color: white;
       content: "";
-      transform: rotate(32deg);
+      transform: rotate(8deg);
       position: absolute;
-      top: 90px;
-      bottom: 90px;
-      right: 90px;
-      left: 90px;
+      top: 10px;
+      bottom: 10px;
+      right: 10px;
+      left: 10px;
       z-index: -1;
     }
     
