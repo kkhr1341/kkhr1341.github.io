@@ -1147,7 +1147,12 @@
         align-items: flex-start;
       }
 
-      .sp_margin{
+      .cost_container p{
+        font-size: 10px;
+        margin: 25px auto;
+      }
+
+      .cost_container　.sp_margin{
         margin: 35px auto;
       }
       
@@ -1159,12 +1164,7 @@
         padding-bottom: 25px;
         border-bottom: 1px solid #707070;
       }
-      
-      .cost_container p{
-        font-size: 10px;
-        margin: 25px auto;
-      }
-      
+       
       .cost_link{
         display: block;
       }
