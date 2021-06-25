@@ -372,7 +372,7 @@ a {
 }
 
 .feature_topic{
-  margin: auto auto 200px;
+  margin: auto auto 235px;
   display: flex;
   justify-content: center;
   align-items: stretch;
@@ -394,7 +394,7 @@ a {
 }
 
 .cost{
-  margin-bottom: 100px;
+  margin-bottom: 55px;
   position: relative;
 }
 
@@ -918,8 +918,8 @@ summary{
 
 .top_button{
   box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -934,6 +934,10 @@ summary{
 .top_button.isActive {
   opacity: 1;
   transition: all 0.65s;
+}
+
+.top_button.isActive img{
+  width: 70%;
 }
 
 .top_button.isActive:hover{
