@@ -911,8 +911,16 @@ a {
   margin-top: 10px;
 }
 
+.contact .wrap a{
+  display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
 .contact .wrap a img{
-  padding: 1px 16px 0;
+  padding:0 16px;
 }
 
 summary{
