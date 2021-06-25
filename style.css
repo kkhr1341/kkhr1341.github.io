@@ -50,18 +50,18 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .head_logo{
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .head_right{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 25%;
+  width: 30%;
 }
 
 .head_right p{
@@ -173,7 +173,7 @@ a {
 }
 
 .kv .copylight{
-  font-size: 16px;
+  font-size: 20px;
   text-align: right;
   margin: 10px 5px 0;
 }
@@ -291,7 +291,7 @@ a {
   align-items: stretch;
   width: 70%;
   margin: 100px auto;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .benefit_content div{
@@ -366,7 +366,7 @@ a {
 }
 
 .feature p span{
-  font-size: 16px;
+  font-size: 20px;
   color: #7AA5D7;
 }
 
@@ -388,7 +388,7 @@ a {
   width: 190px;
   margin: 10px;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
 }
 
@@ -458,7 +458,7 @@ a {
 }
 
 .cost_link a{
-  font-size: 16px;
+  font-size: 20px;
   background: linear-gradient(to bottom, rgb(232,183,140), rgba(228,61,61));
   padding: 10px 40px;
   border-radius: 30px;
@@ -490,7 +490,7 @@ a {
 }
 
 .detail_contant h4{
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .detail_contant .left{
@@ -673,7 +673,7 @@ a {
 }
 
 .approach .wrap a{
-  font-size: 16px;
+  font-size: 20px;
   background: linear-gradient(to bottom, rgb(232,183,140), rgba(228,61,61));
   padding: 10px 40px;
   border-radius: 30px;
