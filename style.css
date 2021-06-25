@@ -61,7 +61,7 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 30%;
+  width: 26%;
 }
 
 .head_right p{
@@ -74,7 +74,7 @@ a {
 
 .head_right a{
   background: linear-gradient(to bottom, rgb(232,183,140), rgba(228,61,61));
-  padding: 10px 40px 10px 35px;
+  padding: 10px 40px 10px 32px;
   border-radius: 5px;
   color: white;
   font-size: 16px;
@@ -954,7 +954,7 @@ footer{
 
 footer .foot_logo{
   color: white;
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 900;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
 }
