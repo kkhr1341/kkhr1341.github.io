@@ -135,15 +135,15 @@ a {
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: right center;
-  height: 700px;
+  height: 625px;
 }
 
 .kv_txt{
   position: absolute;
   left: 5px;
-  top: 105px;
+  top: 60px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, .3);
-  padding: 50px;
+  padding: 80px　65px;
   background: white;
   border-radius: 20px;
   font-size: 15px;
@@ -175,16 +175,16 @@ a {
 .kv .copylight{
   font-size: 20px;
   text-align: right;
-  margin: 0 5px;
+  margin: 10px 5px 0;
 }
 
 .kv h1{
-  margin: 300px auto 0;
+  margin: 35px auto 0;
   font-weight: 100;
   font-size: 44px;
   border-bottom: 1px solid #292955;
   width: 650px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  text-shadow: 1px 1px 3px rgba(209, 163, 163, 0.3);
 }
 
 /* 
