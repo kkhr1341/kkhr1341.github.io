@@ -434,6 +434,20 @@ a {
   margin-bottom: 50px;
 }
 
+details[open] .cost_container {
+  animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* 透明 */
+    transform: translateY(-10px); /* 上から表示 */
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .cost_container div{
   width: 25%;
 }
@@ -480,6 +494,20 @@ a {
   background: white;
   font-size: 23px;
   font-weight: 100;
+}
+
+details[open] .detail_contant {
+  animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* 透明 */
+    transform: translateY(-10px); /* 上から表示 */
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .detail_contant{
@@ -931,6 +959,11 @@ details[open] summary .arrow-icon {
 }
 
 summary{
+  list-style: none;
+  outline: none;
+}
+
+details > summary{
   list-style: none;
   outline: none;
 }
