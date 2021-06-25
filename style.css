@@ -256,10 +256,10 @@ a {
   content: "";
   transform: rotate(32deg);
   position: absolute;
-  top: 30px;
-  bottom: 30px;
-  right: 30px;
-  left: 30px;
+  top: 35px;
+  bottom: 35px;
+  right: 35px;
+  left: 35px;
   z-index: -1;
 }
 
@@ -917,10 +917,8 @@ a {
     align-items: center;
 }
 
-
-
 .contact .wrap a img{
-  padding:0 16px;
+  padding: 0 16px;
 }
 
 summary{
