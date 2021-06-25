@@ -23,6 +23,11 @@
   .head_right p{
   font-size: 10px;
   }
+
+  .head_right p img{
+    width: 10%;
+    margin-right: 5px;
+  }
   
   .head_right span{
   font-size: 8px;
