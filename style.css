@@ -74,7 +74,7 @@ a {
 
 .head_right a{
   background: linear-gradient(to bottom, rgb(232,183,140), rgba(228,61,61));
-  padding: 10px 20px;
+  padding: 10px 40px 10px 35px;
   border-radius: 5px;
   color: white;
   font-size: 16px;
@@ -161,10 +161,10 @@ a {
 
 .kv_txt a{
   background: linear-gradient(to bottom, rgb(232,183,140), rgba(228,61,61));
-  padding: 10px 40px;
+  padding: 10px 50px;
   border-radius: 20px;
   color: white;
-  font-size: 21px;
+  font-size: 19px;
 }
 
 .kv_txt a:hover{
