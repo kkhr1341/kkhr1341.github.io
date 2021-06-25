@@ -3,10 +3,6 @@
     display: none;
   }
 
-  .achieve_content{
-    display: block;
-  }
-
   .head_wrap{
       width: 90%;
   }
@@ -449,7 +445,7 @@
     }
     
     .achieve_content{
-      display: block;
+      display: flex;
       padding: 10px;
       position: relative;
     }
@@ -477,7 +473,7 @@
     .achieve_box{
       background: white;
       padding: 10px;
-      margin: 10px;
+      margin: 10px 5px;
     }
     
     .achieve_box h3{
@@ -716,7 +712,6 @@
       padding: 10px 5px;
       width: 90%;
       margin: auto;
-      display: block;
     }
     
     .last_arrow p{
