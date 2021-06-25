@@ -6,6 +6,12 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  overflow-y: scroll;
+  -ms-overflow-style: none;    /* IE, Edge 対応 */
+}
+
+body::-webkit-scrollbar{
+  display: none;
 }
 
 li{
