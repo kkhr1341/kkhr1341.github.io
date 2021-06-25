@@ -1,4 +1,801 @@
-@media screen and (max-width: 820px) {
+@media screen and (min-width:768px) and (max-width:1023px){
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .achieve_content{
+    display: block;
+  }
+
+  .head_wrap{
+      width: 100%;
+  }
+
+  .head_top{
+      font-size: 15px;
+      padding: 5px 0;
+  }
+
+  .head_logo{
+      font-size: 12px;
+  }
+
+  .head_right{
+      width: 35%;
+  }
+
+  .head_right p{
+  font-size: 10px;
+  }
+  
+  .head_right span{
+  font-size: 8px;
+  }
+  
+  .head_right a{
+  background: linear-gradient(to bottom, rgb(232,183,140), rgba(228,61,61));
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 10px;
+  }
+
+  .head_nav{
+      padding: 0;
+  }
+
+  .head_nav li{
+      width: 100%;
+      height: 30px;
+      border-left: 1px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 5px 0 5px;
+  }
+
+  .last_nav{
+      border-right: 1px solid white;
+    }
+
+  .head_nav li a{
+      color: white;
+      font-size: 10px;
+  }
+
+  .kv_img{
+      background-size: 100%;
+      background-position: center top;
+      height: 500px;
+  }
+
+  .kv_txt{
+      position: absolute;
+      left: 5px;
+      top: 210px;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, .3);
+      background: white;
+      border-radius: 20px;
+      font-size: 11px;
+      width: 47%;
+      padding: 37px 1px 42px 14px;
+    }
+
+  .kv_txt img{
+      width: 50%;
+  }
+
+  .kv_txt .left{
+      text-align: left;
+      line-height: 200%;
+      margin-bottom: 20px;
+    }
+
+  .kv_txt a{
+      background: linear-gradient(to bottom, rgb(232,183,140), rgba(228,61,61));
+      padding: 5px 20px;
+      border-radius: 20px;
+      color: white;
+      font-size: 15px;
+  }
+
+  .kv h1{
+      margin: 100px auto 0;
+      font-weight: 100;
+      font-size: 20px;
+      border-bottom: 1px solid #292955;
+      width: 90%;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+
+  .service h2{
+      background: linear-gradient(to right, #F2F8F3, #D4EBFB, #6A99D1);
+      line-height: 100%;
+      padding: 20px 0 10px;
+      font-size: 25px;
+    }
+    
+    .service h2 span{
+      font-size: 13px;
+      font-weight: 300;
+      position: relative;
+    }
+    
+    .service h2 span::before{
+      content: "";
+      position: absolute;
+      left: -100px;
+      top: -25px;
+      width: 30px;
+      height: 1px;
+      background: #707070;
+    }
+    
+    .service h2 span::after{
+      content: "";
+      position: absolute;
+      right: -100px;
+      top: -25px;
+      width: 30px;
+      height: 1px;
+      background: #707070;
+  }
+
+  .service_content{
+      display: block;
+      width: 100%;
+      margin: 0;
+      padding:0;
+    }
+    
+    .service_content div{
+      text-align: left;
+      border: 1px solid #707070;
+      position: relative;
+      z-index: 0;
+      margin: 50px auto;
+      width: 75%;
+    }
+    
+    .service_content div h3{
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+      font-size: 20px;
+    }
+    
+    .service_content div::before{
+      background-color: white;
+      content: "";
+      transform: rotate(32deg);
+      position: absolute;
+      top: 90px;
+      bottom: 90px;
+      right: 90px;
+      left: 90px;
+      z-index: -1;
+    }
+    
+    .service_content div p{
+      line-height: 200%;
+      font-size: 15px;
+  }
+
+  .benefit{
+      background: linear-gradient(to right, #F2F8F3, #D4EBFB, #6A99D1);
+      padding: 15px;
+      font-size: 15px;
+      position: relative;
+    }
+    
+    .benefit::before{
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: -50px;
+      width: 150px;
+      height: 100px;
+      background: url("asset/img/bee_hive.svg") center center/cover no-repeat;
+  }
+
+  .benefit_content{
+      display: block;
+      width: 90%;
+      margin: 50px auto;
+      font-size: 15px;
+    }
+    
+    .benefit_content div{
+      background: white;
+      width: 80%;
+      margin: 50px auto;
+      padding: 10px 0;
+      position: relative;
+      font-size: 20px;
+    }
+    
+    .benefit01::after{
+      position: absolute;
+      content: "";
+      height: 76px;
+      width: 80px;
+      background: url("asset/img/benefit01.svg") center center/cover no-repeat;
+      top: -25px;
+      left: -50px;
+    }
+    
+    .benefit02::after{
+      position: absolute;
+      content: "";
+      height: 76px;
+      width: 80px;
+      background: url("asset/img/benefit02.svg") center center/cover no-repeat;
+      top: -25px;
+      left: -50px;
+    }
+    
+    .benefit03::after{
+      position: absolute;
+      content: "";
+      height: 76px;
+      width: 80px;
+      background: url("asset/img/benefit03.svg") center center/cover no-repeat;
+      top: -25px;
+      left: -50px;
+    }
+    
+    .benefit_content div p{
+      font-size: 15px;
+  }
+
+  .feature{
+      padding: 50px 0;
+      background: url("asset/img/feature_bg.svg") top center/100% no-repeat;
+    }
+    
+    .feature h1{
+      font-size: 25px;
+      border-bottom: 1px solid #292955;
+      width: 90%;
+      margin: 0 auto 100px;
+    }
+    
+    .feature h1 span{
+      font-weight: 100;
+      font-size: 15px;
+      margin-left: 20px;
+    }
+    
+    .feature h2{
+      font-weight: 300;
+      margin-bottom: 50px;
+      font-size: 20px;
+    }
+    
+    .feature p span{
+      font-size: 15px;
+      color: #7AA5D7;
+    }
+    
+    .feature_topic{
+      margin: auto auto 100px;
+    }
+
+    .feature_topic div{
+        justify-content: space-around;
+    }
+    
+    .feature_topic p{
+      background: #7AA5D7;
+      border-radius: 15px;
+      padding: 25px 0;
+      width: 100px;
+      margin: 5px;
+      color: white;
+      font-size: 10px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+  }
+
+  .cost{
+      width: 100%;
+  }
+
+  .cost::before{
+      position: absolute;
+      content: "";
+      right: 50px;
+      top: -100px;
+      width: 150px;
+      height: 100px;
+      background: url("asset/img/bee_hive.svg") center center/cover no-repeat;
+    }
+    
+    .cost h3{
+      border: 1px solid #707070;
+      width: 60%;
+      margin: auto;
+      padding: 10px;
+      background: white;
+      font-size: 15px;
+      font-weight: 100;
+    }
+
+    .cost h3 img{
+      width: 4%;
+    }
+    
+    .cost_contant{
+      width: 90%;
+      margin: auto;
+      border: 1px solid #707070;
+      border-radius: 20px;
+      padding: 10px;
+    }
+    
+    .cost_container{
+      border-bottom: 1px solid #707070;
+      margin-bottom: 10px;
+    }
+    
+    .cost_container div{
+      width: 25%;
+  }
+
+  .bd{
+      padding-bottom: 25px;
+      border-bottom: 1px solid #707070;
+    }
+    
+    .cost_container p{
+      font-size: 10px;
+      margin: 25px auto;
+    }
+    
+    .cost_link{
+      display: block;
+    }
+    
+    .cost_link div,.cost_link div a,.cost_link div p{
+      width: 25%;
+    }
+    
+    .cost_link a{
+      font-size: 15px;
+      background: linear-gradient(to bottom, rgb(232,183,140), rgba(228,61,61));
+      padding: 10px 40px;
+      border-radius: 30px;
+      color: white;
+      margin: 20px auto;
+    }
+    
+    .cost_link p{
+      text-align: left;
+      font-size: 10px;
+    }
+    
+    .detail h3{
+      border: 1px solid #707070;
+      width: 60%;
+      margin: auto;
+      padding: 10px;
+      background: white;
+      font-size: 15px;
+      font-weight: 100;
+  }
+
+  .detail h3 img{
+    width: 4%;
+  }
+
+  .detail_contant{
+      width: 80%;
+      margin: auto;
+      border: 1px solid #707070;
+      border-radius: 20px;
+      padding: 20px;
+    }
+    
+    .detail_contant h4{
+      font-size: 20px;
+    }
+
+    .shortcut, .search, .words{
+      padding: 0;
+    }
+    
+    .detail_contant .left{
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+    
+    .general{
+      display: block;
+      font-size: 12px;
+      text-align: left;
+    }
+    
+    .general .blocks{
+      width: 70%;
+    }
+    
+    .words .general .blocks{
+      width: 85%;
+    }
+    
+    .general .blocks .block_layer{
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    .general .blocks .block{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+      width: 100%;
+      margin:10px;
+      padding: 0 10px;
+    }
+    
+    .general .blocks .block p span{
+      color: red;
+      font-size: 12px;
+  }
+
+  .achievement h1{
+      margin: 50px auto;
+      font-weight: bold;
+      font-size: 30px;
+      border-bottom: 1px solid #292955;
+      width: 80%;
+    }
+    
+    .achieve_content{
+      display: block;
+      padding: 10px;
+      position: relative;
+    }
+    
+    .achieve_content::before{
+      position: absolute;
+      content: "";
+      left: 20px;
+      top: -50px;
+      width: 150px;
+      height: 100px;
+      background: url("asset/img/bee_hive.svg") center center/cover no-repeat;
+    }
+    
+    .achieve_content::after{
+      position: absolute;
+      content: "";
+      right: 20px;
+      bottom: -50px;
+      width: 150px;
+      height: 100px;
+      background: url("asset/img/bee_hive.svg") center center/cover no-repeat;
+    }
+    
+    .achieve_box{
+      background: white;
+      padding: 10px;
+      margin: 10px;
+    }
+    
+    .achieve_box h3{
+      font-size: 20px;
+      font-weight: 100;
+    }
+    
+    .achieve_box h4{
+      font-size: 15px;
+      font-weight: 100;
+    }
+    
+    .achieve_box p{
+      font-size: 10px;
+      line-height: 200%;
+    }
+    
+    .other_achieve{
+      display: block;
+      padding: 10px;
+      position: relative;
+    }
+    
+    .other_achieve::before{
+      position: absolute;
+      content: "";
+      left: 20px;
+      top: -50px;
+      width: 150px;
+      height: 100px;
+      background: url("asset/img/bee_hive.svg") center center/cover no-repeat;
+    }
+    
+    .other_achieve::after{
+      position: absolute;
+      content: "";
+      right: 20px;
+      bottom: -50px;
+      width: 150px;
+      height: 100px;
+      background: url("asset/img/bee_hive.svg") center center/cover no-repeat;
+    }
+    
+    .achieve_arrow{
+      width: 60%;
+      margin: auto;
+      padding: 10px;
+      margin-top: 50px;
+      font-size: 15px;
+    }
+
+    .achieve_arrow img{
+      width: 4%;
+    }
+
+    .approach .wrap{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+    }
+    
+    .approach .wrap a{
+      font-size: 20px;
+      background: linear-gradient(to bottom, rgb(232,183,140), rgba(228,61,61));
+      padding: 10px 40px;
+      border-radius: 30px;
+      color: white;
+      font-size: 20px;
+  }
+
+  .about{
+      padding: 50px 0;
+    }
+    
+    .about h2{
+      line-height: 100%;
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    
+    .about_bd{
+      height: 10px;
+      margin: auto auto 100px;
+      width: 100%;
+    }
+    
+    .about h2 span{
+      font-size: 15px;
+      font-weight: 300;
+      position: relative;
+    }
+    
+    .about h2 span::before{
+      content: "";
+      position: absolute;
+      left: -130px;
+      top: -30px;
+      width: 50px;
+      height: 1px;
+      background: #707070;
+    }
+    
+    .about h2 span::after{
+      content: "";
+      position: absolute;
+      right: -130px;
+      top: -30px;
+      width: 50px;
+      height: 1px;
+      background: #707070;
+    }
+    
+    .about_content{
+      display: block;
+  }
+
+  .campany, .map{
+      width: 80%;
+      margin: auto;
+      text-align: left;
+    }
+    
+    .campany{
+      padding: 30px;
+      border: 1px solid #707070;
+      position: relative;
+      z-index: 0;
+      margin-bottom: 50px;
+    }
+    
+    .campany h3{
+      font-size: 25px;
+      margin-top: 0;
+    }
+    
+    .map h3{
+      font-size: 25px;
+      margin: 0;
+    }
+    
+    .map h4{
+      font-size: 15px;
+      margin-top: 5px;
+    }
+    
+    .campany::before{
+      background-color: white;
+      content: "";
+      transform: rotate(32deg);
+      position: absolute;
+      top: 70px;
+      bottom: 70px;
+      right: 70px;
+      left: 70px;
+      z-index: -1;
+      overflow: hidden;
+    }
+    
+    .gray{
+      background: #F6F6F6;
+    }
+    
+    .gray p, .litegray p{
+      padding: 5px 15px;
+      font-size: 10px;
+    }
+    
+    .d-left{
+      width: 20%;
+      text-align: center;
+      border-right: 1px solid #707070;
+    }
+    
+    .d-right{
+      width: 80%;
+    }
+    
+    .contact h2{
+      line-height: 100%;
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    
+    .about_bd{
+      height: 10px;
+      margin: auto auto 50px;
+      width: 100%;
+      background: linear-gradient(to right, rgba(73, 132, 203, 1), rgba(212, 235, 251, 1), rgba(106, 132, 203, 1));
+  }
+
+  .contact{
+      padding: 20px 0;
+    }
+    
+    .contact h2{
+      font-size: 30px;
+    }
+    
+    .contact h2 span{
+      font-size: 15px;
+      font-weight: 300;
+      position: relative;
+    }
+    
+    .contact h2 span::before{
+      content: "";
+      position: absolute;
+      left: -140px;
+      top: -30px;
+      width: 50px;
+      height: 1px;
+      background: #707070;
+    }
+    
+    .contact h2 span::after{
+      content: "";
+      position: absolute;
+      right: -140px;
+      top: -30px;
+      width: 50px;
+      height: 1px;
+      background: #707070;
+  }
+
+  .formrun-embed{
+      border: 1px solid #707070;
+      width: 90%;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    
+    .last_arrow{
+      background: #F6F6F6;
+      padding: 10px 5px;
+      width: 90%;
+      margin: auto;
+      display: block;
+    }
+    
+    .last_arrow p{
+      text-align: left;
+      font-size: 15px;
+    }
+    
+    .last_arrow p span{
+      color: red;
+    }
+    
+    .last_arrow a{
+        font-size: 15px;
+      height: 45px;
+      padding: 0 15px;
+      border-radius: 5px;
+      color: white;
+      margin-bottom: 20px;
+    }
+    
+    .last_arrow a p{
+      line-height: 100%;
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .last_arrow img{
+        width: 5%;
+        margin: 5px;
+    }
+    
+    .last_arrow a p span{
+      font-size: 10px;
+      color: white;
+    }
+    
+    .last_right{
+      font-size: 24px;
+    }
+    
+    .contact .wrap{
+      width: 95%;
+      text-align: right;
+      margin-top: 10px;
+      font-size: 10px;
+  }
+
+  .contact .wrap img{
+      width: 10px;
+  }
+
+  .top_button{
+      width: 100px;
+      height: 100px;
+  }
+
+  .top_button img{
+      width: 70%;
+  }
+    
+    
+    footer{
+        display: block;
+    }
+    
+    footer .foot_logo{
+      color: white;
+      font-size: 15px;
+      font-weight: 500;
+      text-align: left;
+  }
+
+  .foot_copy{
+      margin: 0;
+      font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
     .pc_only{
         display: none;
     }
