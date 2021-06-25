@@ -672,7 +672,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
+  padding: 85px 0;
 }
 
 .approach .wrap a{
@@ -690,7 +690,7 @@ a {
 }
 
 .about{
-  padding: 100px 0;
+  padding: 90px 0 25px;
 }
 
 .about h2{
@@ -867,7 +867,7 @@ a {
 
 .last_arrow p{
   text-align: left;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .last_arrow p span{
@@ -879,8 +879,8 @@ a {
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom, rgb(232,183,140), rgba(228,61,61));
-  height: 70px;
-  padding: 0 25px;
+  height: 60px;
+  padding: 2px 37px 0 26px;
   border-radius: 5px;
   color: white;
 }
@@ -909,6 +909,10 @@ a {
   width: 75%;
   text-align: right;
   margin-top: 10px;
+}
+
+.contact .wrap a img{
+  padding: 1px 16px 0;
 }
 
 summary{
