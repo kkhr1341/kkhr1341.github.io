@@ -336,8 +336,8 @@ a {
   font-size: 14px;
 }
 
-.annotation{
-  font-size: 5px;
+.benefit_content div .annotation{
+  font-size: 11px;
   text-align: center;
   /* margin-right: 15px; */
 }
