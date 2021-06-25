@@ -932,6 +932,7 @@ details[open] summary .arrow-icon {
 
 summary{
   list-style: none;
+  outline: none;
 }
 
 .top_button{
