@@ -628,12 +628,12 @@
     .campany::before{
       background-color: white;
       content: "";
-      transform: rotate(32deg);
+      transform: rotate(8deg);
       position: absolute;
-      top: 70px;
-      bottom: 70px;
-      right: 70px;
-      left: 70px;
+      top: 10px;
+      bottom: 10px;
+      right: 10px;
+      left: 10px;
       z-index: -1;
       overflow: hidden;
     }
