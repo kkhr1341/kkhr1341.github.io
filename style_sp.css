@@ -818,7 +818,7 @@
 
     .head_top{
         font-size: 15px;
-        padding: 5px 0;
+        padding: 10px 5px;
     }
 
     .head_logo{
@@ -826,7 +826,8 @@
     }
 
     .head_right{
-        width: 50%;
+      display: block;
+      width: auto;
     }
 
     .head_right p{
