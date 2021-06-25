@@ -1138,7 +1138,7 @@
       
       .cost_container{
         border-bottom: 1px solid #707070;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
       }
       
       .cost_container div{
@@ -1175,6 +1175,7 @@
       .cost_link p{
         text-align: left;
         font-size: 10px;
+        margin-top: 20px;
       }
       
       .detail h3{
@@ -1235,7 +1236,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+        box-shadow: 0 3px 10px rgba(0, 0, 0, .15);
         width: 100%;
         margin:10px;
         padding: 0 10px;
