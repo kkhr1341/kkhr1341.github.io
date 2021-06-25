@@ -338,8 +338,8 @@ a {
 
 .annotation{
   font-size: 5px;
-  text-align: right;
-  margin-right: 15px;
+  text-align: center;
+  /* margin-right: 15px; */
 }
 
 .feature{
