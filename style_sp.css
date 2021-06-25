@@ -870,8 +870,9 @@
     }
 
     .kv_img{
-        background-size: 100%;
-        background-position: center top;
+      background-image: linear-gradient(to left, rgba(0, 135, 254, 0.4), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)), url(asset/img/kv.png);
+        background-size: cover;
+        background-position: right top;
         height: 500px;
     }
 
