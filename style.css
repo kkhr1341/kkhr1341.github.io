@@ -46,7 +46,7 @@ header > div {
   grid-template-columns: auto auto;
   width: 35.5rem;
   justify-self: right;
-  gap: 3rem;
+  gap: 2rem;
 }
 .ft_gr.hd_ct_gr {
   justify-self: center;
@@ -56,7 +56,7 @@ header > div {
 .hd_ct_gr > a {
   display: grid;
   grid-template-columns: auto auto;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
 }
 .hd_ct_gr > a > img {
@@ -133,13 +133,13 @@ header a {
   transform: translate(-50%, -50%);
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
-span.title{
+span.title {
   content: url(/assets/img/logo_a.svg);
   display: inline-block;
   width: 8rem;
   vertical-align: bottom;
 }
-span.title_o{
+span.title_o {
   font-size: 7rem;
   font-family: inherit;
 }
@@ -194,7 +194,8 @@ span.title_o{
 }
 .top_sec02_cont01 > div a {
   font-size: 2rem;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem;
+  text-align: center;
   background-color: #2a5caa;
   text-decoration: none;
   color: #f7f7f7;
@@ -534,10 +535,10 @@ footer > div:last-child {
   gap: 10rem;
   padding: 1rem;
 }
-.rec_sec01_cont01 > div > div:nth-child(1){
-  grid-column: 1/3; 
+.rec_sec01_cont01 > div > div:nth-child(1) {
+  grid-column: 1/3;
 }
-.rec_sec01_cont01 > div > div{
+.rec_sec01_cont01 > div > div {
   width: 90%;
   position: relative;
 }
@@ -553,19 +554,17 @@ footer > div:last-child {
 .rec_sec01_cont01 > div > div:nth-child(2)::before,
 .rec_sec01_cont01 > div > div:nth-child(3)::before {
   position: absolute;
-  left: -8rem;
-  writing-mode: vertical-rl;
-  font-size: 4rem;
-  font-weight: bold;
+  left: -5rem;
+  width: 3.5rem;
 }
 .rec_sec01_cont01 > div > div:nth-child(1)::before {
-  content: "佐野峯 光樹";
+  content: url(/assets/img/name01.svg);
 }
 .rec_sec01_cont01 > div > div:nth-child(2)::before {
-  content: "平山 秀澄";
+  content: url(/assets/img/name02.svg);
 }
 .rec_sec01_cont01 > div > div:nth-child(3)::before {
-  content: "藤本 健士";
+  content: url(/assets/img/name03.svg);
 }
 .rec_sec01_cont01 img {
   border: 1px solid #000a;
@@ -573,6 +572,12 @@ footer > div:last-child {
 .rec_sec01_cont01 p {
   font-size: 2rem;
   padding: 2rem;
+}
+.rec_sec01_cont01 h3 {
+  font-size: 2rem;
+  text-indent: 1em;
+  color: #2a5caa;
+  line-height: 2;
 }
 .rec_sec01 > h2 {
   border-left: solid 1.2rem #3451a4;
@@ -672,10 +677,10 @@ a.line {
   header h1 span {
     display: none;
   }
-  span.title{
+  span.title {
     width: 5.6rem;
   }
-  span.title_o{
+  span.title_o {
     font-size: 4.9rem;
   }
   .hd_ct_gr {
@@ -801,7 +806,7 @@ a.line {
   }
   .rec_sec01_cont01 > div > div:nth-child(1) {
     grid-column: 1/2;
-}
+  }
   .cntc_sec01 {
     padding: 1rem;
     grid-template-columns: auto;
