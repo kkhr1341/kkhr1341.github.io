@@ -441,11 +441,11 @@
   }
 
   .cost_contant {
-    width: 90%;
+    width: 95%;
     margin: auto;
     border: 0.1rem solid #707070;
     border-radius: 2rem;
-    padding: 1.5rem;
+    padding: 2rem;
   }
 
   .bd {
@@ -493,11 +493,11 @@
   }
 
   .detail_contant {
-    width: 90%;
+    width: 95%;
     margin: auto;
     border: 0.1rem solid #707070;
     border-radius: 2rem;
-    padding: 2rem;
+    padding: 3rem 4rem;
   }
 
   .detail_contant h4 {
@@ -536,7 +536,7 @@
     align-items: center;
     box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15);
     width: auto;
-    margin: 1rem;
+    margin: 0;
     padding: 0 1rem;
   }
 
