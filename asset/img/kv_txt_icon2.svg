@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="510" height="197" viewBox="0 0 510 197">
+  <defs>
+    <filter id="システム化" x="0" y="0" width="238" height="84" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="システム保守" x="228" y="113" width="282" height="84" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Imagination_Creative" x="72" y="78" width="282" height="43" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="グループ_9" data-name="グループ 9" transform="translate(-31 -285.469)">
+    <g transform="matrix(1, 0, 0, 1, 31, 285.47)" filter="url(#システム化)">
+      <text id="システム化-2" data-name="システム化" transform="translate(9 53)" fill="#292955" font-size="44" font-family="Meiryo-Bold, Meiryo" font-weight="700"><tspan x="0" y="0">システム化</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 31, 285.47)" filter="url(#システム保守)">
+      <text id="システム保守-2" data-name="システム保守" transform="translate(237 166)" fill="#292955" font-size="44" font-family="Meiryo-Bold, Meiryo" font-weight="700"><tspan x="0" y="0">システム保守</tspan></text>
+    </g>
+    <line id="線_3" data-name="線 3" y1="110" x2="319" transform="translate(108 333.469)" fill="none" stroke="rgba(41,41,85,0.16)" stroke-width="2"/>
+    <g id="グループ_8" data-name="グループ 8" transform="translate(112 369.858)">
+      <g transform="matrix(1, 0, 0, 1, -81, -84.39)" filter="url(#Imagination_Creative)">
+        <text id="Imagination_Creative-2" data-name="Imagination &amp; Creative" transform="translate(81 105)" fill="#4e4e6b" font-size="24" font-family="HGGothicE"><tspan x="0" y="0">Imagination &amp; Creative</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
