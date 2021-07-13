@@ -354,7 +354,7 @@ a {
   top: -5rem;
   left: -5rem;
 }
-main{
+main {
   padding-top: 8rem;
 }
 .benefit_content div p {
@@ -622,7 +622,7 @@ details[open] summary .arrow-icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.3);
   width: 100%;
   margin: 0 0.5rem;
   padding: 0 1rem;

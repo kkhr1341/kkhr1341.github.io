@@ -9,3 +9,4 @@ $(window).on( 'scroll', function () {
     $pagetop.addClass('isActive');
   }
 });
+$('#hbg_navs').on
