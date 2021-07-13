@@ -128,7 +128,6 @@
     display: inline-block;
   }
   .head_nav {
-
     padding: 0;
     flex-direction: column;
   }
@@ -826,7 +825,8 @@
   }
 
   .last_arrow a p span {
-    font-size: 2rem;
+    font-size: 1.7rem;
+    letter-spacing: -0.5px;
     color: white;
   }
 
@@ -882,7 +882,7 @@
   .service_content div::before {
     right: 2rem;
   }
-  .wrap{
+  .wrap {
     font-size: 2rem;
   }
 }
