@@ -64,9 +64,9 @@
   .hbg_nav {
     position: absolute;
     right: 0;
-    top: 0;
-    width: 8rem;
-    height: 8rem;
+    bottom: 0;
+    width: 7.25rem;
+    height: 7.25rem;
   }
   .hbg_nav > i {
     position: absolute;
