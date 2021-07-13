@@ -7,6 +7,8 @@ html {
   font-size: 0.5208vw;
 }
 
+body{font-size: 2rem;
+}
 details > summary::-webkit-details-marker {
   display: none;
 }
@@ -57,10 +59,13 @@ a {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   font-size: 2rem;
+  text-align: left;
 }
 
 .head_logo {
   font-size: 2rem;
+  width: fit-content;
+  width: -moz-fit-content;
 }
 
 .head_right {
@@ -396,6 +401,7 @@ main {
 
 .feature p span {
   color: #7aa5d7;
+  font-size: 2.5rem;
 }
 
 .feature_topic {
