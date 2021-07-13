@@ -70,8 +70,9 @@ a {
 
 .head_right {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
+  gap: 2rem;
 }
 
 .head_right p {
