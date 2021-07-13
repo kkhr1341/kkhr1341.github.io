@@ -809,17 +809,15 @@
 
   .last_arrow a {
     font-size: 2rem;
-    height: 4.5rem;
-    padding: 0 1.5rem;
+    height: 5.5rem;
+    padding: 1rem 1.5rem;
     border-radius: 0.5rem;
     color: white;
     margin-bottom: 2rem;
   }
 
   .last_arrow a p {
-    line-height: 100%;
-    font-size: 2rem;
-    text-align: center;
+    font-size: 2.7rem;
   }
 
   .last_arrow img {
