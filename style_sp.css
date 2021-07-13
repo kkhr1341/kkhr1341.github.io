@@ -866,12 +866,13 @@
     font-size: 2rem;
     font-weight: 500;
     text-align: left;
-    text-shadow: 0 0 1px #000;
+    text-shadow: 0 0 2px #000d;
   }
 
   .foot_copy {
     margin: 0;
     font-size: 2rem;
+    text-shadow: 0 0 2px #000d;
   }
   .feature_topic p {
     padding: 4.5rem 0;
