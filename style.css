@@ -354,12 +354,14 @@ a {
   top: -5rem;
   left: -5rem;
 }
-
+main{
+  padding-top: 8rem;
+}
 .benefit_content div p {
   font-size: 1.7rem;
 }
 .benefit_content img {
-  max-width: 100%;
+  max-width: 55%;
 }
 
 .benefit_content div .annotation {
@@ -393,7 +395,6 @@ a {
 }
 
 .feature p span {
-  font-size: 2rem;
   color: #7aa5d7;
 }
 
@@ -454,7 +455,6 @@ a {
 
 .cost_container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   place-items: center;
   margin-bottom: 5rem;
 }
@@ -491,7 +491,7 @@ details[open] .cost_container {
   font-size: 2.3rem;
   margin: 1rem auto;
   width: 100%;
-  border-bottom: dotted #707070 1px;
+  border-bottom: double #70707070 0.5rem;
 }
 
 .cost_link {
@@ -518,6 +518,7 @@ details[open] .cost_container {
 .cost_link p {
   text-align: left;
   font-size: 1.7rem;
+  margin: 0;
 }
 
 .detail h3 {
