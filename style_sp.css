@@ -299,7 +299,7 @@
 
   .service_content div h3 {
     text-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.3);
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
 
   .service_content div p {
@@ -339,7 +339,7 @@
     margin: 5rem auto;
     padding: 1rem 0;
     position: relative;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .benefit01::after {
@@ -434,7 +434,7 @@
     margin: auto;
     padding: 1rem;
     background: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 100;
   }
 
@@ -486,7 +486,7 @@
     margin: auto;
     padding: 1rem;
     background: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 100;
   }
 
@@ -654,7 +654,7 @@
     padding: 1rem 4rem;
     border-radius: 3rem;
     color: white;
-    font-size: 2.9rem;
+    font-size: 2.8rem;
   }
 
   .about {
@@ -807,10 +807,10 @@
   }
 
   .kv a {
-    font-size: 2.9rem;
+    font-size: 2.8rem;
   }
   .last_arrow a {
-    font-size: 2.9rem;
+    font-size: 2.8rem;
     height: 6.5rem;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
@@ -866,6 +866,7 @@
     font-size: 2rem;
     font-weight: 500;
     text-align: left;
+    text-shadow: 0 0 1px #000;
   }
 
   .foot_copy {
