@@ -111,7 +111,7 @@
   #hbg_nav:checked ~ label > .head_wrap {
     background: #4984cb;
     opacity: 1;
-    height: 23rem;
+    height: 36rem;
   }
   a.btn {
     background: linear-gradient(to bottom, rgb(232, 183, 140), rgba(228, 61, 61));
@@ -129,7 +129,7 @@
 
   .head_nav li {
     width: 100%;
-    height: 3rem;
+    height: 6rem;
     border-bottom: 0.1rem solid white;
     display: flex;
     justify-content: center;
@@ -189,9 +189,6 @@
 
   .benefit_content div p {
     font-size: 2rem;
-  }
-  .head_right span {
-    font-size: 0.8rem;
   }
 
   .head_right a {
