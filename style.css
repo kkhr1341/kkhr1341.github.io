@@ -63,7 +63,7 @@ a {
 }
 
 .head_logo {
-  font-size: 2rem;
+  font-size: 4rem;
   width: fit-content;
   width: -moz-fit-content;
 }
@@ -1054,6 +1054,7 @@ details > summary {
   display: grid;
   align-items: center;
   position: fixed;
+  z-index: 1000;
   right: 0;
   bottom: 0;
   background: rgba(255, 255, 255, 0.9);
@@ -1089,4 +1090,15 @@ footer .foot_logo {
   font-size: 2.6rem;
   font-weight: 900;
   text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+}
+
+.foot_copy {
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: left;
+  text-shadow: 0 0 2px #000d;
+}
+footer .head_nav li a {
+  text-shadow: 0 0 2px #000b;
 }
