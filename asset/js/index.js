@@ -1,12 +1,14 @@
 //下から表示させる要素を指定
-let $pagetop = $('.top_button');
+let $pagetop = $(".top_button");
 
-$(window).on( 'scroll', function () {
+$(window).on("scroll", function () {
   //スクロール位置を取得
-  if ( $(this).scrollTop() < 700 ) {
-    $pagetop.removeClass('isActive');
+  if ($(this).scrollTop() < 700) {
+    $pagetop.removeClass("isActive");
   } else {
-    $pagetop.addClass('isActive');
+    $pagetop.addClass("isActive");
   }
 });
-$('#hbg_navs').on
+$("#hbg_navs").on("click", function () {
+  $("#hbg_nav").prop("checked", false);
+});

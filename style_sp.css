@@ -117,6 +117,7 @@
     background: #4984cb;
     opacity: 1;
     height: 36rem;
+    box-shadow: 0 0.3rem 1rem rgb(0 0 0 / 30%);
   }
   a.btn {
     background: linear-gradient(to bottom, rgb(232, 183, 140), rgba(228, 61, 61));
@@ -849,8 +850,8 @@
   }
 
   .top_button {
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 7.5rem;
+    height: 7.5rem;
   }
 
   .top_button img {

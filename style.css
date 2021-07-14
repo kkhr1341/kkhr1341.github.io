@@ -7,7 +7,8 @@ html {
   font-size: 0.5208vw;
 }
 
-body{font-size: 2rem;
+body {
+  font-size: 2rem;
 }
 details > summary::-webkit-details-marker {
   display: none;
@@ -402,7 +403,7 @@ main {
 
 .feature p span {
   color: #7aa5d7;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .feature_topic {
@@ -1048,7 +1049,7 @@ details > summary {
 }
 
 .top_button {
-  box-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.3);
   width: 10rem;
   height: 10rem;
   display: grid;
@@ -1069,6 +1070,7 @@ details > summary {
 
 .top_button img {
   width: 70%;
+  vertical-align: top;
 }
 
 .top_button.isActive:hover {
@@ -1091,14 +1093,7 @@ footer .foot_logo {
   font-weight: 900;
   text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
 }
-
+footer .head_nav li a,
 .foot_copy {
-  color: white;
-  font-size: 2rem;
-  font-weight: 500;
-  text-align: left;
-  text-shadow: 0 0 2px #000d;
-}
-footer .head_nav li a {
-  text-shadow: 0 0 2px #000b;
+  text-shadow: 0 0 1.5px #000b;
 }
