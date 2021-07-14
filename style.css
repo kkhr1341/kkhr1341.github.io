@@ -144,7 +144,7 @@ a {
 }
 
 .kv_img {
-  background-image: linear-gradient(to right, rgba(0, 135, 254, 0.4), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)), url("asset/img/kv.png");
+  background-image: linear-gradient(to right, rgba(0, 135, 254, 0.4), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)), url("asset/img/kv.jpg");
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: right center;
@@ -360,9 +360,6 @@ a {
   background: url("asset/img/benefit03.svg") center center/cover no-repeat;
   top: -5rem;
   left: -5rem;
-}
-main {
-  padding-top: 8rem;
 }
 .benefit_content div p {
   font-size: 1.7rem;
