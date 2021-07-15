@@ -42,7 +42,7 @@
     .pc_only {
         display: none;
     }
-    #top {
+    header {
         position: fixed;
         z-index: 1000;
         width: 100%;
