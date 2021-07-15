@@ -161,12 +161,12 @@ a {
 .kv_txt {
     position: absolute;
     left: 0.5rem;
-    top: 6rem;
+    top: 8rem;
     box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
-    padding: 7rem 8.5rem;
+    padding: 5rem 3.5rem;
     background: white;
     border-radius: 2rem;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,13 +174,13 @@ a {
 }
 
 .kv_txt>img {
-    width: 50rem;
+    width: 63rem;
 }
 
 .kv_txt .left {
     text-align: left;
     line-height: 200%;
-    margin: 5rem 0;
+    margin: 4rem 0 1.8rem 1.1rem;
 }
 
 .kv a {
