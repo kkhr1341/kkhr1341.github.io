@@ -150,21 +150,19 @@ a {
 }
 
 .kv_img {
-    background-image: linear-gradient(to right, rgba(0, 135, 254, 0.4), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)), url("asset/img/kv.jpg");
+    background-image: linear-gradient(to right, rgb(255 255 255 / 100%), rgba(255, 255, 255, 94%), rgb(221 240 249 / 30%), rgba(255, 255, 255, 0)), url(asset/img/kv.jpg);
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 63%;
     background-position: right center;
-    height: 62.5rem;
+    height: 68.5rem;
     position: relative;
 }
 
 .kv_txt {
     position: absolute;
-    left: 0.5rem;
-    top: 8rem;
-    box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+    left: 15.5rem;
+    top: 9rem;
     padding: 5rem 3.5rem;
-    background: white;
     border-radius: 2rem;
     font-size: 1.9rem;
     display: flex;
@@ -202,7 +200,8 @@ a {
 .kv .copylight {
     font-size: 2rem;
     text-align: right;
-    margin: 1rem 0.5rem 0;
+    margin: 1rem 0.8rem 0;
+    color: #716f95;
 }
 
 .kv h1 {
