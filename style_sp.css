@@ -273,7 +273,7 @@
         margin: 0;
         padding: 0;
     }
-    .service_content div {
+    .service_content>div>div{
         margin: 5rem auto;
         width: 90%;
         padding: 3rem;
@@ -291,9 +291,6 @@
         padding: 1.5rem;
         font-size: 2rem;
         position: relative;
-    }
-    .service_content div::before {
-        right: 50%;
     }
     .benefit::before {
         position: absolute;
@@ -771,9 +768,6 @@
 @media screen and (max-width: 479px) {
     html {
         font-size: 6px;
-    }
-    .service_content div::before {
-        right: 2rem;
     }
     .wrap {
         font-size: 2rem;

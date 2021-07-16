@@ -265,7 +265,10 @@ a {
   overflow: hidden;
 }
 
-.service_content div {
+.service_content > div {
+  overflow: hidden;
+}
+.service_content > div > div {
   padding: 2rem;
   text-align: left;
   border: 0.1rem solid #707070;
@@ -291,7 +294,7 @@ a {
   text-align: center;
 }
 
-.service_content div::before {
+.service_content > div > div::before {
   background-color: white;
   content: "";
   transform: rotate(32deg);
@@ -304,11 +307,15 @@ a {
 }
 
 .service_content div p {
-  text-align: center;
-  line-height: 200%;
-  font-size: 1.8rem;
-}
+    text-align: center;
+    line-height: 200%;
+    font-size: 1.8rem;
+  }
 
+  .service_content>div>div>p>span {
+    font-size: 1.8rem;
+  }
+    
 .benefit {
   background: linear-gradient(to right, #f2f8f3, #d4ebfb, #6a99d1);
   padding: 8rem 2rem 3rem;
