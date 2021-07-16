@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  font-family: sans-serif;
 }
 
 html {
@@ -151,8 +151,8 @@ a {
 .kv_img {
   background-image: linear-gradient(to right, rgb(255 255 255 / 100%), rgba(255, 255, 255, 94%), rgb(221 240 249 / 30%), rgba(255, 255, 255, 0)), url(asset/img/kv.jpg);
   background-repeat: no-repeat;
-  background-size: cover, cover;
-  background-position: right center;
+  background-size: 63%, 63%;
+  background-position: right center,right center;
   height: 68.5rem;
   position: relative;
 }
@@ -269,6 +269,7 @@ a {
   overflow: hidden;
 }
 .service_content > div > div {
+  height: 100%;
   padding: 2rem;
   text-align: left;
   border: 0.1rem solid #707070;
@@ -307,15 +308,15 @@ a {
 }
 
 .service_content div p {
-    text-align: center;
-    line-height: 200%;
-    font-size: 1.8rem;
-  }
+  text-align: center;
+  line-height: 200%;
+  font-size: 1.8rem;
+}
 
-  .service_content>div>div>p>span {
-    font-size: 1.8rem;
-  }
-    
+.service_content > div > div > p > span {
+  font-size: 1.8rem;
+}
+
 .benefit {
   background: linear-gradient(to right, #f2f8f3, #d4ebfb, #6a99d1);
   padding: 8rem 2rem 3rem;
