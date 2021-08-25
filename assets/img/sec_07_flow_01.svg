@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="350" viewBox="0 0 350 350">
+  <defs>
+    <filter id="パス_2633" x="0" y="0" width="350" height="350" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="グループ_1786" data-name="グループ 1786" transform="translate(-296 -8552)">
+    <g data-type="innerShadowGroup">
+      <path id="パス_2633-2" data-name="パス 2633" d="M175,0A175,175,0,1,1,0,175,175,175,0,0,1,175,0Z" transform="translate(296 8552)" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, 296, 8552)" filter="url(#パス_2633)">
+        <path id="パス_2633-3" data-name="パス 2633" d="M175,0A175,175,0,1,1,0,175,175,175,0,0,1,175,0Z" fill="#fff"/>
+      </g>
+    </g>
+    <g id="グループ_1754" data-name="グループ 1754" transform="matrix(0.966, -0.259, 0.259, 0.966, 272.53, 8349.5)">
+      <path id="パス_2253" data-name="パス 2253" d="M68.85,312.719H6.436c-1.636,0-2.969,1.722-2.969,3.84v99.535c0,2.128,1.333,3.846,2.969,3.846H68.85c1.642,0,2.985-1.719,2.985-3.846V316.559C71.835,314.441,70.492,312.719,68.85,312.719ZM38.035,416.24a4.132,4.132,0,1,1,4.126-4.136A4.137,4.137,0,0,1,38.035,416.24Zm29.5-15.742a2.832,2.832,0,0,1-2.61,3.005H10.359A2.835,2.835,0,0,1,7.746,400.5V322.569a2.838,2.838,0,0,1,2.613-3.009H64.927a2.835,2.835,0,0,1,2.61,3.009Z" transform="translate(0)" fill="#bac2c7"/>
+    </g>
+    <g id="グループ_1755" data-name="グループ 1755" transform="translate(-50.761 8638.906)">
+      <path id="パス_2254" data-name="パス 2254" d="M534.645,87.7l23.629-6.277a47.375,47.375,0,1,0-6.839-9.182Zm75.74-38.167a5.817,5.817,0,1,1,5.8,5.824A5.827,5.827,0,0,1,610.385,49.534Zm-23.465,0a5.818,5.818,0,1,1,5.835,5.824A5.835,5.835,0,0,1,586.92,49.534Zm-23.456,0a5.822,5.822,0,1,1,5.824,5.824A5.831,5.831,0,0,1,563.464,49.534Z" transform="translate(0 0)" fill="#bac2c7"/>
+    </g>
+    <g id="グループ_1758" data-name="グループ 1758" transform="translate(-661.141 7643.932)">
+      <path id="パス_2614" data-name="パス 2614" d="M1235.417,1135.219l-.674-.776v-4.887H1122.207v4.887l-10.46,11.931H1245.2Zm-21.824,4.664h-70.23v-5.453h70.23Z" transform="translate(0 59.427)" fill="#bac2c7"/>
+      <path id="パス_2615" data-name="パス 2615" d="M1225.833,1119.219H1113.3v71.129h112.536ZM1219,1185.292h-98.877v-61.025H1219Z" transform="translate(8.91 0)" fill="#bac2c7"/>
+    </g>
+  </g>
+</svg>

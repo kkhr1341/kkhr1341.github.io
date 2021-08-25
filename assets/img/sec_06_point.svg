@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1326" height="511" viewBox="0 0 1326 511">
+  <defs>
+    <filter id="長方形_2575" x="685" y="9" width="641" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_2576" x="685" y="80" width="641" height="79" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_2577" x="685" y="150" width="641" height="79" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_2578" x="685" y="221" width="641" height="79" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_2579" x="685" y="291" width="641" height="79" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_2580" x="685" y="361" width="641" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_2581" x="685" y="431" width="641" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="パス_2262">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-8"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="グループ_1785" data-name="グループ 1785" transform="translate(-300 -7452)">
+    <text id="_10_000ポイント" data-name="10,000ポイント" transform="translate(510 7937)" fill="#0b7ac0" font-size="85" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="-205.923" y="0">10,000</tspan><tspan y="0" font-size="38">ポイント</tspan></text>
+    <text id="CreativeConciergeへご加入頂いたユーザー様へ_10_000ポイントを付与させていただきます_" data-name="CreativeConciergeへご加入頂いたユーザー様へ
+10,000ポイントを付与させていただきます。" transform="translate(300 7474)" font-size="25" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">CreativeConciergeへご加入頂いたユーザー様へ</tspan><tspan x="0" y="41">10,000ポイントを付与させていただきます。</tspan></text>
+    <g id="グループ_1660" data-name="グループ 1660" transform="translate(301.25 7520.692)">
+      <line id="線_30" data-name="線 30" x2="168.657" transform="translate(0)" fill="none" stroke="red" stroke-width="1"/>
+      <line id="線_31" data-name="線 31" x2="168.657" transform="translate(0 3.521)" fill="none" stroke="red" stroke-width="1"/>
+    </g>
+    <g id="グループ_1661" data-name="グループ 1661" transform="translate(329.676 7632.891)">
+      <path id="パス_2259" data-name="パス 2259" d="M537.589,1210.156a31.446,31.446,0,1,0-31.441,31.431A31.455,31.455,0,0,0,537.589,1210.156Z" transform="translate(-442.676 -1178.715)" fill="#bac2c7"/>
+      <path id="パス_2260" data-name="パス 2260" d="M486.817,1270.869l10.094-10.094-7.922-57.612,7.922-7.923-10.094-10.094-10.094,10.094,7.913,7.923-7.913,57.612Z" transform="translate(-423.349 -1117.37)" fill="#bac2c7"/>
+      <path id="パス_2261" data-name="パス 2261" d="M555.38,1185.821h-1.1l2.971,2.992-6.016,6.016-4.931,4.931,7.344,53.42.579,4.195-2.992,2.992-10.084,10.1-6.027,6.018-6.037-6.018-10.084-10.1-3-2.992.59-4.195,7.334-53.42-4.921-4.931-6.027-6.016,2.971-2.992h-1.085a43.271,43.271,0,0,0-43.21,43.22v59h19.313V1226.7h8.524v61.342h70.447V1226.7h8.524v61.342h20.1v-59A43.267,43.267,0,0,0,555.38,1185.821Z" transform="translate(-471.657 -1110.937)" fill="#bac2c7"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 300, 7452)" filter="url(#長方形_2575)">
+      <rect id="長方形_2575-2" data-name="長方形 2575" width="623" height="62" transform="translate(694 15)" fill="#fff"/>
+    </g>
+    <text id="プレゼン用資料作成" transform="translate(1035 7509)" font-size="30" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">プレゼン用資料作成</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 300, 7452)" filter="url(#長方形_2576)">
+      <rect id="長方形_2576-2" data-name="長方形 2576" width="623" height="61" transform="translate(694 86)" fill="#fff"/>
+    </g>
+    <text id="チラシ作成" transform="translate(1035 7581)" font-size="30" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">チラシ作成</tspan></text>
+    <text id="_2_000ポイント" data-name="2,000ポイント" transform="translate(1392 7509)" fill="#0b7ac0" font-size="30" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">2,000ポイント</tspan></text>
+    <text id="_2_000ポイント-2" data-name="2,000ポイント" transform="translate(1392 7580)" fill="#0b7ac0" font-size="30" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">2,000ポイント</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 300, 7452)" filter="url(#長方形_2577)">
+      <rect id="長方形_2577-2" data-name="長方形 2577" width="623" height="61" transform="translate(694 156)" fill="#fff"/>
+    </g>
+    <text id="_1_000ポイント" data-name="1,000ポイント" transform="translate(1392 7651)" fill="#0b7ac0" font-size="30" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">1,000ポイント</tspan></text>
+    <text id="請求書作成10件" transform="translate(1035 7651)" font-size="30" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">請求書作成10件</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 300, 7452)" filter="url(#長方形_2578)">
+      <rect id="長方形_2578-2" data-name="長方形 2578" width="623" height="61" transform="translate(694 227)" fill="#fff"/>
+    </g>
+    <text id="給与_経費_計算3名" data-name="給与（経費）計算3名" transform="translate(1035 7721)" font-size="30" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">給与（経費）計算3名</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 300, 7452)" filter="url(#長方形_2579)">
+      <rect id="長方形_2579-2" data-name="長方形 2579" width="623" height="61" transform="translate(694 297)" fill="#fff"/>
+    </g>
+    <text id="領収書分け100件" transform="translate(1035 7791)" font-size="30" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">領収書分け100件</tspan></text>
+    <text id="_1_500ポイント" data-name="1,500ポイント" transform="translate(1392 7721)" fill="#0b7ac0" font-size="30" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">1,500ポイント</tspan></text>
+    <text id="_2_000ポイント-3" data-name="2,000ポイント" transform="translate(1392 7791)" fill="#0b7ac0" font-size="30" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">2,000ポイント</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 300, 7452)" filter="url(#長方形_2580)">
+      <rect id="長方形_2580-2" data-name="長方形 2580" width="623" height="62" transform="translate(694 367)" fill="#fff"/>
+    </g>
+    <text id="競合調査3社" transform="translate(1035 7861)" font-size="30" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">競合調査3社</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 300, 7452)" filter="url(#長方形_2581)">
+      <rect id="長方形_2581-2" data-name="長方形 2581" width="623" height="62" transform="translate(694 437)" fill="#fff"/>
+    </g>
+    <text id="HP画像差し替え" transform="translate(1035 7932)" font-size="30" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">HP画像差し替え</tspan></text>
+    <text id="_1_000ポイント-2" data-name="1,000ポイント" transform="translate(1392 7861)" fill="#0b7ac0" font-size="30" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">1,000ポイント</tspan></text>
+    <text id="_500ポイント" data-name="500ポイント" transform="translate(1392 7932)" fill="#0b7ac0" font-size="30" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">500ポイント</tspan></text>
+    <line id="線_32" data-name="線 32" y2="28.171" transform="translate(1013.522 7485.038)" fill="none" stroke="#bac2c7" stroke-width="12"/>
+    <line id="線_33" data-name="線 33" y2="28.171" transform="translate(1013.522 7555.467)" fill="none" stroke="#bac2c7" stroke-width="12"/>
+    <line id="線_34" data-name="線 34" y2="28.171" transform="translate(1013.522 7625.894)" fill="none" stroke="#bac2c7" stroke-width="12"/>
+    <line id="線_35" data-name="線 35" y2="28.171" transform="translate(1013.522 7696.322)" fill="none" stroke="#bac2c7" stroke-width="12"/>
+    <line id="線_36" data-name="線 36" y2="28.171" transform="translate(1013.522 7766.75)" fill="none" stroke="#bac2c7" stroke-width="12"/>
+    <line id="線_37" data-name="線 37" y2="28.171" transform="translate(1013.522 7837.177)" fill="none" stroke="#bac2c7" stroke-width="12"/>
+    <line id="線_38" data-name="線 38" y2="28.171" transform="translate(1013.522 7907.605)" fill="none" stroke="#bac2c7" stroke-width="12"/>
+    <g data-type="innerShadowGroup">
+      <path id="パス_2262-2" data-name="パス 2262" d="M0,139.411l85.229-10.165C116.321,143.85,159.971,153,208.471,153c94.135,0,170.428-34.261,170.428-76.49C378.9,34.242,302.605,0,208.471,0,114.356,0,38.053,34.242,38.053,76.513c0,13.778,8.275,26.692,22.507,37.864Z" transform="translate(469.907 7592.896)" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, 300, 7452)" filter="url(#パス_2262)">
+        <path id="パス_2262-3" data-name="パス 2262" d="M0,139.411l85.229-10.165C116.321,143.85,159.971,153,208.471,153c94.135,0,170.428-34.261,170.428-76.49C378.9,34.242,302.605,0,208.471,0,114.356,0,38.053,34.242,38.053,76.513c0,13.778,8.275,26.692,22.507,37.864Z" transform="translate(169.91 140.9)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="こんなにできるの_" data-name="こんなにできるの！?" transform="translate(527 7679)" fill="#0b7ac0" font-size="30" font-family="KozGoPro-Medium, Kozuka Gothic Pro" font-weight="500"><tspan x="0" y="0">こんなにできるの！?</tspan></text>
+  </g>
+</svg>
