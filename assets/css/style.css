@@ -287,7 +287,7 @@ body {
     .box p strong {
         margin: 0;
         padding: 0;
-        color: #f52b16;
+        color: #f33737;
         font-size: 60px;
         font-weight: bold;
         text-align: center;
@@ -707,7 +707,7 @@ body {
 
 .lp-sec-band>.lp-block {
     padding: 30px;
-    background-color: #186c87;
+    background-color: #B0E0E6;
     color: #ffffff;
     white-space: nowrap;
     /* 改行しない */
@@ -770,7 +770,7 @@ body {
         margin: 0 0 0 5vw;
         padding: 10px;
         font-size: 40px;
-        color: #f52b16;
+        color: #f33737;
     }
     .line {
         margin: 0 auto;
@@ -811,7 +811,7 @@ body {
         color: #ffffff;
         text-align: center;
         font-weight: bold;
-        background: #186c87;
+        background: #B0E0E6;
         border: solid 3px #e4e4e4;
         /* 線 */
         border-radius: 10px;
@@ -857,7 +857,7 @@ body {
         margin: 0 auto 30px;
         border-style: solid;
         border-width: 50px 150px 0 150px;
-        border-color: #f52b16 transparent transparent transparent;
+        border-color: #f33737 transparent transparent transparent;
     }
     .result {
         margin: 20px auto 30px;
@@ -870,7 +870,7 @@ body {
         font-weight: bold;
     }
     #example strong {
-        color: #f52b16;
+        color: #f33737;
         font-size: 40px;
         text-decoration: underline #ffdf28;
         /* アンダーバー表示 */
@@ -1013,7 +1013,7 @@ body {
         margin: 0 auto 30px;
         border-style: solid;
         border-width: 50px 150px 0 150px;
-        border-color: #f52b16 transparent transparent transparent;
+        border-color: #f33737 transparent transparent transparent;
     }
     .result {
         margin: 20px auto 30px;
@@ -1026,7 +1026,7 @@ body {
         font-weight: bold;
     }
     #example strong {
-        color: #f52b16;
+        color: #f33737;
         font-size: 6vw;
         text-decoration: underline #ff0000;
         /* アンダーバー表示 */
@@ -1127,7 +1127,7 @@ body {
     #faq .faqa {
         font-weight: bold;
         font-size: 30px;
-        color: #f52b16;
+        color: #f33737;
         margin-right: 40px;
     }
 }
@@ -1196,7 +1196,7 @@ body {
     text-align: center;
     font-size: 13px;
     color: #ffffff;
-    background: #f52b16;
+    background: #f33737;
     border-radius: 3px;
 }
 
@@ -1337,7 +1337,7 @@ body {
     padding: 2px;
     overflow: hidden;
     /*要素の内容が多すぎてブロック整形コンテキストに収まらない場合にどうするか（hidden：隠す）*/
-    background-color: #186c87;
+    background-color: #B0E0E6;
     text-align: center;
     color: #ffffff;
 }
