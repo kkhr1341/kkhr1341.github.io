@@ -1,0 +1,1375 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Yu Gothic", "游ゴシック", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    background-color: #ffffff;
+    line-height: 1.3;
+    /* 行間 */
+    color: #222222;
+    /* フォントカラー */
+}
+
+
+/* ===========================
+           header
+ ===========================*/
+
+#header {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px 5px;
+    background-color: #ffffff;
+    position: fixed;
+    /* 固定 */
+    top: 0;
+    /* どこに固定するか */
+    /* 横並びにする */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 3px #e6e6e6;
+    /* 縦方向の中心に横並びにする */
+}
+
+#header li:hover {
+    text-decoration: underline;
+}
+
+
+/* 767px以上のPC用の記述 */
+
+@media screen and (min-width:767px) {
+    #header img {
+        align-items: left;
+        width: 260px;
+        height: auto;
+    }
+    .hamburger-menu {
+        display: none;
+    }
+    .sp-nav {
+        display: none;
+    }
+    #header .pc-nav {
+        margin: 4px 0 0 auto;
+        white-space: nowrap;
+        /* 改行しない */
+    }
+    #header ul {
+        margin: 0;
+        list-style: none;
+        display: flex;
+        /* 並べる */
+    }
+    #header .pc-nav li {
+        margin: 0 0 0 25px;
+        font-weight: bold;
+    }
+    #header .pc-nav a {
+        text-decoration: none;
+        /* アンダーバー非表示 */
+        color: #4b4b4b;
+    }
+}
+
+
+/* 766px以下のPC用の記述 */
+
+@media screen and (max-width: 766px) {
+    #header img {
+        align-items: left;
+        width: 180px;
+        height: auto;
+    }
+    .pc-nav {
+        display: none;
+    }
+    /* ハンバーガーボタン */
+    .menu-btn {
+        position: fixed;
+        /* ？ */
+        top: 8px;
+        right: 10px;
+        display: flex;
+        height: 40px;
+        width: 40px;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+        /* background-color: #3584bb; */
+    }
+    .menu-btn span,
+    .menu-btn span:before,
+    .menu-btn span:after {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 25px;
+        border-radius: 3px;
+        background-color: #222222;
+        position: absolute;
+    }
+    .menu-btn span:before {
+        bottom: 8px;
+    }
+    .menu-btn span:after {
+        top: 8px;
+    }
+    /* ハンバーガーボタンがクリックされた時に閉じるボタンに変える */
+    #menu-btn-check:checked~.menu-btn span {
+        background-color: #ffffff;
+        /*メニューオープン時は真ん中の線を透明にする*/
+    }
+    #menu-btn-check:checked~.menu-btn span::before {
+        bottom: 0;
+        transform: rotate(45deg);
+    }
+    #menu-btn-check:checked~.menu-btn span::after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+    /* ハンバーガーボタン確認用のチェックボックスを非表示 */
+    #menu-btn-check {
+        display: none;
+    }
+    .menu-content {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        /*leftの値を変更してメニューを画面外へ*/
+        z-index: 80;
+        background-color: #ffffff;
+        transition: all 0.5s;
+        /*アニメーション設定*/
+    }
+    .menu-content ul {
+        padding: 70px 10px 0;
+        /* list-style-image:  */
+    }
+    .menu-content ul li {
+        border-bottom: dotted 1px #222222;
+    }
+    .menu-content ul li a {
+        display: block;
+        width: 100%;
+        font-size: 20px;
+        box-sizing: border-box;
+        color: #222222;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 9px 15px 10px 0;
+        position: relative;
+    }
+    .menu-content ul li a::before {
+        content: "";
+        width: 7px;
+        height: 7px;
+        border-top: solid 2px #ffffff;
+        border-right: solid 2px #ffffff;
+        transform: rotate(45deg);
+        position: absolute;
+        right: 11px;
+        top: 16px;
+    }
+    #menu-btn-check:checked~.menu-content {
+        left: 50%;
+        /*メニューを画面内へ*/
+    }
+}
+
+
+/* ===========================
+        メインビジュアル
+ ===========================*/
+
+.main-visual_box {
+    margin: 0;
+    padding: 0;
+    /* 縦並びにする */
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    max-width: 980px;
+}
+
+
+/* 767px以上のPC用の記述 */
+
+@media screen and (min-width:767px) {
+    .main-visual {
+        margin: 0;
+        padding: 150px 40px 40px;
+        /* 背景 */
+        background: url("../img/FirsrView.svg") no-repeat center top;
+        background-size: cover;
+        /*画像の縦横比保持で最大表示*/
+    }
+    .main-visual_text1 {
+        font-size: 30px;
+        /* ウインドウサイズに合わせて可変 */
+        font-weight: bold;
+        color: #191852;
+        text-align: left;
+        white-space: nowrap;
+        /* 改行しない */
+        background-color: #ffffff;
+        padding: 5px;
+        /* 文字周りの余白 */
+        border-radius: 5px;
+        /* 角丸 */
+        width: fit-content;
+        height: fit-content;
+    }
+    .main-visual_text2 {
+        margin: 25px 0 0 0;
+        font-size: 80px;
+        /* ウインドウサイズに合わせて可変 */
+        font-weight: bold;
+        color: #ffffff;
+        text-align: left;
+        white-space: nowrap;
+        /* 改行しない */
+    }
+    .main-visual_text3 {
+        font-size: 100px;
+        /* ウインドウサイズに合わせて可変 */
+        font-weight: bold;
+        color: #ffffff;
+        text-align: left;
+        white-space: nowrap;
+        /* 改行しない */
+    }
+    .box_three {
+        margin: 80px 0 30px;
+        display: flex;
+        /* 並べる */
+        flex-direction: row;
+        /* 横並び(左から) */
+        white-space: nowrap;
+        /* 改行しない */
+    }
+    .box {
+        margin: 0 20px;
+        padding: 0 0 5px;
+        background: #ffffff;
+        border-radius: 5px;
+        /*角丸*/
+        width: calc(100%/3);
+        height: fit-content;
+    }
+    .box h2 {
+        margin: 0;
+        padding: 10px 0 10px 0;
+        font-size: 25px;
+        font-weight: bold;
+        color: #191852;
+        text-align: center;
+    }
+    .box p {
+        margin: 0;
+        padding: 10px 0 0 0;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .box p strong {
+        margin: 0;
+        padding: 0;
+        color: #f52b16;
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .main-visual_text4 {
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        font-weight: bold;
+        color: #ffffff;
+        text-align: left;
+        white-space: nowrap;
+        /* 改行しない */
+        display: flex;
+        align-items: flex-end;
+        /* 縦軸の位置 */
+    }
+}
+
+
+/* 766px以下のPC用の記述 */
+
+@media screen and (max-width: 766px) {
+    .main-visual {
+        margin: 0;
+        padding: 12vh 5vw 5vh;
+        /* 背景 */
+        background: url("../img/FirsrView.svg") no-repeat center top;
+        background-size: cover;
+        /*画像の縦横比保持で最大表示*/
+    }
+    .main-visual_text1 {
+        font-size: 5vw;
+        /* ウインドウサイズに合わせて可変 */
+        font-weight: bold;
+        color: #191852;
+        text-align: left;
+        white-space: nowrap;
+        /* 改行しない */
+        background-color: #ffffff;
+        padding: .5vw;
+        /* 文字周りの余白 */
+        border-radius: 5px;
+        /* 角丸 */
+        width: fit-content;
+        height: fit-content;
+    }
+    .main-visual_text2 {
+        margin: 3vh 0 0 0;
+        font-size: 12vw;
+        /* ウインドウサイズに合わせて可変 */
+        font-weight: bold;
+        color: #ffffff;
+        text-align: left;
+        white-space: nowrap;
+        /* 改行しない */
+    }
+    .main-visual_text3 {
+        font-size: 15vw;
+        /* ウインドウサイズに合わせて可変 */
+        font-weight: bold;
+        color: #ffffff;
+        text-align: left;
+        white-space: nowrap;
+        /* 改行しない */
+    }
+    .box_three {
+        margin: 30px auto 30px;
+        display: flex;
+        /* 並べる */
+        flex-direction: row;
+        /* 横並び(左から) */
+        white-space: nowrap;
+        /* 改行しない */
+    }
+    .box {
+        margin: 0 1.5vw;
+        padding: 0 0 1vw;
+        background: #ffffff;
+        border-radius: 5px;
+        /*角丸*/
+        width: calc(100%/3);
+        height: fit-content;
+    }
+    .box h2 {
+        margin: 0;
+        padding: 10px 0 10px 0;
+        font-size: 3vw;
+        font-weight: bold;
+        color: #191852;
+        text-align: center;
+    }
+    .box p {
+        margin: 0;
+        padding: 10px 0 0 0;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .box p strong {
+        margin: 0;
+        padding: 0;
+        color: #FF8A00;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .main-visual_text4 {
+        margin: 0;
+        padding: 0;
+        font-size: 3vw;
+        font-weight: bold;
+        color: #ffffff;
+        white-space: nowrap;
+        /* 改行しない */
+        display: flex;
+        align-items: flex-end;
+        /* 縦軸の位置 */
+    }
+}
+
+
+/* ボックス内の線 */
+
+.box hr {
+    width: 90%;
+}
+
+
+/* ===========================
+      コンバージョンボタン
+ ===========================*/
+
+.cv_box {
+    margin: 45px auto 60px;
+    padding: 0;
+    width: 700px;
+    background-color: #ffffff;
+    align-items: center;
+    color: #4b4b4b;
+    text-align: center;
+    font-weight: bold;
+    /* flexアイテムの主軸方向の揃え位置を指定 */
+    justify-content: space-around;
+    /* 主軸の幅に対して余白をもって等間隔に配置 */
+}
+
+.button-shadow1 {
+    margin: 0 auto;
+    padding: 20px 20px 20px;
+    background: #2eaa09;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    /* アンダーバー非表示 */
+    text-align: center;
+    display: flex;
+    /* ボタンを横並びにする */
+    box-sizing: border-box;
+    border-radius: 40px;
+    border-bottom: 5px solid #0000004d;
+}
+
+.button-shadow2 {
+    margin: 0 auto;
+    padding: 20px 20px 20px;
+    background: #f77326;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    /* アンダーバー非表示 */
+    text-align: center;
+    display: flex;
+    /* ボタンを横並びにする */
+    box-sizing: border-box;
+    border-radius: 40px;
+    border-bottom: 5px solid #0000004d;
+}
+
+.button-shadow1:hover {
+    transition: .1s;
+    opacity: 0.8;
+    /* 不透明度 */
+    -ms-transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+    /*下に動く*/
+}
+
+.button-shadow2:hover {
+    transition: .1s;
+    opacity: 0.8;
+    /* 不透明度 */
+    -ms-transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+    /*下に動く*/
+}
+
+
+/* 767px以上のPC用の記述 */
+
+@media screen and (min-width:767px) {
+    .cv_box .btn_box {
+        margin: 0 auto;
+        /* 横並びにする */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .cv_box p {
+        margin: 0 auto;
+        font-size: 25px;
+        font-weight: bold;
+        color: #12222c;
+    }
+}
+
+
+/* 766px以下のPC用の記述 */
+
+@media screen and (max-width: 766px) {
+    .cv_box {
+        margin: 20px auto 20px;
+        padding: 0;
+        width: 90%;
+        background-color: #ffffff;
+        align-items: center;
+        color: #4b4b4b;
+        text-align: center;
+        font-weight: bold;
+        /* flexアイテムの主軸方向の揃え位置を指定 */
+        justify-content: space-around;
+        /* 主軸の幅に対して余白をもって等間隔に配置 */
+    }
+    .cv_box .btn_box {
+        margin: 0 auto;
+        /* 横並びにする */
+        display: flex;
+        flex-direction: row;
+    }
+    .cv_box p {
+        margin: 0 auto;
+        font-size: 3vw;
+        white-space: nowrap;
+        /* 改行しない */
+    }
+}
+
+
+/* ===========================
+      　　 　特徴
+ ===========================*/
+
+#point {
+    padding: 50px 0 50px;
+    /* 背景 */
+    background: url("../img/Randomized.svg") no-repeat 0 0;
+    background-size: cover;
+    /* テキスト */
+    color: #191852;
+    font-weight: bold;
+    white-space: nowrap;
+    /* 改行しない */
+}
+
+
+/* 767px以上のPC用の記述 */
+
+@media screen and (min-width:767px) {
+    #point .point_block {
+        margin: 0 auto;
+        /*中央に配置*/
+        /* 縦並びにする */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+    }
+    #point>.point_block>.point_top {
+        /* 横並びにする */
+        display: flex;
+        flex-direction: row;
+    }
+    /* 安心の3POINT */
+    #point>.point_block>.point_top>.box {
+        padding: 10px;
+        background: #191852;
+        width: 130px;
+        height: 130px;
+        font-size: 25px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 1.3;
+        /* 行間 */
+    }
+    #point>.point_block>.point_top>.box strong {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    /*プロのアドバイザーが丁寧にサポート*/
+    .support {
+        text-align: left;
+        font-size: 50px;
+        font-weight: bold;
+        white-space: nowrap;
+        /* 改行しない */
+        letter-spacing: 2px;
+        /* 字間 */
+    }
+    #point .point_list {
+        padding: 30px 0 30px;
+        color: #222222;
+        font-size: 30px;
+        /* 縦並びにする */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #point>.point_block>.point_list>.point_item strong {
+        color: #FF8A00;
+        font-size: 45px;
+    }
+    #point .point_item:first-letter {
+        /* 1文字目だけ変える */
+        font-size: 50px;
+    }
+    .point_photo img {
+        margin: 0 auto;
+        padding: 0;
+        width: 60%;
+        max-width: 980px;
+        display: flex;
+        /* 縦並びにする */
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+
+/* 766px以下のPC用の記述 */
+
+@media screen and (max-width: 766px) {
+    #point .point_block {
+        margin: 0 auto;
+        /*中央に配置*/
+        /* 縦並びにする */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    #point>.point_block>.point_top {
+        /* 横並びにする */
+        display: flex;
+        flex-direction: row;
+    }
+    /* 安心の3POINT */
+    #point>.point_block>.point_top>.box {
+        padding: 10px;
+        background: #191852;
+        width: 130px;
+        height: 130px;
+        font-size: 25px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 1.3;
+        /* 行間 */
+    }
+    #point>.point_block>.point_top>.box strong {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    /*プロのアドバイザーが丁寧にサポート*/
+    .support {
+        text-align: left;
+        font-size: 50px;
+        font-weight: bold;
+        white-space: nowrap;
+        /* 改行しない */
+        letter-spacing: 2px;
+        /* 字間 */
+    }
+    #point .point_list {
+        padding: 30px 0 30px;
+        color: #222222;
+        font-size: 30px;
+        /* 縦並びにする */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #point>.point_block>.point_list>.point_item strong {
+        color: #FF8A00;
+        font-size: 45px;
+    }
+    #point .point_item:first-letter {
+        /* 1文字目だけ変える */
+        font-size: 50px;
+    }
+    .point_photo img {
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+        max-width: 766px;
+        display: flex;
+        /* 縦並びにする */
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+
+/* ===========================
+      　　おまとめ実例
+ ===========================*/
+
+.lp-sec-band>.lp-block {
+    padding: 30px;
+    background-color: #186c87;
+    color: #ffffff;
+    white-space: nowrap;
+    /* 改行しない */
+}
+
+.bg {
+    margin: 0 auto;
+    padding: 20px 0 20px;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+
+/* 767px以上のPC用の記述 */
+
+@media screen and (min-width:767px) {
+    .title_en {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .title {
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1.3;
+    }
+    .bg2 {
+        background-color: #ffffff;
+        margin: 0 auto;
+        padding: 5px 0 10px;
+        width: 840px;
+        /* 影：左右の向きpx 上下の向きpx ぼかしpx 広がりpx 色 内側指定 */
+        box-shadow: 3px 3px 10px 3px #d6d6d6;
+    }
+    .person {
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        /* 横並びにする */
+        justify-content: center;
+        /* FlexBoxのコードで、横方向の配置を決める事ができる */
+        align-items: center;
+        /* 縦軸の位置 */
+        text-align: center;
+        font-weight: bold;
+    }
+    .men_icon img {
+        margin: 0;
+        padding: 10px;
+        width: 130px;
+    }
+    .profile p {
+        margin: 0 0 0 5vw;
+        padding: 10px;
+        font-size: 25px;
+    }
+    .profile h2 {
+        margin: 0 0 0 5vw;
+        padding: 10px;
+        font-size: 40px;
+        color: #f52b16;
+    }
+    .line {
+        margin: 0 auto;
+        height: 1px;
+        width: 90%;
+        border: none;
+        background-color: #4b4b4b;
+    }
+    .lp-sec-inline>.lp-block {
+        margin: 30px auto;
+        padding: 0;
+        width: 70%;
+        align-items: center;
+        /* 縦軸の位置 */
+    }
+    .lp-sec-inline>.lp-block>.lp-list {
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        /* flexアイテムの主軸方向の揃え位置を指定 */
+        justify-content: space-around;
+        /* 主軸の幅に対して余白をもって等間隔に配置 */
+    }
+    .lp-list__item {
+        margin: 0 auto 30px;
+        padding: 0 5px 0 5px;
+        width: 100%;
+        height: auto;
+    }
+    .lp-list__item .lp-item {
+        margin: 0;
+        padding: 5px;
+        color: #ffffff;
+        text-align: center;
+        font-weight: bold;
+        background: #186c87;
+        border: solid 3px #e4e4e4;
+        /* 線 */
+        border-radius: 10px;
+        /*角の丸み*/
+    }
+    .lp-list__item .lp-item_main {
+        margin: 0;
+        padding: 10px 0 10px;
+        font-size: 23px;
+        color: #12222c;
+        font-weight: bold;
+        line-height: 1.5;
+        /* 行間 */
+        display: flex;
+        /* 並べる */
+        justify-content: center;
+        /* FlexBoxのコードで、横方向の配置を決める事ができる */
+        background: #ffffff;
+        border: solid 1px #4b4b4b;
+        /* 線 */
+        border-radius: 10px;
+        /*角の丸み*/
+    }
+    .lp-item_main1 {
+        text-align: left;
+    }
+    .lp-item_main2 {
+        padding-left: 10px;
+        text-align: right;
+    }
+    /* おまとめ・借り換えの結果 */
+    .after p {
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: #12222c;
+    }
+    /* 三角形 */
+    .triangle {
+        width: 0;
+        height: 0;
+        margin: 0 auto 30px;
+        border-style: solid;
+        border-width: 50px 150px 0 150px;
+        border-color: #f52b16 transparent transparent transparent;
+    }
+    .result {
+        margin: 20px auto 30px;
+    }
+    .result p {
+        margin: 0 auto;
+        color: #12222c;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #example strong {
+        color: #f52b16;
+        font-size: 40px;
+        text-decoration: underline #ffdf28;
+        /* アンダーバー表示 */
+    }
+}
+
+
+/* 766px以下のPC用の記述 */
+
+@media screen and (max-width: 766px) {
+    .title_en {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .title {
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 1.3;
+    }
+    .bg2 {
+        background-color: #ffffff;
+        margin: 0 auto;
+        padding: 5px 0 10px;
+        width: 90%;
+        /* 影：左右の向きpx 上下の向きpx ぼかしpx 広がりpx 色 内側指定 */
+        box-shadow: 3px 3px 10px 3px #d6d6d6;
+    }
+    .person {
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        /* 横並びにする */
+        justify-content: center;
+        /* FlexBoxのコードで、横方向の配置を決める事ができる */
+        align-items: center;
+        /* 縦軸の位置 */
+        text-align: center;
+        font-weight: bold;
+    }
+    .men_icon img {
+        margin: 0;
+        padding: 10px;
+        width: 80px;
+    }
+    .profile p {
+        margin: 0 0 0 5vw;
+        padding: 10px;
+        font-size: 4vw;
+    }
+    .profile h2 {
+        margin: 0 0 0 5vw;
+        padding: 10px;
+        font-size: 6vw;
+        color: #191a72;
+    }
+    .line {
+        margin: 0 auto;
+        height: 1px;
+        width: 90%;
+        border: none;
+        background-color: #4b4b4b;
+    }
+    .lp-sec-inline>.lp-block {
+        margin: 30px auto;
+        padding: 0;
+        width: 90%;
+        align-items: center;
+        /* 縦軸の位置 */
+    }
+    .lp-sec-inline>.lp-block>.lp-list {
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        /* flexアイテムの主軸方向の揃え位置を指定 */
+        justify-content: space-around;
+        /* 主軸の幅に対して余白をもって等間隔に配置 */
+    }
+    .lp-list__item {
+        margin: 0 auto 15px;
+        padding: 0 5px 0 5px;
+        width: 100%;
+        height: auto;
+    }
+    .lp-list__item .lp-item {
+        margin: 0;
+        padding: 5px;
+        font-size: 3vw;
+        color: #ffffff;
+        text-align: center;
+        font-weight: bold;
+        background: #191a72;
+        border: solid 3px #e4e4e4;
+        /* 線 */
+        border-radius: 10px;
+        /*角の丸み*/
+    }
+    .lp-list__item .lp-item_main {
+        margin: 0;
+        padding: 10px 0 10px;
+        font-size: 3vw;
+        color: #4b4b4b;
+        font-weight: bold;
+        line-height: 1.5;
+        /* 行間 */
+        display: flex;
+        /* 並べる */
+        justify-content: center;
+        /* FlexBoxのコードで、横方向の配置を決める事ができる */
+        background: #ffffff;
+        border: solid 1px #4b4b4b;
+        /* 線 */
+        border-radius: 10px;
+        /*角の丸み*/
+    }
+    .lp-item_main1 {
+        text-align: left;
+    }
+    .lp-item_main2 {
+        padding-left: 10px;
+        text-align: right;
+    }
+    /* おまとめ・借り換えの結果 */
+    .after p {
+        font-size: 5vw;
+        font-weight: bold;
+        text-align: center;
+    }
+    /* 三角形 */
+    .triangle {
+        width: 0;
+        height: 0;
+        margin: 0 auto 30px;
+        border-style: solid;
+        border-width: 50px 150px 0 150px;
+        border-color: #f52b16 transparent transparent transparent;
+    }
+    .result {
+        margin: 20px auto 30px;
+    }
+    .result p {
+        margin: 0 auto;
+        color: #191a72;
+        text-align: center;
+        font-size: 4vw;
+        font-weight: bold;
+    }
+    #example strong {
+        color: #f52b16;
+        font-size: 6vw;
+        text-decoration: underline #ff0000;
+        /* アンダーバー表示 */
+    }
+}
+
+
+/* ===========================
+      　 ご利用者様の声
+ ===========================*/
+
+
+/* 767px以上のPC用の記述 */
+
+@media screen and (min-width:767px) {
+    .voice_box {
+        margin: 20px auto;
+        padding: 0;
+        /* 横並びにする */
+        display: flex;
+    }
+    #voice img {
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+        max-width: 980px;
+        display: flex;
+        /* 並べる */
+        justify-content: center;
+        /* FlexBoxのコードで、横方向の配置を決める事ができる */
+        align-items: center;
+        /* 縦軸の位置 */
+    }
+}
+
+
+/* 766px以下のPC用の記述 */
+
+@media screen and (max-width: 766px) {
+    .voice_box {
+        margin: 20px auto;
+        padding: 0;
+        /* 縦並びにする */
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #voice img {
+        margin: 0 auto 10px;
+        padding: 0;
+        width: 90%;
+        display: flex;
+        /* 並べる */
+        justify-content: center;
+        /* FlexBoxのコードで、横方向の配置を決める事ができる */
+        align-items: center;
+        /* 縦軸の位置 */
+    }
+}
+
+
+/* ===========================
+      　よくあるご質問
+ ===========================*/
+
+
+/* 767px以上のPC用の記述 */
+
+@media screen and (min-width:767px) {
+    .faq_box {
+        margin: 10px auto;
+        padding: 10px auto 10px;
+        width: 700px;
+    }
+    #faq dt {
+        display: flex;
+        padding: 30px;
+        border-radius: 5px;
+        background: #fff;
+        box-shadow: 3px 3px 10px 3px #d6d6d6;
+        font-weight: bold;
+        font-size: 20px;
+        align-items: center;
+    }
+    .faqq {
+        font-weight: bold;
+        font-size: 30px;
+        color: #2f91b1;
+        margin-right: 40px;
+    }
+    #faq dd {
+        display: flex;
+        padding: 30px;
+        font-weight: 500;
+        font-size: 16px;
+        align-items: center;
+    }
+    #faq .faqa {
+        font-weight: bold;
+        font-size: 30px;
+        color: #f52b16;
+        margin-right: 40px;
+    }
+}
+
+
+/* 766px以下のPC用の記述 */
+
+@media screen and (max-width: 766px) {
+    .faq_box {
+        margin: 10px auto;
+        padding: 10px auto 10px;
+        width: 90%;
+    }
+    #faq dt {
+        display: flex;
+        padding: 20px;
+        border-radius: 5px;
+        background: #fff;
+        box-shadow: 3px 3px 10px 3px #d6d6d6;
+        font-weight: bold;
+        font-size: 20px;
+        align-items: center;
+    }
+    .faqq {
+        font-size: 4.5vw;
+        font-weight: bold;
+        color: #ff257c;
+        margin-right: 20px;
+    }
+    #faq dd {
+        display: flex;
+        padding: 20px;
+        font-size: 20px;
+        align-items: center;
+    }
+    #faq .faqa {
+        font-size: 4.5vw;
+        font-weight: bold;
+        color: #004496;
+        margin-right: 20px;
+    }
+}
+
+
+/* ===========================
+      　　　フォーム
+ ===========================*/
+
+.btn2 input:hover {
+    transition: .1s;
+    opacity: 0.8;
+    /* 不透明度 */
+    -ms-transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+    /*下に動く*/
+}
+
+
+/* 必須マーク */
+
+.form-wrap th span.req {
+    display: inline-block;
+    margin: 0 1em 0 0.5em;
+    padding: 0 0.8em;
+    text-align: center;
+    font-size: 13px;
+    color: #ffffff;
+    background: #f52b16;
+    border-radius: 3px;
+}
+
+.form-wrap td input[type="text"].t01 {
+    max-width: 95%;
+}
+
+.form-wrap td input[type="text"],
+.form-wrap td input[type="email"],
+.form-wrap td select,
+.form-wrap td textarea,
+.form-wrap td input[type="tel"],
+.form-wrap td input[type="date"] {
+    width: 95%;
+    height: 37px;
+    padding: 9px 10px;
+    font-size: 15px;
+    border: 1px #B3B3B3 solid;
+    border-radius: 6px;
+    outline: none;
+    -webkit-box-shadow: 0 0 0 #108fd6, inset 1px 1px 3px #eee;
+    box-shadow: 0 0 0 #108fd6, inset 1px 1px 3px #eee;
+    box-sizing: border-box;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+.form-wrap td textarea {
+    width: 100%;
+    max-width: 528px;
+    height: 140px;
+    vertical-align: top;
+}
+
+.form-wrap td select {
+    width: 100%;
+    height: 37px;
+    padding: 0 10px;
+    max-width: 95%;
+}
+
+.form-wrap .btn2 button {
+    margin: 40px auto 80px;
+    width: 40%;
+    height: 60px;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    color: #ffffff;
+    background: #f77326;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    -webkit-appearance: button;
+    transition: opacity .7s ease-out;
+    -moz-transition: opacity .7s ease-out;
+    -webkit-transition: opacity .7s ease-out;
+    -o-transition: opacity .7s ease-out;
+    border-radius: 5px;
+}
+
+
+/* 767px以上のPC用の記述 */
+
+@media screen and (min-width:767px) {
+    .form-wrap {
+        margin: 10px auto;
+        padding: 20px 0 20px;
+        background: #ffffff;
+        width: 700px;
+        max-width: 980px;
+    }
+    .form-wrap table {
+        margin: 0;
+        width: 100%;
+    }
+    .form-wrap th {
+        width: 40%;
+        padding: 10px 20px;
+        text-align: right;
+        color: #222222;
+        font-weight: bold;
+        border-bottom: 1px dotted #222222;
+        max-width: 90%;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .form-wrap td {
+        padding: 10px 20px;
+        text-align: left;
+        border-bottom: 1px dotted #404040;
+        max-width: 90%;
+    }
+}
+
+
+/* 766px以下のPC用の記述 */
+
+@media screen and (max-width: 766px) {
+    .form-wrap {
+        margin: 10px auto;
+        padding: 20px 0 20px;
+        background: #ffffff;
+        width: 100%;
+    }
+    .form-wrap table {
+        margin: 0;
+        width: 100%;
+    }
+    .form-wrap th {
+        width: 45%;
+        padding: 10px 20px;
+        text-align: right;
+        color: #222222;
+        font-weight: bold;
+        border-bottom: 1px dotted #222222;
+        max-width: 90%;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .form-wrap td {
+        padding: 10px 20px;
+        text-align: left;
+        border-bottom: 1px dotted #404040;
+        max-width: 100%;
+    }
+}
+
+
+/* ===========================
+      　　コピーライト
+ ===========================*/
+
+.copyright {
+    padding: 2px;
+    overflow: hidden;
+    /*要素の内容が多すぎてブロック整形コンテキストに収まらない場合にどうするか（hidden：隠す）*/
+    background-color: #186c87;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/* ===========================
+           確認画面
+ ===========================*/
+
+#formWrap h3 {
+    text-align: center;
+}
+
+
+/* ===========================
+         サンクスページ
+ ===========================*/
+
+
+/* 767px以上のPC用の記述 */
+
+@media screen and (min-width:767px) {
+    .thanks img {
+        width: 100%;
+    }
+}
+
+
+/* 766px以下のPC用の記述 */
+
+@media screen and (max-width: 766px) {
+    .thanks img {
+        width: 100%;
+    }
+}
