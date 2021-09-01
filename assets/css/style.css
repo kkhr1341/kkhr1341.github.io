@@ -390,7 +390,7 @@ body {
     .box p strong {
         margin: 0;
         padding: 0;
-        color: #FF8A00;
+        color: #F33737;
         font-size: 30px;
         font-weight: bold;
         text-align: center;
@@ -927,7 +927,7 @@ body {
         margin: 0 0 0 5vw;
         padding: 10px;
         font-size: 6vw;
-        color: #191a72;
+        color: #f33737;
     }
     .line {
         margin: 0 auto;
@@ -969,7 +969,7 @@ body {
         color: #ffffff;
         text-align: center;
         font-weight: bold;
-        background: #191a72;
+        background: #B0E0E6;
         border: solid 3px #e4e4e4;
         /* 線 */
         border-radius: 10px;
