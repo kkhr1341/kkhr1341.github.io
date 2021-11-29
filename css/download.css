@@ -1,0 +1,269 @@
+@charset "UTF-8";
+#download{
+    width: 85%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5.5rem;
+}
+
+#download h2{
+    font-size: 4rem;
+    color: #252525;
+    margin-bottom: 3rem;
+}
+
+#download h2 small{
+    font-size: 2rem;
+    color: #034FD5;
+    margin-left: 1rem;
+}
+
+#download .wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#download .wrap > div{
+    width: 50%;
+}
+
+#download .wrap .left > img{
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+#download .wrap .left img{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
+}
+
+#download .wrap .left div{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#download .wrap .left div img{
+    width: 45%;
+}
+
+#download .wrap .right h3{
+    font-size: 2.2rem;
+    border-left: .8rem solid #034FD5;
+    padding-left: 1.4rem;
+    margin-bottom: 3.4rem;
+    line-height: 1.3;
+}
+
+#download .wrap .right h3 span{
+    font-size: 1.4rem;
+    color: #D4D4D4;
+}
+
+.form_wrap{
+    border: .1rem solid #A8A8A8;
+    margin-bottom: 2.5rem;
+}
+
+.form_wrap .flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: .1rem solid #A8A8A8;
+}
+
+.form_wrap .final{
+    border-bottom: none;
+}
+
+.form_wrap .flex .left{
+    width: 25%;
+    background: #F6F9FF;
+    font-size: 1.6rem;
+    padding: 2.25rem 0;
+    text-align: center;
+}
+
+.red{
+    color: #F91E1E;
+}
+
+.form_wrap .flex .left span{
+    font-size: 1.5rem
+}
+
+fieldset{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.form_wrap .flex .right{
+    margin-left: 3.15rem;
+}
+
+.form_wrap .flex .final label{
+    font-size: 1.6rem;
+}
+
+input{
+    height: 2.825rem;
+    border: .1rem solid #A8A8A8;
+    border-radius: 0;
+    width: 47%;
+}
+
+fieldset input{
+    width: unset;
+    height: unset;
+}
+
+fieldset label{
+    font-size: 1.4rem;
+}
+
+#second_name, #first_name{
+    width: 17rem;
+}
+
+textarea{
+    border: .1rem solid #A8A8A8;
+    border-radius: 0;
+    height: 15.253rem;
+    width: 47%;
+    margin: 1.7rem 0;
+}
+
+.form_wrap .flex .big{
+    padding: 9rem 0;
+}
+
+#download .wrap .right form > p{
+    text-align: center;
+    margin-bottom: 1.7rem;
+}
+
+.btn_wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_wrap button{
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+    background: #034FD5;
+    border: none;
+    padding: 1.8rem 3.5rem;
+    border-radius: .6rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
+}
+
+.btn_wrap button:hover{
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 70%);
+}
+
+@media screen and (max-width: 1024px){
+    fieldset .sp_only{
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #download{
+        margin-top: 3.7rem;
+        margin-bottom: 3.64rem;
+    }
+
+    #download h2{
+        font-size: 3rem;
+        text-align: center;
+        line-height: 1;
+    }
+
+    #download h2 small{
+        font-size: 1.4rem;
+    }
+
+    #download .wrap{
+        flex-direction: column;
+    }
+
+    #download .wrap > div{
+        width: 100%;
+    }
+
+    #download .wrap .left > img{
+        width: 100%;
+    }
+
+    #download .wrap .left div{
+        width: 100%;
+    }
+
+    #download .wrap > .left{
+        margin-bottom: 4rem;
+    }
+
+    #download .wrap .right h3{
+        font-size: 1.6rem;
+    }
+
+    #download .wrap .right h3 span{
+        font-size: 1.2rem;
+    }
+
+    .form_wrap{
+        border: none;
+        margin-bottom: 1.25rem;
+    }
+
+    .form_wrap .flex .right{
+        margin-left: .92rem;
+    }
+
+    #second_name, #first_name{
+        width: 8rem;
+    }
+
+    fieldset label{
+        font-size: 1rem;
+    }
+
+    .form_wrap .flex .left{
+        font-size: 1.2rem;
+    }
+
+    .form_wrap .flex .left .red{
+        font-size: 1rem;
+    }
+
+    .form_wrap .flex .final label{
+        font-size: 1.4rem;
+    }
+
+    input{
+        height: 2.825rem;
+        font-size: 1.2rem;
+        width: 63%;
+    }
+
+    textarea{
+        height: 10.153rem;
+        font-size: 1.2rem;
+        width: 63%;
+    }
+
+    #download .wrap .right form > p{
+        font-size: 1.4rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .btn_wrap button{
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,302 @@
+@charset "UTF-8";
+.wrap{
+    width: 57%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.title{
+    background: #FCFCFC;
+    padding: 4.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h2{
+    font-size: 5.6rem;
+    text-align: center;
+    border-bottom: .1rem solid #707070;
+    display: inline;
+}
+
+.wrap > p{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.wrap > p span{
+    color: #F91E1E;
+}
+
+main .wrap h3{
+    font-size: 4rem;
+    border-left: 1rem solid #03CDD5;
+    line-height: 1;
+    padding-left: 2rem;
+}
+
+.wrap .inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap .inner a{
+    font-size: 4rem;
+    margin: 5rem 0;
+    color: #24201D;
+}
+
+.wrap .inner a span{
+    font-size: 1.8rem;
+    margin-left: 5rem;
+}
+
+form{
+    margin-top: 3.5rem;
+}
+
+form h3{
+    margin: 7rem 0 3.5rem;
+}
+
+fieldset{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+fieldset label{
+    font-size: 2rem;
+}
+
+form .left{
+    background: #EEEEEE;
+    width: 20%;
+    font-size: 2.3rem;
+    font-weight: normal;
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+form .red{
+    color: red;
+    font-size: 1.5rem;
+}
+
+form > .flex{
+    border-top: .1rem solid #707070;
+}
+
+form .flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form .right{
+    margin-left: 4rem;
+}
+
+form > div > .right{
+    width: 51.2rem;
+}
+
+input, textarea{
+    border: .1rem solid #707070;
+    border-radius: 0;
+    color: #D2D2D2;
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+.right label{
+    font-size: 2.3rem;
+}
+
+textarea{
+    width: 65.6rem;
+    height: 27.3rem;
+    margin: 2rem 0 4rem;
+}
+
+form .flex .big{
+    padding: 15.5rem 0;
+}
+
+form > p{
+    margin-bottom: 3rem;
+}
+
+.policy{
+    height: 27.3rem;
+    overflow-y: scroll;
+    border: .1rem solid #707070;
+    margin-bottom: 4rem;
+}
+
+.gray{
+    background: #EEEEEE;
+    padding: 2.5rem;
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check label{
+    font-size: 2rem;
+}
+
+.btn_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5rem;
+}
+
+.btn_wrap button{
+    font-size: 2.4rem;
+    font-weight: bold;
+    width: 49.5rem;
+    padding: 2.5rem 0;
+    background: #03CDD5;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
+    position: relative;
+}
+
+.btn_wrap button::before{
+    position: absolute;
+    content: "";
+    width: 1.1rem;
+    height: 1.8rem;
+    top: 50%;
+    right: 5rem;
+    transform: translateY(-50%);
+    background: url("../img/arrow-right.svg")no-repeat center center/contain;
+}
+
+.btn_wrap button:hover{
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 16%);
+}
+
+#second_name, #first_name{
+    width: 20rem;
+}
+
+@media screen and (max-width: 767px){
+    .title{
+        padding: 2.6rem 0;
+    }
+
+    .title h2{
+        font-size: 2.5rem;
+        padding: 0 2rem 1.2rem 2rem;
+    }
+
+    .wrap{
+        width: 85%;
+        margin-top: 2.5rem;
+        margin-bottom: 3.6rem;
+    }
+
+    .wrap > p{
+        font-size: 1.3rem;
+        margin-bottom: 3.35rem;
+    }
+
+    main .wrap h3{
+        padding-left: 1.4rem;
+        font-size: 2.2rem;
+    }
+
+    .wrap .inner a{
+        margin: 3.35rem 0;
+        font-size: 3.2rem;
+        line-height: 1;
+        text-align: right;
+    }
+
+    .wrap .inner a span{
+        font-size: 1.5rem;
+    }
+
+    form .right{
+        margin-left: 1.3rem;
+    }
+
+    .right label{
+        font-size: 1.3rem;
+    }
+
+    form .left{
+        font-size: 1.3rem;
+    }
+
+    form .red{
+        font-size: 1rem;
+    }
+
+    form > div > textarea{
+        height: 25.2rem;
+        font-size: 1.2rem;
+        width: 23rem !important;
+    }
+
+    form .flex .big{
+        padding: 15.5rem 0;
+    }
+
+    form h3{
+        margin: 3.55rem 0 2.5rem;
+    }
+
+    #second_name, #first_name{
+        width: 7rem;
+        font-size: 1.2rem;
+    }
+
+    form > div > .right{
+        width: 21.2rem;
+        font-size: 1.2rem;
+    }
+
+    form > p{
+        font-size: 1.3rem;
+        margin-bottom: 1.9rem;
+    }
+
+    .policy{
+        height: 17.5rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .check label{
+        font-size: 1.4rem;
+    }
+
+    .btn_wrap{
+        margin-top: 2rem;
+    }
+
+    .btn_wrap button{
+        width: 28.4rem;
+        padding: 1.6rem 0;
+        font-size: 2rem;
+    }
+
+    .btn_wrap button::before{
+        width: .795rem;
+        height: 1.287rem;
+        right: 3rem;
+    }
+}
