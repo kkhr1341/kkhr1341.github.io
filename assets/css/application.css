@@ -1,0 +1,183 @@
+@charset "UTF-8";
+html{
+    font-size: 0.5208vw;
+    scroll-behavior: smooth;
+}
+
+body, h1, h2, h3, h4, h5, p, ul{
+    margin: 0;
+    padding: 0;
+    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 3.6rem;
+    font-weight: bolder;
+    line-height: 1.2;
+}
+
+h3{
+    font-size: 2.8rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+header{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 7rem;
+    background: #2B2B2B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    color: white;
+}
+
+header .left{
+    margin-left: 5rem;
+}
+
+header .left a img{
+    width: 13.9rem;
+}
+
+header .right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+header .right nav{
+    width: 42.5rem;
+    margin-right: 7.2rem;
+}
+
+header .right nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .right nav ul li{
+    font-size: 2rem;
+}
+
+header .right .reserve{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 32.5rem;
+    margin-right: 1.4rem;
+}
+
+header .right .reserve a{
+    padding: 1.35rem 0;
+    width: 15.5rem;
+    display: block;
+    text-align: center;
+    border-radius: .5rem;
+}
+
+header .right .reserve a:first-child{
+    color: #212121;
+    background: #E1AE49;
+}
+
+header .right .reserve a:nth-child(2){
+    color: white;
+    background: #6A6A6A;
+}
+
+header .right .icon{
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .right .icon a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.3rem;
+    height: 4.3rem;
+    box-shadow: 0 0 .6rem rgba(255, 255, 255, 16%);
+    border-radius: .5rem;
+}
+
+header .right .icon a:first-child img{
+    width: 2.7rem;
+}
+
+header .right .icon a:nth-child(2) img{
+    width: 3rem;
+}
+
+main{
+    margin-top: 7rem;
+}
+
+footer{
+    background: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 3.64rem 0;
+}
+
+footer nav{
+    margin-bottom: 3.1rem;
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50.1rem;
+}
+
+footer a{
+    color: white;
+    font-size: 2.3rem;
+}
+
+footer p{
+    font-size: 1.6rem;
+}
+
+.page_top{
+    position: fixed;
+    z-index: 1000;
+    bottom: 2.7rem;
+    right: 3.7rem;
+}
+
+.page_top img{
+    width: 6.5rem;
+}
+
+.sepa001{
+    height: 30.6rem;
+    background: url("../img/common/sepa001.jpg")no-repeat center center/cover;
+}
