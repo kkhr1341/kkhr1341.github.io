@@ -2,12 +2,18 @@
 html{
     font-size: 0.5208vw;
     scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar{
+    display:none;
 }
 
 body, h1, h2, h3, h4, h5, p, ul{
     margin: 0;
     padding: 0;
-    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;;
+    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
 li{
@@ -34,6 +40,24 @@ p{
     font-size: 1.6rem;
 }
 
+.pc_only{
+    display: block;
+}
+
+.sp_only{
+    display: none;
+}
+
+.pc_flex{
+    display: flex;
+}
+
+.sp_flex{
+    display: none;
+}
+
+/* header */
+
 header{
     position: fixed;
     z-index: 1000;
@@ -56,6 +80,12 @@ header .left{
 
 header .left a img{
     width: 13.9rem;
+    transition: all .2s ease-in-out;
+}
+
+header .left a img:hover{
+    opacity: .5;
+    transition: all .3s ease-in-out;
 }
 
 header .right{
@@ -78,6 +108,12 @@ header .right nav ul{
 
 header .right nav ul li{
     font-size: 2rem;
+    transition: all .2s ease-in-out;
+}
+
+header .right nav ul li:hover{
+    opacity: .5;
+    transition: all .3s ease-in-out;
 }
 
 header .right .reserve{
@@ -95,6 +131,12 @@ header .right .reserve a{
     display: block;
     text-align: center;
     border-radius: .5rem;
+    transition: all .2s ease-in-out;
+}
+
+header .right .reserve a:hover{
+    opacity: .5;
+    transition: all .3s ease-in-out;
 }
 
 header .right .reserve a:first-child{
@@ -122,6 +164,12 @@ header .right .icon a{
     height: 4.3rem;
     box-shadow: 0 0 .6rem rgba(255, 255, 255, 16%);
     border-radius: .5rem;
+    transition: all .2s ease-in-out;
+}
+
+header .right .icon a:hover{
+    opacity: .5;
+    transition: all .3s ease-in-out;
 }
 
 header .right .icon a:first-child img{
@@ -135,6 +183,169 @@ header .right .icon a:nth-child(2) img{
 main{
     margin-top: 7rem;
 }
+
+#kv{
+    width: 100%;
+    height: 18.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#kv h2{
+    font-size: 4.2rem;
+}
+
+/* topic */
+
+#topic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 9.2rem 0 4.2rem;
+    background: url("../img/common/common_bg.jpg")no-repeat center center/cover;
+    color: white;
+}
+
+#topic .wrap{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#topic .wrap .left{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 48%;
+}
+
+#topic .wrap .left .instagram-media{
+    width: 26.1rem;
+    min-width: unset !important;
+    margin: 0 !important;
+}
+
+#topic .wrap .left .content{
+    width: 35.894rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#topic .wrap .left .content h2{
+    text-align: center;
+    line-height: 2;
+    position: relative;
+}
+
+#topic .wrap .left .content h2::before{
+    position: absolute;
+    content: "";
+    width: 35.9rem;
+    height: .725rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background: url("../img/common/double_bash.svg")no-repeat center center/cover;
+}
+
+#topic .wrap .left .content ul{
+    width: 100%;
+}
+
+#topic .wrap .left .content li{
+    border-bottom: .05rem dotted white;
+    padding-bottom: 1.2rem;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+}
+
+#topic .wrap .left .content li:last-child{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+#topic .wrap .left .content li small{
+    font-size: 1.4rem;
+}
+
+#topic .wrap .right{
+    width: 45%;
+}
+
+#topic .wrap .right h3{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+#topic .wrap .right p{
+    font-size: 1.9rem;
+    margin-bottom: 2.8rem;
+}
+
+#topic .wrap .right .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#topic .wrap .right .content .map{
+    width: 37.5rem;
+    height: 31.4rem;
+}
+
+#topic .wrap .right .content h4{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#topic .wrap .right .content p{
+    font-size: 2rem;
+    line-height: 2.5;
+    margin-left: 2rem;
+}
+
+#topic .btn{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 57.2rem;
+}
+
+#topic .btn a{
+    width: 27.3rem;
+    padding: 1.8rem 0;
+    text-align: center;
+    font-size: 2.8rem;
+    color: white;
+    border-radius: .5rem;
+    transition: all .2s ease-in-out;
+}
+
+#topic .btn a:hover{
+    opacity: .7;
+    transition: all .3s ease-in-out;
+}
+
+#topic .btn a:first-child{
+    color: #212121;
+    background: #E1AE49;
+}
+
+#topic .btn a:last-child{
+    color: white;
+    background: #6A6A6A;
+}
+
+/* footer */
 
 footer{
     background: #2B2B2B;
@@ -160,24 +371,198 @@ footer nav ul{
 footer a{
     color: white;
     font-size: 2.3rem;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+footer a:hover{
+    opacity: .5;
+    transition: all .3s ease-in-out;
+}
+
+footer a::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: -25%;
+    transform: translate(-50%, -50%);
+    width: .1rem;
+    height: 100%;
+    background: white;
+}
+
+footer li:first-child a::before{
+    display: none;
 }
 
 footer p{
     font-size: 1.6rem;
 }
 
+/* page_top_btn */
+
 .page_top{
     position: fixed;
     z-index: 1000;
     bottom: 2.7rem;
     right: 3.7rem;
+    transition: all .2s ease-in-out;
+}
+
+.page_top:hover{
+    opacity: .5;
+    transition: all .3s ease-in-out;
 }
 
 .page_top img{
     width: 6.5rem;
 }
 
+/* separator */
+
 .sepa001{
     height: 30.6rem;
     background: url("../img/common/sepa001.jpg")no-repeat center center/cover;
+}
+
+.sepa002{
+    height: 30.6rem;
+    background: url("../img/common/sepa002.jpg")no-repeat center center/cover;
+}
+
+.sepa003{
+    height: 30.6rem;
+    background: url("../img/common/sepa003.jpg")no-repeat center center/cover;
+}
+
+@media screen and (max-width: 1024px){
+    
+}
+
+@media screen and (max-width: 767px){
+    html{
+        font-size: 2.667vw;
+    }
+
+    h2{
+        font-size: 2.8rem;
+    }
+
+    h3{
+        font-size: 1.58rem;
+    }
+
+    p{
+        font-size: 1.4rem;
+    }
+
+    .pc_only{
+        display: none !important;
+    }
+    
+    .sp_only{
+        display: block;
+    }
+
+    .pc_flex{
+        display: none !important;
+    }
+
+    .sp_flex{
+        display: flex !important;
+    }
+
+    header{
+        height: 5.4rem;
+        justify-content: center;
+    }
+
+    header .left{
+        margin-left: unset;
+    }
+
+    header .left a img{
+        width: 10.3rem;
+    }
+
+    main{
+        margin-top: 5.4rem;
+    }
+
+    #topic .wrap{
+        flex-direction: column;
+        width: 85%;
+        min-width: 320px;
+    }
+
+    #topic .wrap .left{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    #topic .wrap .right{
+        width: 100%;
+    }
+
+    #topic .wrap .left .instagram-media{
+        width: 100%;
+    }
+
+    #topic .wrap .right .content{
+        flex-direction: column;
+    }
+
+    #topic .wrap .right .content .map{
+        width: 100%;
+        height: 31.4rem;
+    }
+
+    #topic .btn{
+        margin-top: 5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 85%;
+        min-width: 320px;
+    }
+    
+    #topic .btn a{
+        width: 15.4rem;
+        padding: 1.5rem 0;
+        font-size: 1.8rem;
+        border-radius: .5rem;
+    }
+
+    footer nav ul{
+        width: unset;
+        flex-direction: column;
+    }
+
+    /* page_top */
+
+    .page_top{
+        bottom: 3rem;
+        right: 1.3rem;
+    }
+
+    .page_top img{
+        width: 3.8rem;
+    }
+
+    /* separator */
+
+    .sepa001{
+        height: 10.6rem;
+        background: url("../img/common/sepa001.jpg")no-repeat center center/cover;
+    }
+
+    .sepa002{
+        height: 10.6rem;
+        background: url("../img/common/sepa002.jpg")no-repeat center center/cover;
+    }
+
+    .sepa003{
+        height: 10.6rem;
+        background: url("../img/common/sepa003.jpg")no-repeat center center/cover;
+    }
 }

@@ -1,1 +1,81 @@
 @charset "UTF-8";
+
+#kv{
+    background: url("../img/location/location_kv.jpg")no-repeat center center/cover;
+}
+
+#location{
+    padding: 9.6rem 0 9.7rem;
+    background: url("../img/common/common_bg.jpg")no-repeat center center/cover;
+    color: white;
+}
+
+#location .wrap{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 9.6rem;
+}
+
+#location .wrap .img{
+    width: 66.3rem;
+    height: 32.5rem;
+    background: url("../img/location/location_img.jpg")no-repeat center center/cover;
+}
+
+#location .wrap p{
+    width: calc(50% - 14rem);
+    margin-left: 14rem;
+    font-size: 2.4rem;
+    line-height: 2.5;
+}
+
+#location .table{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#location .table .row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    border: .1rem solid #1A1A1A;
+}
+
+#location .table .row p{
+    font-size: 2.2rem;
+}
+
+#location .table .row .left{
+    background: #2B2B2B;
+    width: 16.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#location .table .row p:last-child{
+    background: white;
+    color: #212121;
+    padding: 2.1rem 0 2.1rem 2.8rem;
+    width: 40.8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#location .table .row p small{
+    font-size: 1.8rem;
+}
+
+#location .table .top .middle{
+    height: 6.15rem;
+}
+
+#location .table .top .long{
+    height: 15.3rem;
+}

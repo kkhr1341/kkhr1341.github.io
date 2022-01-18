@@ -1,1 +1,104 @@
 @charset "UTF-8";
+
+#kv{
+    background: url("../img/concept/concept_kv.jpg")no-repeat center center/cover;
+}
+
+#concept{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 6.7rem 0 11.3rem;
+    background: url("../img/common/common_bg.jpg")no-repeat center center/cover;
+    color: white;
+}
+
+#concept .wrap{
+    width: 120.5rem;
+    padding: 5.9rem 0 10.33rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid .4rem white;
+    margin-bottom: 17.1rem;
+}
+
+#concept .wrap .img{
+    width: 26.206rem;
+    height: 37.57rem;
+    background: url("../img/concept/harada.jpg")no-repeat center center/cover;
+    position: relative;
+}
+
+#concept .wrap .img::before{
+    content: "";
+    position: absolute;
+    width: 34.6rem;
+    height: 18.3rem;
+    bottom: -50%;
+    right: -50%;
+    transform: translate(15%, -55%);
+    background: url("../img/concept/name.svg")no-repeat center center/contain;
+}
+
+#concept .wrap .content{
+    transform: translateX(5rem);
+}
+
+#concept .wrap .content p{
+    font-size: 3rem;
+    line-height: 2;
+}
+
+#concept .wrap .content p+p{
+    margin-top: 6.6rem;
+}
+
+#concept h3{
+    font-size: 2.4rem;
+    margin-bottom: 5.2rem;
+    position: relative;
+}
+
+#concept h3::before{
+    position: absolute;
+    content: "";
+    width: 12.274rem;
+    height: 7.908rem;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../img/common/title001.svg")no-repeat center center/cover;
+}
+
+#concept h4{
+    font-size: 2.8rem;
+    margin-bottom: 6.2rem;
+}
+
+#concept .txt p{
+    font-size: 2.4rem;
+}
+
+#concept .txt p+p{
+    margin-top: 2.4rem;
+}
+
+#concept .txt p:last-child{
+    text-align: right;
+    width: 115%;
+    margin-right: 0;
+    margin-left: auto;
+    position: relative;
+}
+
+#concept .txt p:last-child::before{
+    content: "";
+    position: absolute;
+    width: 6.6rem;
+    height: .1rem;
+    top: 50%;
+    right: 23rem;
+    background: white;
+}
