@@ -211,7 +211,7 @@ main {
   font-size: 4.2rem;
   text-shadow: 0 0 1px #000;
 }
-.spbr{
+.spbr {
   display: none;
 }
 /* topic */
@@ -382,7 +382,9 @@ footer nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50.1rem;
+  gap: 5rem;
+  width: fit-content;
+  width: -moz-fit-content;
 }
 
 footer a {
@@ -401,7 +403,7 @@ footer a::before {
   position: absolute;
   content: "";
   top: 50%;
-  left: -25%;
+  left: -2.5rem;
   transform: translate(-50%, -50%);
   width: 0.1rem;
   height: 100%;
@@ -511,6 +513,9 @@ footer p {
     margin-top: 5.4rem;
   }
 
+  #kv {
+    height: 11.8rem;
+  }
   #topic .wrap {
     flex-direction: column;
     width: 85%;
@@ -531,8 +536,11 @@ footer p {
 
   #topic .wrap .left .content {
     width: 32rem;
+    margin: auto auto 4rem;
   }
-
+  #topic .wrap .left .content h2::before {
+    width: 22rem;
+  }
   #topic .wrap .left .instagram-media {
     width: 100%;
   }
@@ -547,12 +555,12 @@ footer p {
   }
 
   #topic .btn {
-    margin-top: 5rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 85%;
-    min-width: 320px;
+    min-width: 32rem;
   }
 
   #topic .btn a {
@@ -561,10 +569,26 @@ footer p {
     font-size: 1.8rem;
     border-radius: 0.5rem;
   }
-
+  #topic .wrap .right .content h4,
+  #topic .wrap .right .content p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  #topic .wrap .right .content p {
+    text-indent: 1em;
+    margin: auto;
+  }
+  #topic .wrap .right .content > div {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #topic .wrap .right .content h4 {
+  }
   footer nav ul {
     width: unset;
     flex-direction: column;
+    gap: 1.4rem;
   }
 
   /* page_top */
@@ -606,10 +630,10 @@ footer p {
     z-index: 10001;
     position: fixed;
     display: block;
-    height: 4rem;
-    width: 5rem;
+    height: 1.5rem;
+    width: 2rem;
     right: 2rem;
-    top: 0;
+    top: 2rem;
   }
   label.hamburger:hover {
     cursor: pointer;
@@ -670,10 +694,10 @@ footer p {
     transform-origin: 50% 50%;
   }
   label.hamburger > i:before {
-    transform: translate(50%, -1rem);
+    transform: translate(50%, -0.5rem);
   }
   label.hamburger > i:after {
-    transform: translate(50%, 1rem);
+    transform: translate(50%, 0.5rem);
   }
   input.hamburger:checked ~ label > i {
     background-color: transparent;
@@ -685,17 +709,16 @@ footer p {
     transform: translate(50%, 50%) rotate(-225deg);
   }
   .main-navigation .reserve {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 32.5rem;
+    width: 32rem;
     margin: auto;
   }
   .main-navigation .reserve a {
     padding: 1.35rem 0;
-    width: fit-content;
-    width: -moz-fit-content;
+    width: 15.4rem;
     display: block;
     text-align: center;
     border-radius: 0.5rem;
@@ -782,9 +805,25 @@ footer p {
   .navigation_icon {
     margin: auto;
   }
-  .spbr{
+  .spbr {
     display: initial;
-  }.pcbr{
+  }
+  .pcbr {
     display: none;
+  }
+  footer a::before {
+    content: none;
+  }
+  #topic {
+    padding-top: 3rem;
+  }
+  #topic .wrap .right h3 {
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  #topic .wrap .right p {
+    font-size: 1.15rem;
+    margin-bottom: 2rem;
   }
 }

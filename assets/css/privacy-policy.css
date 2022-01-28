@@ -49,5 +49,7 @@ h3 {
   #privacy-policy li {
     font-size: 1.4rem;
     line-height: 1.2;
+  }#privacy-policy ul{
+    margin-top: 2rem;
   }
 }

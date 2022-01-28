@@ -41,12 +41,12 @@
   width: 36.5rem;
 }
 
-#menu .wrap {
+#menu .menu_wrap {
   padding: 9rem 0 5rem;
   width: 140rem;
   margin: auto;
 }
-.wrap h3 {
+.menu_wrap h3 {
   font-size: 4rem;
   margin-bottom: 2.5rem;
 }
@@ -58,7 +58,7 @@
   display: grid;
   grid-template-columns: 38% auto;
 }
-.wrap h4 {
+.menu_wrap h4 {
   font-size: 3.8rem;
   margin-bottom: 4.5rem;
 }
@@ -109,7 +109,13 @@
   line-height: 2;
   text-indent: 0;
 }
-#menu .left > p {
+.menu_l_p_sp {
+  display: none;
+}
+#menu .left > div {
+  display: grid;
+}
+#menu .left > div > p:last-child {
   font-size: 1.6rem;
   padding-top: 2rem;
   place-self: center;
@@ -130,7 +136,6 @@
 #menu .dinner_02 .menu_l_i {
   align-content: flex-start;
 }
-
 #menu .reserve {
   margin-top: 6.5rem;
   font-size: 2.5rem;
@@ -231,6 +236,10 @@
   justify-self: flex-end;
 }
 @media screen and (max-width: 767px) {
+
+  #kv {
+    background: url("/assets/img/menu/sp_menu_kv.jpg") no-repeat center center/cover;
+  }
   .menu_img {
     padding-top: 2rem;
     display: grid;
@@ -245,7 +254,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem 3rem;
   }
-  h3 {
+  .menu_wrap h3 {
     font-size: 4rem;
     margin-bottom: 2.5rem;
   }
@@ -264,16 +273,132 @@
     line-height: 2.6;
     width: 10.5rem;
   }
-  #menu .wrap {
+  #menu .menu_wrap {
     padding: 4rem 0 2rem;
     width: 32rem;
   }
-  .wrap h3 {
+  .menu_wrap h3 {
     font-size: 1.6rem;
     margin-bottom: 2.5rem;
   }
   #menu .inner {
     border-top: 1px solid #fff;
     grid-template-columns: auto;
+    padding-top: 2rem;
+  }
+  .menu_wrap h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1.9rem;
+  }
+  #menu .left > div > p:last-child {
+    font-size: 1.2rem;
+    padding-top: 0;
+  }
+  #menu .inner > .left {
+    grid-template-columns: 10rem auto;
+  }
+  .menu_l_span{
+    margin-bottom: 0;
+  }
+  #menu .reserve {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    gap: 1.4rem;
+  }
+  #menu #dinner .reserve {
+    display: none;
+  }
+  #menu .menu_c_img {
+    width: 10rem;
+  }
+  #menu .menu_l_t {
+    grid-column: 1/3;
+  }
+  #menu .menu_l_lunch p,
+  #menu .menu_l_dinner p,
+  #menu .menu_l_i p {
+    font-size: 1.4rem;
+  }
+  #menu .menu_l_lunch li,
+  .menu_l_dinner li {
+    height: 5.5rem;
+  }
+  .menu_l_dinner {
+    width: 32rem;
+  }
+  #menu .inner .right {
+    width: 32rem;
+  }
+  #menu .right .menu_price,
+  #menu .menu_l_i .menu_price {
+    font-size: 2.6rem;
+  }
+  #menu .dinner_02 .inner > .left {
+    grid-template-columns: auto;
+    grid-auto-flow: dense;
+  }
+  #menu .inner_dr .reserve {
+    width: 32rem;
+  }
+  #menu .inner_dr .left > div > p:last-child {
+    display: none;
+  }
+  #menu .menu_l_p_sp {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 2;
+    text-indent: 0;
+    grid-column: 1/3;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  #menu .inner_dr > .left {
+    grid-template-columns: 10rem auto;
+  }
+  .menu_dr_i h4 {
+    text-align: center;
+  }
+  #menu .menu_l_i {
+    border: 0;
+  }
+  #menu .menu_c_p {
+    border-radius: 0;
+  }
+  #menu .left > .menu_dn_pc {
+    display: none;
+  }
+  #menu .dinner_02 .inner {
+    padding-top: 0;
+    border-top: 0;
+  }
+  #menu .dinner_02 .menu_l_i {
+    border-top: 1px solid #fff;
+  }
+  #menu .dinner_02 {
+    padding: 2rem 0;
+  }
+  #menu .dinner_02 .inner > .left {
+    gap: 2rem;
+  }
+  #menu .dinner_02 .left > .menu_c_sp {
+    order: 1;
+    font-size: 1rem;
+  }
+  #menu .dinner_02 .left > .menu_l_i {
+    order: 2;
+    font-size: 1rem;
+  }
+  #menu .menu_l_t .menu_c_p {
+    order: 2;
+    margin-top: 0;
+  }
+  #menu .left > .menu_l_t > p:last-child {
+    place-self: start;
+    font-size: 1rem;
+    line-height: 2.5;
   }
 }

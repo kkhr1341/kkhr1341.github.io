@@ -1,379 +1,417 @@
 @charset "UTF-8";
 
-#mv{
-    height: 91.1rem;
-    background: url("../img/top/mv001.jpg")no-repeat center center/cover;
+#mv {
+  height: 91.1rem;
+  background: url("../img/top/mv001.jpg") no-repeat center center/cover;
 }
 
-#concept,#location{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 6.5rem 0 6.3rem;
-    background: url("../img/common/common_bg.jpg")no-repeat center center/cover;
-    color: white;
+#concept,
+#location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 6.5rem 0 6.3rem;
+  background: url("../img/common/common_bg.jpg") no-repeat center center/cover;
+  color: white;
 }
 
-#concept .title h2,#location .title h2{
-    text-align: center;
-    position: relative;
-    margin-bottom: 6.3rem;
-    width: 60rem;
-    padding-left: 3.8rem;
+#concept .title h2,
+#location .title h2 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 6.3rem;
+  width: 60rem;
+  padding-left: 3.8rem;
 }
 
-#concept .title h2::before,#location .title h2::before{
-    content: "";
-    position: absolute;
-    bottom: -1rem;
-    left: 50%;
-    transform: translateX(-50%);
-    background: url("../img/common/double_bash.svg")no-repeat center center/contain;
-    width: 100%;
-    height: 1rem;
+#concept .title h2::before,
+#location .title h2::before {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: url("../img/common/double_bash.svg") no-repeat center center/contain;
+  width: 100%;
+  height: 1rem;
 }
 
-#concept .title h2::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 8rem;
-    width: 12.27rem;
-    height: 8rem;
-    background: url("../img/common/title001.svg")no-repeat center center/contain;
+#concept .title h2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8rem;
+  width: 12.27rem;
+  height: 8rem;
+  background: url("../img/common/title001.svg") no-repeat center center/contain;
 }
 
-#concept .title h2 small{
-    font-size: 2.4rem;
+#concept .title h2 small {
+  font-size: 2.4rem;
 }
 
-#concept .content{
-    padding: 5rem 0 3.2rem;
-    width: 56.5%;
-    background: #212121;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+#concept .content {
+  padding: 5rem 0 3.2rem;
+  width: 56.5%;
+  background: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-#concept .content h3,#location .content h3{
-    margin-bottom: 4.5rem;
+#concept .content h3,
+#location .content h3 {
+  margin-bottom: 4.5rem;
 }
 
-#concept .content p,#location .content p{
-    text-align: center;
+#concept .content p,
+#location .content p {
+  text-align: center;
 }
 
-#concept .content p+p{
-    margin-top: 2.2rem;
+#concept .content p + p {
+  margin-top: 2.2rem;
 }
 
-#concept .content a{
-    font-size: 2rem;
-    color: white;
-    margin-top: 4.3rem;
-    width: 36.2rem;
-    padding: 1.5rem 0;
-    border: .1rem solid #FFFFFF;
-    text-align: center;
-    border-radius: .8rem;
-    position: relative;
-    transition: all .2s ease-in-out;
+#concept .content a {
+  font-size: 2rem;
+  color: white;
+  margin-top: 4.3rem;
+  width: 36.2rem;
+  padding: 1.5rem 0;
+  border: 0.1rem solid #ffffff;
+  text-align: center;
+  border-radius: 0.8rem;
+  position: relative;
+  transition: all 0.2s ease-in-out;
 }
 
-#concept .content a:hover{
-    color: #212121;
-    background: white;
-    transition: all .3s ease-in-out;
+#concept .content a:hover {
+  color: #212121;
+  background: white;
+  transition: all 0.3s ease-in-out;
 }
 
-#concept .content a::before{
-    position: absolute;
-    content: "";
-    top: 50%;
-    right: 3rem;
-    transform: translateY(-50%);
-    width: .785rem;
-    height: 1.607rem;
-    background: url("../img/common/arrow_white.svg") no-repeat center center/contain;
-    transition: all .2s ease-in-out;
+#concept .content a::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 3rem;
+  transform: translateY(-50%);
+  width: 0.785rem;
+  height: 1.607rem;
+  background: url("../img/common/arrow_white.svg") no-repeat center center/contain;
+  transition: all 0.2s ease-in-out;
 }
 
-#concept .content a:hover::before{
-    background: url("../img/common/arrow_black.svg")no-repeat center center/contain;
-    transition: all .3s ease-in-out;
+#concept .content a:hover::before {
+  background: url("../img/common/arrow_black.svg") no-repeat center center/contain;
+  transition: all 0.3s ease-in-out;
 }
 
 /* location */
 
-#location .title h2::after{
-    content: "";
-    position: absolute;
-    top: -.5rem;
-    left: 8rem;
-    width: 11.6rem;
-    height: 8.613rem;
-    background: url("../img/common/title002.svg")no-repeat center center/contain;
+#location .title h2::after {
+  content: "";
+  position: absolute;
+  top: -0.5rem;
+  left: 8rem;
+  width: 11.6rem;
+  height: 8.613rem;
+  background: url("../img/common/title002.svg") no-repeat center center/contain;
 }
 
-#location .content{
-    padding: 5rem 0 3.2rem;
-    width: 56.5%;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #1A1A1A;
+#location .content {
+  padding: 5rem 0 3.2rem;
+  width: 56.5%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #1a1a1a;
 }
 
-#location .content a{
-    font-size: 2rem;
-    color: #1A1A1A;
-    margin-top: 4.3rem;
-    width: 36.2rem;
-    padding: 1.5rem 0;
-    border: .1rem solid #1A1A1A;
-    text-align: center;
-    border-radius: .8rem;
-    position: relative;
-    transition: all .2s ease-in-out;
+#location .content a {
+  font-size: 2rem;
+  color: #1a1a1a;
+  margin-top: 4.3rem;
+  width: 36.2rem;
+  padding: 1.5rem 0;
+  border: 0.1rem solid #1a1a1a;
+  text-align: center;
+  border-radius: 0.8rem;
+  position: relative;
+  transition: all 0.2s ease-in-out;
 }
 
-#location .content a:hover{
-    color: white;
-    background: #1A1A1A;
-    transition: all .3s ease-in-out;
+#location .content a:hover {
+  color: white;
+  background: #1a1a1a;
+  transition: all 0.3s ease-in-out;
 }
 
-#location .content a::before{
-    position: absolute;
-    content: "";
-    top: 50%;
-    right: 3rem;
-    transform: translateY(-50%);
-    width: .785rem;
-    height: 1.607rem;
-    background: url("../img/common/arrow_black.svg") no-repeat center center/contain;
-    transition: all .2s ease-in-out;
+#location .content a::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 3rem;
+  transform: translateY(-50%);
+  width: 0.785rem;
+  height: 1.607rem;
+  background: url("../img/common/arrow_black.svg") no-repeat center center/contain;
+  transition: all 0.2s ease-in-out;
 }
 
-#location .content a:hover::before{
-    background: url("../img/common/arrow_white.svg")no-repeat center center/contain;
-    transition: all .3s ease-in-out;
+#location .content a:hover::before {
+  background: url("../img/common/arrow_white.svg") no-repeat center center/contain;
+  transition: all 0.3s ease-in-out;
 }
 
 /* menu */
 
-#menu{
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #2b2b2b;
+  color: white;
+  padding: 5.73rem 0 5.5rem;
+}
+
+#menu h2 {
+  text-align: center;
+  font-size: 3.6rem;
+  line-height: 1.8;
+  position: relative;
+}
+
+#menu h2 small {
+  font-size: 2.4rem;
+}
+
+#menu h2::before {
+  position: absolute;
+  content: "";
+  width: 35.9rem;
+  height: 0.725rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../img/common/double_bash.svg") no-repeat center center/cover;
+}
+
+#menu .menu_img img:hover {
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu .menu_img a:nth-child(1):before,
+#menu .menu_img a:nth-child(4):before {
+  position: absolute;
+  content: "";
+  width: 14.1rem;
+  height: 24.7rem;
+  bottom: 50%;
+  right: 50%;
+  background: url("../img/top/smog.png") no-repeat center center/contain;
+}
+
+#menu .menu_img a:nth-child(1):before {
+  transform: translateX(4rem);
+}
+#menu .menu_img a:nth-child(4):before {
+  transform: translateY(-4rem);
+}
+
+#menu .menu_btn {
+  font-size: 2rem;
+  color: white;
+  background: #1a1a1a;
+  width: 36.2rem;
+  padding: 2.1rem 0;
+  text-align: center;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.3rem 0.6rem rgba(255, 255, 255, 16%);
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+#menu .menu_btn:hover {
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu .menu_btn::before {
+  position: absolute;
+  content: "";
+  width: 0.785rem;
+  height: 1.6rem;
+  top: 50%;
+  right: 2.9rem;
+  transform: translateY(-50%);
+  background: url("../img/common/arrow_white.svg") no-repeat center center/contain;
+}
+
+.menu_img {
+  padding-top: 11.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: fit-content;
+  width: -moz-fit-content;
+  margin: 5rem auto;
+}
+.menu_img > a {
+  position: relative;
+}
+
+.menu_img > a > img {
+  width: 48rem;
+  vertical-align: bottom;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 767px) {
+  #mv {
+    height: 50rem;
+  }
+
+  #concept,
+  #location {
+    padding: 2.68rem 0 4rem;
+  }
+
+  #concept .title,
+  #location .title {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 85%;
+    min-width: 320px;
+    margin-bottom: 2.75rem;
+  }
+
+  #concept .title div,
+  #location .title div {
     flex-direction: column;
-    background: #2B2B2B;
-    color: white;
-    padding: 5.73rem 0 5.5rem;
-}
+  }
 
-#menu h2{
-    text-align: center;
-    font-size: 3.6rem;
-    line-height: 1.8;
+  #concept .title img {
+    width: 8.1rem;
+  }
+
+  #concept .title p,
+  #location .title p {
+    font-size: 1.6rem;
+  }
+
+  #concept .title h2,
+  #location .title h2 {
+    width: 22.2rem;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  #concept .title h2::before,
+  #location .title h2::before {
+    width: 22.2rem;
+    height: 0.45rem;
+  }
+
+  #concept .title h2::after {
+    display: none;
+  }
+
+  #concept .content {
+    width: calc(85% - 5rem);
+    min-width: calc(320px - 5rem);
+    padding: 5rem 2.5rem 4rem;
+  }
+
+  #concept .content h3,
+  #location .content h3 {
+    margin-bottom: 4.5rem;
     position: relative;
-}
-
-#menu h2 small{
-    font-size: 2.4rem;
-}
-
-#menu h2::before{
-    position: absolute;
+  }
+  #concept .content h3::after {
     content: "";
-    width: 35.9rem;
-    height: .725rem;
-    top: 50%;
+    position: absolute;
+    background-color: #000;
+    height: 0.5rem;
+    width: 13.5rem;
+    bottom: -1rem;
+    z-index: 1;
     left: 50%;
-    transform: translate(-50% ,-50%);
-    background: url("../img/common/double_bash.svg")no-repeat center center/cover;
-}
+    transform: translateX(-50%);
+  }
 
-#menu .menu_img{
-    margin: 5.4rem 0 5rem; 
-    width: 100%;
-    height: 46.5rem;
-    position: relative;
-    background: url("../img/top/menu_pc.jpg")no-repeat center center/cover;
-    transition: all .2s ease-in-out;
-}
+  #concept .content p,
+  #location .content p {
+    width: 90%;
+    text-align: left;
+  }
 
-#menu .menu_img:hover{
-    opacity: .5;
-    transition: all .3s ease-in-out;
-}
+  #concept .content a {
+    font-size: 1.6rem;
+    margin-top: 3.3rem;
+    width: 28rem;
+  }
 
-#menu .menu_img::before{
-    position: absolute;
-    content: "";
-    width: 16.684rem;
-    height: 29.146rem;
-    top: -7.2rem;
-    left: 5.7rem;
-    background: url("../img/top/smog.png")no-repeat center center/contain;
-}
+  #concept .content a::before {
+    width: 0.858rem;
+    height: 1.337rem;
+    background: url("../img/common/arrow_white_sp.svg") no-repeat center center/contain;
+  }
 
-#menu .menu_img::after{
-    position: absolute;
-    content: "";
-    width: 17.64rem;
-    height: 30.814rem;
-    top: -10.1rem;
-    right: 15.47rem;
-    background: url("../img/top/smog.png")no-repeat center center/contain;
-}
+  #concept .content a:hover::before {
+    background: url("../img/common/arrow_black_sp.svg") no-repeat center center/contain;
+  }
 
-#menu .menu_btn{
-    font-size: 2rem;
-    color: white;
-    background: #1A1A1A;
-    width: 36.2rem;
-    padding: 2.1rem 0;
-    text-align: center;
-    border-radius: .8rem;
-    box-shadow: 0 .3rem .6rem rgba(255, 255, 255, 16%);
-    position: relative;
-    transition: all .2s ease-in-out;
-}
+  /* location */
+  #location .title img {
+    width: 7.726rem;
+    margin-bottom: 1.13rem;
+  }
 
-#menu .menu_btn:hover{
-    box-shadow: none;
-    transition: all .3s ease-in-out;
-}
+  #location .title h2::after {
+    display: none;
+  }
 
-#menu .menu_btn::before{
-    position: absolute;
-    content: "";
-    width: .785rem;
-    height: 1.6rem;
-    top: 50%;
-    right: 2.9rem;
-    transform: translateY(-50%);
-    background: url("../img/common/arrow_white.svg")no-repeat center center/contain;
-}
+  #location .content {
+    width: calc(85% - 5rem);
+    min-width: calc(320px - 5rem);
+    padding: 5rem 2.5rem 4rem;
+  }
 
-@media screen and (max-width: 1024px){
-    
-}
+  #location .content a {
+    font-size: 1.6rem;
+    margin-top: 4.3rem;
+    width: 28rem;
+    padding: 1.5rem 0;
+  }
+  #menu .menu_btn {
+    font-size: 1.6rem;
+    width: 28rem;
+    padding: 1.5rem 0;
+  }
+  .menu_img {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem auto;
+  }
+  .menu_img > a > img {
+    width: 18.5rem;
+  }
 
-@media screen and (max-width: 767px){
-    #mv{
-        height: 50rem;
-    }
-
-    #concept, #location{
-        padding: 2.68rem 0 4rem;
-    }
-
-    #concept .title, #location .title{
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        width: 85%;
-        min-width: 320px;
-        margin-bottom: 2.75rem;
-    }
-
-    #concept .title div, #location .title div{
-        flex-direction: column;
-    }
-
-    #concept .title img{
-        width: 8.1rem;
-    }
-
-    #concept .title p, #location .title p{
-        font-size: 1.6rem;
-    }
-
-    #concept .title h2, #location .title h2{
-        width: 22.2rem;
-        padding: 0;
-        margin-bottom: 1.5rem;
-    }
-
-    #concept .title h2::before,#location .title h2::before{
-        width: 22.2rem;
-        height: .45rem;
-    }
-
-    #concept .title h2::after{
-        display: none;
-    }
-
-    #concept .content{
-        width: calc(85% - 5rem);
-        min-width: calc(320px - 5rem);
-        padding: 5rem 2.5rem 4rem;
-    }
-
-    #concept .content h3, #location .content h3{
-        margin-bottom: 4.5rem;
-        position: relative;
-    }
-    #concept .content h3::after{
-        content: "";
-        position: absolute;
-        background-color: #000;
-        height: .5rem;
-        width: 13.5rem;
-        bottom: -1rem;
-        z-index: 1;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    #concept .content p, #location .content p{
-        width: 90%;
-        text-align: left;
-    }
-
-    #concept .content a{
-        font-size: 1.6rem;
-        margin-top: 3.3rem;
-        width: 28rem;
-    }
-
-    #concept .content a::before{
-        width: .858rem;
-        height: 1.337rem;
-        background: url("../img/common/arrow_white_sp.svg") no-repeat center center/contain;
-    }
-
-    #concept .content a:hover::before{
-        background: url("../img/common/arrow_black_sp.svg")no-repeat center center/contain;
-    }
-
-    /* location */
-    #location .title img{
-        width: 7.726rem;
-        margin-bottom: 1.13rem;
-    }
-
-    #location .title h2::after{
-        display: none;
-    }
-
-    #location .content{
-        width: calc(85% - 5rem);
-        min-width: calc(320px - 5rem);
-        padding: 5rem 2.5rem 4rem;
-    }
-
-    #location .content a{
-        font-size: 1.6rem;
-        margin-top: 4.3rem;
-        width: 36.2rem;
-        padding: 1.5rem 0;
-    }
+  #menu .menu_img a:nth-child(1):before,
+  #menu .menu_img a:nth-child(4):before {
+    width: 7.2rem;
+    height: 12.6rem;
+  }
 }
